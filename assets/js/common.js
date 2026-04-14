@@ -206,7 +206,7 @@ export function initChatbot() {
   if (!openBtn || !modal || !closeBtn || !frameWrap) return;
   openBtn.onclick = () => {
     modal.classList.add('open');
-    frameWrap.innerHTML = SITE_CONFIG.chatbotUrl ? `<iframe class="chatbot-frame" src="${SITE_CONFIG.chatbotUrl}" title="${SITE_CONFIG.chatbotTitle}"></iframe>` : `<div class="empty-state" style="margin:18px;">Set <code>chatbotUrl</code> in <code>assets/js/config.js</code> to connect your existing Hugging Face chatbot.</div>`;
+    frameWrap.innerHTML = SITE_CONFIG.chatbotUrl ? `<iframe class="chatbot-frame" src="${SITE_CONFIG.chatbotUrl}" title="${SITE_CONFIG.chatbotTitle}"></iframe>` : `<div class="empty-state" style="margin:18px;">Set <code>chatbotUrl</code>.</div>`;
   };
   closeBtn.onclick = () => modal.classList.remove('open');
   modal.onclick = (event) => { if (event.target === modal) modal.classList.remove('open'); };
