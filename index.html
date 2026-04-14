@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="./assets/css/styles.css" />
+</head>
+<body>
+<div class="page-shell">
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="./index.html">
+        <div class="brand-text solo">
+          <div class="brand-title" data-site-name>Multi Modal Mobility</div>
+          <div class="brand-sub">Tourist mobility and experience intelligence</div>
+        </div>
+      </a>
+      <button class="nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      <nav class="top-nav">
+        <a href="./index.html" data-page="home">Home</a>
+        <a href="./movement.html" data-page="movement">Movement</a>
+        <a href="./sentiment.html" data-page="sentiment">Sentiment</a>
+        <a href="./combinations.html" data-page="combinations">Combinations</a>
+        <a href="./report.html" data-page="report">Report</a>
+        <a href="./about.html" data-page="about">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="section home-section">
+      <div class="hero-card">
+        <div class="hero-grid">
+          <div>
+            <span class="eyebrow">Multimodal tourism intelligence</span>
+            <h1>Multi Modal Mobility</h1>
+            <p>Understand visitor mobility and experience through multimodal social media data. This Hong Kong case site shows how visible travel journeys can be translated into place performance, movement structure, and product-oriented destination insight.</p>
+            <div class="hero-actions">
+              <a class="button-primary" href="./movement.html">Explore movement</a>
+              <a class="button-secondary" href="./sentiment.html">Explore experience</a>
+              <a class="button-secondary" href="./report.html">Open place report</a>
+            </div>
+          </div>
+          <div class="hero-visual">
+            <div class="hero-visual-bg"></div>
+            <div class="data-chip" style="top:24px;left:20px;">Hong Kong case<strong>Mobility</strong></div>
+            <div class="data-chip" style="top:86px;right:28px;">Place lens<strong>Experience</strong></div>
+            <div class="data-chip" style="bottom:84px;left:40px;">Journey lens<strong>Combinations</strong></div>
+            <div class="data-chip" style="bottom:24px;right:34px;">Output<strong>Reports</strong></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section home-section">
+      <div class="info-strip">
+        <div class="info-card"><h3>Understand movement</h3><p>Reveal where visitors visibly cluster, which attractions anchor journeys, and which adjacent links appear most often across the city.</p></div>
+        <div class="info-card"><h3>Track experience</h3><p>See where sentiment is consistently stronger or weaker, and how experience changes by place, period, and source market.</p></div>
+        <div class="info-card"><h3>Support product design</h3><p>Identify the places that are often experienced together and the combinations associated with stronger journey sentiment.</p></div>
+      </div>
+    </section>
+
+    <section class="section home-section">
+      <div id="home-kpis" class="kpi-grid"></div>
+    </section>
+
+    <section class="section home-section">
+      <div class="story-stack">
+        <div class="story-row">
+          <div class="card story-panel">
+            <h2>Mobility overview</h2>
+            <p>This view summarises where visible visits are most concentrated across the city.</p>
+            <div id="home-movement-map" class="story-map"></div>
+          </div>
+          <div class="card story-panel">
+            <div class="story-note" id="home-movement-notes"></div>
+          </div>
+        </div>
+
+        <div class="story-row reverse">
+          <div class="card story-panel">
+            <h2>Experience overview</h2>
+            <p>This map shows where visible experience is stronger or weaker across focal places.</p>
+            <div id="home-sentiment-map" class="story-map"></div>
+          </div>
+          <div class="card story-panel">
+            <div class="story-note" id="home-sentiment-notes"></div>
+          </div>
+        </div>
+
+        <div class="story-row visit-overview-row">
+          <div class="subsection-grid visit-overview-grid">
+            <div class="subsection-card">
+              <h2>Visit trends</h2>
+              <p>Monthly visible visits provide a simple city-level view of how activity changes through time.</p>
+              <div id="home-platform-chart" class="story-chart"></div>
+              <div id="home-visit-trend-note"></div>
+            </div>
+            <div class="subsection-card">
+              <h2>Source market</h2>
+              <p>Source-market share adds a demand-side view to the movement and experience maps.</p>
+              <div id="home-platform-market-chart" class="story-chart"></div>
+              <div id="home-source-market-note"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section home-section">
+      <div class="page-intro">
+        <div>
+          <h1 style="font-size:32px;">Explore the platform</h1>
+          <p>Move from city-wide overview to place-level reading, combinations, and report export.</p>
+        </div>
+      </div>
+      <div class="link-card-grid">
+        <a class="card link-card" href="./movement.html"><h3>Movement</h3><p>City hotspots, focal-place flows, and corridor structure.</p></a>
+        <a class="card link-card" href="./sentiment.html"><h3>Sentiment</h3><p>Experience map, time trends, source markets, and sentiment-positive combinations.</p></a>
+        <a class="card link-card" href="./combinations.html"><h3>Combinations</h3><p>Companion places, ordered links, and combination patterns for focal places.</p></a>
+        <a class="card link-card" href="./report.html"><h3>Report</h3><p>Generate a focal place page, compare with up to three places, and export.</p></a>
+              </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div><strong data-site-name>Multi Modal Mobility</strong><br><span>Hong Kong case · Updated <span id="site-last-updated"></span></span></div>
+    </div>
+  </footer>
+</div>
+
+<button id="chatbot-open" class="chatbot-button" aria-label="Open chatbot">✦</button>
+<div id="chatbot-modal" class="chatbot-modal">
+  <div class="chatbot-card">
+    <div class="chatbot-header"><strong>Ask MMM</strong><button class="button-secondary" id="chatbot-close">Close</button></div>
+    <div id="chatbot-frame-wrap" style="flex:1;"></div>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/echarts@5.5.0/dist/echarts.min.js"></script>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/leaflet.heat@0.2.0/dist/leaflet-heat.js"></script>
+<script type="module" src="./assets/js/home.js"></script>
+</body>
+</html>
