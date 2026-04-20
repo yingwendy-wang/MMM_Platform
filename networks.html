@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Place Networks · Multi Modal Mobility</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="" />
+  <link rel="stylesheet" href="./assets/styles.css" />
+</head>
+<body data-page="networks">
+<header class="site-header"><div class="container site-header-inner"><a class="brand" href="index.html"><span class="brand-mark">M</span><div><div>Multi Modal Mobility</div></div></a><nav class="nav"><a href="index.html" data-page="home">Home</a><a href="mobility.html" data-page="mobility">Mobility</a><a href="experience.html" data-page="experience">Experience</a><a href="networks.html" data-page="networks">Place Networks</a><a href="report.html" data-page="report">Place Report</a><a href="about.html" data-page="about">About</a></nav></div></header>
+<main class="page page-wide">
+  <div class="container wider network-shell-page">
+    <aside class="network-rail">
+      <section class="section-card network-rail-card">
+        <div class="title-row"><h3>Control Panel</h3></div>
+        <div class="network-rail-grid">
+          <div class="control-box"><label>Start date</label><input id="network-start" type="date"></div>
+          <div class="control-box"><label>End date</label><input id="network-end" type="date"></div>
+          <div class="control-box"><label>Place Category</label><select id="network-category"></select></div>
+          <div class="control-box"><label>Selected Place</label><input id="network-place-search" list="network-place-list" placeholder="Type to search a place"></div>
+        </div>
+        <datalist id="network-place-list"></datalist>
+        <div class="network-rail-actions">
+          <div class="small-label focal-toggle"><input id="network-focal" type="checkbox" style="vertical-align:middle"><span>Focal places only</span><button class="info-chip" type="button" title="Focal places are the featured places used for place-level reporting. Turn this on to focus the page on that priority set.">i</button></div>
+          <button id="network-reset" class="btn btn-reset">Reset</button>
+        </div>
+        <div id="network-hint" class="panel-hint">You are viewing the city-level network overview. Click a place in the map or use the search box to switch into place mode.</div>
+      </section>
+    </aside>
+
+    <div class="network-main-col">
+      <section class="section-card network-page-intro">
+        <div class="eyebrow">Relationship intelligence</div>
+        <h1>Place Networks</h1>
+        <p>Explore how places cluster together, how movement takes shape between them, and where those relationship patterns suggest product and partnership opportunities.</p>
+      </section>
+
+      <section class="section-card network-overview-card">
+        <div class="title-row"><h3 id="network-overview-title">City Network Overview</h3><button class="info-chip" type="button" title="This overview shows the strongest visible directional relationships across the current filter. You can hover for place names and click a point to enter place mode.">i</button></div>
+        <div id="network-map" class="network-map"></div>
+        <div id="network-map-legend" class="network-map-legend"></div>
+        <div id="network-hero-note" class="note-inline"></div>
+      </section>
+
+      <section id="network-mode-head" class="section-card hidden">
+        <div class="network-detail-head">
+          <div>
+            <div class="eyebrow">Selected place</div>
+            <h3 id="network-detail-title"></h3>
+            <p id="network-detail-sub" class="small"></p>
+          </div>
+          <a id="network-open-report" class="btn btn-secondary" href="report.html">Open full place report</a>
+        </div>
+      </section>
+
+      <section class="network-summary-grid" id="network-summary-grid">
+        <article class="section-card" id="network-card-1">
+          <div class="title-row"><h3 id="network-block-1-title">Top Companion Pairs</h3><button class="info-chip" type="button" title="Companion relationships merge both directions into one pair. A-B and B-A become a single relationship.">i</button></div>
+          <div id="network-block-1"></div>
+          <div id="network-block-1-note" class="note-inline"></div>
+        </article>
+        <article class="section-card" id="network-card-2">
+          <div class="title-row"><h3 id="network-block-2-title">Top Directional Sequences</h3><button class="info-chip" type="button" title="Directional sequences preserve order, so A→B and B→A remain separate relationships.">i</button></div>
+          <div id="network-block-2"></div>
+          <div id="network-block-2-note" class="note-inline"></div>
+        </article>
+        <article class="section-card" id="network-card-3">
+          <div class="title-row"><h3 id="network-block-3-title">Top Experience Pairs</h3><button class="info-chip" type="button" title="This ranking keeps only relationships above the minimum frequency threshold before sorting by average experience.">i</button></div>
+          <div id="network-block-3"></div>
+          <div id="network-block-3-note" class="note-inline"></div>
+        </article>
+        <article class="section-card" id="network-card-4">
+          <div class="title-row"><h3 id="network-block-4-title">Lowest Experience Pairs</h3><button class="info-chip" type="button" title="This ranking keeps only relationships above the minimum frequency threshold before sorting by average experience.">i</button></div>
+          <div id="network-block-4"></div>
+          <div id="network-block-4-note" class="note-inline"></div>
+        </article>
+        <article class="section-card" id="network-card-5">
+          <div class="title-row"><h3 id="network-block-5-title">Top Experience Journeys</h3><button class="info-chip" type="button" title="This ranking keeps only sequences above the minimum journey threshold before sorting by average experience.">i</button></div>
+          <div id="network-block-5"></div>
+          <div id="network-block-5-note" class="note-inline"></div>
+        </article>
+        <article class="section-card" id="network-card-6">
+          <div class="title-row"><h3 id="network-block-6-title">Lowest Experience Journeys</h3><button class="info-chip" type="button" title="This ranking keeps only sequences above the minimum journey threshold before sorting by average experience.">i</button></div>
+          <div id="network-block-6"></div>
+          <div id="network-block-6-note" class="note-inline"></div>
+        </article>
+        <article class="section-card network-opportunity-card network-card-wide" id="network-card-7">
+          <div class="title-row"><h3 id="network-block-7-title">Opportunity Signals</h3><button class="info-chip" type="button" title="These signals translate visible relationship patterns into partnership, routing, and product design clues.">i</button></div>
+          <div id="network-block-7" class="insight-list"></div>
+        </article>
+      </section>
+    </div>
+  </div>
+</main>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+<script src="./assets/config.js"></script>
+<script src="./assets/core.js"></script>
+<script src="./assets/networks.js"></script>
+</body>
+</html>

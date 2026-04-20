@@ -1,0 +1,1850 @@
+{
+  "top_flows": [
+    {
+      "origin_poi_id": 296,
+      "origin_poi_name": "Hong Kong Disneyland",
+      "origin_poi_cate": "Entertainment",
+      "dest_poi_id": 598,
+      "dest_poi_name": "Ocean Park",
+      "dest_poi_cate": "Entertainment",
+      "flow_n": 18,
+      "avg_edge_sentiment": 0.796795636691429
+    },
+    {
+      "origin_poi_id": 180,
+      "origin_poi_name": "Disney's Hollywood Hotel",
+      "origin_poi_cate": "Hotel",
+      "dest_poi_id": 296,
+      "dest_poi_name": "Hong Kong Disneyland",
+      "dest_poi_cate": "Entertainment",
+      "flow_n": 17,
+      "avg_edge_sentiment": 0.8809207811221188
+    },
+    {
+      "origin_poi_id": 296,
+      "origin_poi_name": "Hong Kong Disneyland",
+      "origin_poi_cate": "Entertainment",
+      "dest_poi_id": 180,
+      "dest_poi_name": "Disney's Hollywood Hotel",
+      "dest_poi_cate": "Hotel",
+      "flow_n": 17,
+      "avg_edge_sentiment": 0.8787857811428419
+    },
+    {
+      "origin_poi_id": 598,
+      "origin_poi_name": "Ocean Park",
+      "origin_poi_cate": "Entertainment",
+      "dest_poi_id": 296,
+      "dest_poi_name": "Hong Kong Disneyland",
+      "dest_poi_cate": "Entertainment",
+      "flow_n": 15,
+      "avg_edge_sentiment": 0.824453399123417
+    },
+    {
+      "origin_poi_id": 296,
+      "origin_poi_name": "Hong Kong Disneyland",
+      "origin_poi_cate": "Entertainment",
+      "dest_poi_id": 598,
+      "dest_poi_name": "Ocean Park",
+      "dest_poi_cate": "Entertainment",
+      "flow_n": 15,
+      "avg_edge_sentiment": 0.8132555858062374
+    },
+    {
+      "origin_poi_id": 598,
+      "origin_poi_name": "Ocean Park",
+      "origin_poi_cate": "Entertainment",
+      "dest_poi_id": 296,
+      "dest_poi_name": "Hong Kong Disneyland",
+      "dest_poi_cate": "Entertainment",
+      "flow_n": 14,
+      "avg_edge_sentiment": 0.8199756726223443
+    },
+    {
+      "origin_poi_id": 180,
+      "origin_poi_name": "Disney's Hollywood Hotel",
+      "origin_poi_cate": "Hotel",
+      "dest_poi_id": 296,
+      "dest_poi_name": "Hong Kong Disneyland",
+      "dest_poi_cate": "Entertainment",
+      "flow_n": 13,
+      "avg_edge_sentiment": 0.826821767149882
+    },
+    {
+      "origin_poi_id": 296,
+      "origin_poi_name": "Hong Kong Disneyland",
+      "origin_poi_cate": "Entertainment",
+      "dest_poi_id": 180,
+      "dest_poi_name": "Disney's Hollywood Hotel",
+      "dest_poi_cate": "Hotel",
+      "flow_n": 11,
+      "avg_edge_sentiment": 0.793562596329626
+    },
+    {
+      "origin_poi_id": 180,
+      "origin_poi_name": "Disney's Hollywood Hotel",
+      "origin_poi_cate": "Hotel",
+      "dest_poi_id": 296,
+      "dest_poi_name": "Hong Kong Disneyland",
+      "dest_poi_cate": "Entertainment",
+      "flow_n": 10,
+      "avg_edge_sentiment": 0.911810796648737
+    },
+    {
+      "origin_poi_id": 180,
+      "origin_poi_name": "Disney's Hollywood Hotel",
+      "origin_poi_cate": "Hotel",
+      "dest_poi_id": 296,
+      "dest_poi_name": "Hong Kong Disneyland",
+      "dest_poi_cate": "Entertainment",
+      "flow_n": 10,
+      "avg_edge_sentiment": 0.8301362318436392
+    }
+  ],
+  "top_inbound_places": [
+    {
+      "poi_id": 296,
+      "poi_name": "Hong Kong Disneyland",
+      "poi_cate": "Entertainment",
+      "total_inbound": 4853,
+      "place_role": "Connector"
+    },
+    {
+      "poi_id": 300,
+      "poi_name": "Hong Kong International Airport",
+      "poi_cate": "Transit",
+      "total_inbound": 1371,
+      "place_role": "Disperser"
+    },
+    {
+      "poi_id": 946,
+      "poi_name": "Victoria Peak",
+      "poi_cate": "Cityscape",
+      "total_inbound": 1327,
+      "place_role": "Connector"
+    },
+    {
+      "poi_id": 944,
+      "poi_name": "Victoria Harbour",
+      "poi_cate": "Cityscape",
+      "total_inbound": 1227,
+      "place_role": "Connector"
+    },
+    {
+      "poi_id": 598,
+      "poi_name": "Ocean Park",
+      "poi_cate": "Entertainment",
+      "total_inbound": 881,
+      "place_role": "Connector"
+    },
+    {
+      "poi_id": 873,
+      "poi_name": "The Peak Tram",
+      "poi_cate": "Entertainment",
+      "total_inbound": 604,
+      "place_role": "Connector"
+    },
+    {
+      "poi_id": 629,
+      "poi_name": "Po Lin Monastery",
+      "poi_cate": "Religious",
+      "total_inbound": 592,
+      "place_role": "Connector"
+    },
+    {
+      "poi_id": 180,
+      "poi_name": "Disney's Hollywood Hotel",
+      "poi_cate": "Hotel",
+      "total_inbound": 495,
+      "place_role": "Connector"
+    },
+    {
+      "poi_id": 307,
+      "poi_name": "Hong Kong Observation Wheel",
+      "poi_cate": "Entertainment",
+      "total_inbound": 433,
+      "place_role": "Connector"
+    },
+    {
+      "poi_id": 295,
+      "poi_name": "Hong Kong Cultural Centre",
+      "poi_cate": "Cultural",
+      "total_inbound": 384,
+      "place_role": "Connector"
+    }
+  ],
+  "top_outbound_places": [
+    {
+      "poi_id": 296,
+      "poi_name": "Hong Kong Disneyland",
+      "poi_cate": "Entertainment",
+      "total_outbound": 4319,
+      "place_role": "Connector"
+    },
+    {
+      "poi_id": 300,
+      "poi_name": "Hong Kong International Airport",
+      "poi_cate": "Transit",
+      "total_outbound": 2168,
+      "place_role": "Disperser"
+    },
+    {
+      "poi_id": 946,
+      "poi_name": "Victoria Peak",
+      "poi_cate": "Cityscape",
+      "total_outbound": 1220,
+      "place_role": "Connector"
+    },
+    {
+      "poi_id": 944,
+      "poi_name": "Victoria Harbour",
+      "poi_cate": "Cityscape",
+      "total_outbound": 1187,
+      "place_role": "Connector"
+    },
+    {
+      "poi_id": 598,
+      "poi_name": "Ocean Park",
+      "poi_cate": "Entertainment",
+      "total_outbound": 885,
+      "place_role": "Connector"
+    },
+    {
+      "poi_id": 873,
+      "poi_name": "The Peak Tram",
+      "poi_cate": "Entertainment",
+      "total_outbound": 731,
+      "place_role": "Connector"
+    },
+    {
+      "poi_id": 180,
+      "poi_name": "Disney's Hollywood Hotel",
+      "poi_cate": "Hotel",
+      "total_outbound": 521,
+      "place_role": "Connector"
+    },
+    {
+      "poi_id": 629,
+      "poi_name": "Po Lin Monastery",
+      "poi_cate": "Religious",
+      "total_outbound": 508,
+      "place_role": "Connector"
+    },
+    {
+      "poi_id": 307,
+      "poi_name": "Hong Kong Observation Wheel",
+      "poi_cate": "Entertainment",
+      "total_outbound": 401,
+      "place_role": "Connector"
+    },
+    {
+      "poi_id": 295,
+      "poi_name": "Hong Kong Cultural Centre",
+      "poi_cate": "Cultural",
+      "total_outbound": 371,
+      "place_role": "Connector"
+    }
+  ],
+  "top_map_edges": [
+    {
+      "origin_poi_id": 296,
+      "origin_poi_name": "Hong Kong Disneyland",
+      "dest_poi_id": 598,
+      "dest_poi_name": "Ocean Park",
+      "flow_n": 18,
+      "avg_edge_sentiment": 0.796795636691429
+    },
+    {
+      "origin_poi_id": 180,
+      "origin_poi_name": "Disney's Hollywood Hotel",
+      "dest_poi_id": 296,
+      "dest_poi_name": "Hong Kong Disneyland",
+      "flow_n": 17,
+      "avg_edge_sentiment": 0.8809207811221188
+    },
+    {
+      "origin_poi_id": 296,
+      "origin_poi_name": "Hong Kong Disneyland",
+      "dest_poi_id": 180,
+      "dest_poi_name": "Disney's Hollywood Hotel",
+      "flow_n": 17,
+      "avg_edge_sentiment": 0.8787857811428419
+    },
+    {
+      "origin_poi_id": 598,
+      "origin_poi_name": "Ocean Park",
+      "dest_poi_id": 296,
+      "dest_poi_name": "Hong Kong Disneyland",
+      "flow_n": 15,
+      "avg_edge_sentiment": 0.824453399123417
+    },
+    {
+      "origin_poi_id": 296,
+      "origin_poi_name": "Hong Kong Disneyland",
+      "dest_poi_id": 598,
+      "dest_poi_name": "Ocean Park",
+      "flow_n": 15,
+      "avg_edge_sentiment": 0.8132555858062374
+    },
+    {
+      "origin_poi_id": 598,
+      "origin_poi_name": "Ocean Park",
+      "dest_poi_id": 296,
+      "dest_poi_name": "Hong Kong Disneyland",
+      "flow_n": 14,
+      "avg_edge_sentiment": 0.8199756726223443
+    },
+    {
+      "origin_poi_id": 180,
+      "origin_poi_name": "Disney's Hollywood Hotel",
+      "dest_poi_id": 296,
+      "dest_poi_name": "Hong Kong Disneyland",
+      "flow_n": 13,
+      "avg_edge_sentiment": 0.826821767149882
+    },
+    {
+      "origin_poi_id": 296,
+      "origin_poi_name": "Hong Kong Disneyland",
+      "dest_poi_id": 180,
+      "dest_poi_name": "Disney's Hollywood Hotel",
+      "flow_n": 11,
+      "avg_edge_sentiment": 0.793562596329626
+    },
+    {
+      "origin_poi_id": 180,
+      "origin_poi_name": "Disney's Hollywood Hotel",
+      "dest_poi_id": 296,
+      "dest_poi_name": "Hong Kong Disneyland",
+      "flow_n": 10,
+      "avg_edge_sentiment": 0.911810796648737
+    },
+    {
+      "origin_poi_id": 180,
+      "origin_poi_name": "Disney's Hollywood Hotel",
+      "dest_poi_id": 296,
+      "dest_poi_name": "Hong Kong Disneyland",
+      "flow_n": 10,
+      "avg_edge_sentiment": 0.8301362318436392
+    },
+    {
+      "origin_poi_id": 180,
+      "origin_poi_name": "Disney's Hollywood Hotel",
+      "dest_poi_id": 296,
+      "dest_poi_name": "Hong Kong Disneyland",
+      "flow_n": 10,
+      "avg_edge_sentiment": 0.8258187370188533
+    },
+    {
+      "origin_poi_id": 296,
+      "origin_poi_name": "Hong Kong Disneyland",
+      "dest_poi_id": 180,
+      "dest_poi_name": "Disney's Hollywood Hotel",
+      "flow_n": 10,
+      "avg_edge_sentiment": 0.7694089312948996
+    },
+    {
+      "origin_poi_id": 180,
+      "origin_poi_name": "Disney's Hollywood Hotel",
+      "dest_poi_id": 296,
+      "dest_poi_name": "Hong Kong Disneyland",
+      "flow_n": 9,
+      "avg_edge_sentiment": 0.8573132595162333
+    },
+    {
+      "origin_poi_id": 296,
+      "origin_poi_name": "Hong Kong Disneyland",
+      "dest_poi_id": 180,
+      "dest_poi_name": "Disney's Hollywood Hotel",
+      "flow_n": 9,
+      "avg_edge_sentiment": 0.8391947862174776
+    },
+    {
+      "origin_poi_id": 598,
+      "origin_poi_name": "Ocean Park",
+      "dest_poi_id": 296,
+      "dest_poi_name": "Hong Kong Disneyland",
+      "flow_n": 9,
+      "avg_edge_sentiment": 0.7529226430864245
+    },
+    {
+      "origin_poi_id": 598,
+      "origin_poi_name": "Ocean Park",
+      "dest_poi_id": 296,
+      "dest_poi_name": "Hong Kong Disneyland",
+      "flow_n": 9,
+      "avg_edge_sentiment": 0.7012346563343372
+    },
+    {
+      "origin_poi_id": 296,
+      "origin_poi_name": "Hong Kong Disneyland",
+      "dest_poi_id": 598,
+      "dest_poi_name": "Ocean Park",
+      "flow_n": 9,
+      "avg_edge_sentiment": 0.6867815996760323
+    },
+    {
+      "origin_poi_id": 300,
+      "origin_poi_name": "Hong Kong International Airport",
+      "dest_poi_id": 296,
+      "dest_poi_name": "Hong Kong Disneyland",
+      "flow_n": 9,
+      "avg_edge_sentiment": 0.5396964097563078
+    },
+    {
+      "origin_poi_id": 296,
+      "origin_poi_name": "Hong Kong Disneyland",
+      "dest_poi_id": 180,
+      "dest_poi_name": "Disney's Hollywood Hotel",
+      "flow_n": 8,
+      "avg_edge_sentiment": 0.9146329164505004
+    },
+    {
+      "origin_poi_id": 598,
+      "origin_poi_name": "Ocean Park",
+      "dest_poi_id": 296,
+      "dest_poi_name": "Hong Kong Disneyland",
+      "flow_n": 8,
+      "avg_edge_sentiment": 0.7343382456966103
+    },
+    {
+      "origin_poi_id": 296,
+      "origin_poi_name": "Hong Kong Disneyland",
+      "dest_poi_id": 598,
+      "dest_poi_name": "Ocean Park",
+      "flow_n": 8,
+      "avg_edge_sentiment": 0.7311613794429124
+    },
+    {
+      "origin_poi_id": 300,
+      "origin_poi_name": "Hong Kong International Airport",
+      "dest_poi_id": 296,
+      "dest_poi_name": "Hong Kong Disneyland",
+      "flow_n": 8,
+      "avg_edge_sentiment": 0.7262419392354786
+    },
+    {
+      "origin_poi_id": 598,
+      "origin_poi_name": "Ocean Park",
+      "dest_poi_id": 296,
+      "dest_poi_name": "Hong Kong Disneyland",
+      "flow_n": 8,
+      "avg_edge_sentiment": 0.7192895094243189
+    },
+    {
+      "origin_poi_id": 300,
+      "origin_poi_name": "Hong Kong International Airport",
+      "dest_poi_id": 296,
+      "dest_poi_name": "Hong Kong Disneyland",
+      "flow_n": 8,
+      "avg_edge_sentiment": 0.7009672172652144
+    },
+    {
+      "origin_poi_id": 300,
+      "origin_poi_name": "Hong Kong International Airport",
+      "dest_poi_id": 296,
+      "dest_poi_name": "Hong Kong Disneyland",
+      "flow_n": 8,
+      "avg_edge_sentiment": 0.6867394281351673
+    },
+    {
+      "origin_poi_id": 300,
+      "origin_poi_name": "Hong Kong International Airport",
+      "dest_poi_id": 296,
+      "dest_poi_name": "Hong Kong Disneyland",
+      "flow_n": 8,
+      "avg_edge_sentiment": 0.6684771000485247
+    },
+    {
+      "origin_poi_id": 300,
+      "origin_poi_name": "Hong Kong International Airport",
+      "dest_poi_id": 296,
+      "dest_poi_name": "Hong Kong Disneyland",
+      "flow_n": 8,
+      "avg_edge_sentiment": 0.621588101387118
+    },
+    {
+      "origin_poi_id": 944,
+      "origin_poi_name": "Victoria Harbour",
+      "dest_poi_id": 296,
+      "dest_poi_name": "Hong Kong Disneyland",
+      "flow_n": 7,
+      "avg_edge_sentiment": 0.8604441654114495
+    },
+    {
+      "origin_poi_id": 296,
+      "origin_poi_name": "Hong Kong Disneyland",
+      "dest_poi_id": 944,
+      "dest_poi_name": "Victoria Harbour",
+      "flow_n": 7,
+      "avg_edge_sentiment": 0.858874187583015
+    },
+    {
+      "origin_poi_id": 598,
+      "origin_poi_name": "Ocean Park",
+      "dest_poi_id": 296,
+      "dest_poi_name": "Hong Kong Disneyland",
+      "flow_n": 7,
+      "avg_edge_sentiment": 0.8212749157262184
+    },
+    {
+      "origin_poi_id": 296,
+      "origin_poi_name": "Hong Kong Disneyland",
+      "dest_poi_id": 180,
+      "dest_poi_name": "Disney's Hollywood Hotel",
+      "flow_n": 7,
+      "avg_edge_sentiment": 0.8151760087133113
+    },
+    {
+      "origin_poi_id": 180,
+      "origin_poi_name": "Disney's Hollywood Hotel",
+      "dest_poi_id": 296,
+      "dest_poi_name": "Hong Kong Disneyland",
+      "flow_n": 7,
+      "avg_edge_sentiment": 0.8125642890332355
+    },
+    {
+      "origin_poi_id": 180,
+      "origin_poi_name": "Disney's Hollywood Hotel",
+      "dest_poi_id": 296,
+      "dest_poi_name": "Hong Kong Disneyland",
+      "flow_n": 7,
+      "avg_edge_sentiment": 0.7931461685143605
+    },
+    {
+      "origin_poi_id": 598,
+      "origin_poi_name": "Ocean Park",
+      "dest_poi_id": 296,
+      "dest_poi_name": "Hong Kong Disneyland",
+      "flow_n": 7,
+      "avg_edge_sentiment": 0.7860221931470088
+    },
+    {
+      "origin_poi_id": 598,
+      "origin_poi_name": "Ocean Park",
+      "dest_poi_id": 296,
+      "dest_poi_name": "Hong Kong Disneyland",
+      "flow_n": 7,
+      "avg_edge_sentiment": 0.7556316790468738
+    },
+    {
+      "origin_poi_id": 598,
+      "origin_poi_name": "Ocean Park",
+      "dest_poi_id": 296,
+      "dest_poi_name": "Hong Kong Disneyland",
+      "flow_n": 7,
+      "avg_edge_sentiment": 0.7479811024571222
+    },
+    {
+      "origin_poi_id": 598,
+      "origin_poi_name": "Ocean Park",
+      "dest_poi_id": 296,
+      "dest_poi_name": "Hong Kong Disneyland",
+      "flow_n": 7,
+      "avg_edge_sentiment": 0.7362500393896231
+    },
+    {
+      "origin_poi_id": 180,
+      "origin_poi_name": "Disney's Hollywood Hotel",
+      "dest_poi_id": 296,
+      "dest_poi_name": "Hong Kong Disneyland",
+      "flow_n": 7,
+      "avg_edge_sentiment": 0.7311908241564117
+    },
+    {
+      "origin_poi_id": 296,
+      "origin_poi_name": "Hong Kong Disneyland",
+      "dest_poi_id": 598,
+      "dest_poi_name": "Ocean Park",
+      "flow_n": 7,
+      "avg_edge_sentiment": 0.7262198476209527
+    },
+    {
+      "origin_poi_id": 296,
+      "origin_poi_name": "Hong Kong Disneyland",
+      "dest_poi_id": 180,
+      "dest_poi_name": "Disney's Hollywood Hotel",
+      "flow_n": 7,
+      "avg_edge_sentiment": 0.7216372672265686
+    },
+    {
+      "origin_poi_id": 296,
+      "origin_poi_name": "Hong Kong Disneyland",
+      "dest_poi_id": 300,
+      "dest_poi_name": "Hong Kong International Airport",
+      "flow_n": 7,
+      "avg_edge_sentiment": 0.7149163044634319
+    },
+    {
+      "origin_poi_id": 180,
+      "origin_poi_name": "Disney's Hollywood Hotel",
+      "dest_poi_id": 296,
+      "dest_poi_name": "Hong Kong Disneyland",
+      "flow_n": 7,
+      "avg_edge_sentiment": 0.707209061964282
+    },
+    {
+      "origin_poi_id": 180,
+      "origin_poi_name": "Disney's Hollywood Hotel",
+      "dest_poi_id": 296,
+      "dest_poi_name": "Hong Kong Disneyland",
+      "flow_n": 7,
+      "avg_edge_sentiment": 0.7042851369354933
+    },
+    {
+      "origin_poi_id": 300,
+      "origin_poi_name": "Hong Kong International Airport",
+      "dest_poi_id": 296,
+      "dest_poi_name": "Hong Kong Disneyland",
+      "flow_n": 7,
+      "avg_edge_sentiment": 0.6230557628289793
+    },
+    {
+      "origin_poi_id": 898,
+      "origin_poi_name": "Toy Story Land",
+      "dest_poi_id": 296,
+      "dest_poi_name": "Hong Kong Disneyland",
+      "flow_n": 6,
+      "avg_edge_sentiment": 0.924116186466482
+    },
+    {
+      "origin_poi_id": 296,
+      "origin_poi_name": "Hong Kong Disneyland",
+      "dest_poi_id": 898,
+      "dest_poi_name": "Toy Story Land",
+      "flow_n": 6,
+      "avg_edge_sentiment": 0.922063776685132
+    },
+    {
+      "origin_poi_id": 296,
+      "origin_poi_name": "Hong Kong Disneyland",
+      "dest_poi_id": 598,
+      "dest_poi_name": "Ocean Park",
+      "flow_n": 6,
+      "avg_edge_sentiment": 0.9124285007516544
+    },
+    {
+      "origin_poi_id": 180,
+      "origin_poi_name": "Disney's Hollywood Hotel",
+      "dest_poi_id": 296,
+      "dest_poi_name": "Hong Kong Disneyland",
+      "flow_n": 6,
+      "avg_edge_sentiment": 0.8799553276462988
+    },
+    {
+      "origin_poi_id": 180,
+      "origin_poi_name": "Disney's Hollywood Hotel",
+      "dest_poi_id": 296,
+      "dest_poi_name": "Hong Kong Disneyland",
+      "flow_n": 6,
+      "avg_edge_sentiment": 0.8729974453647932
+    },
+    {
+      "origin_poi_id": 598,
+      "origin_poi_name": "Ocean Park",
+      "dest_poi_id": 296,
+      "dest_poi_name": "Hong Kong Disneyland",
+      "flow_n": 6,
+      "avg_edge_sentiment": 0.8684235975698188
+    },
+    {
+      "origin_poi_id": 296,
+      "origin_poi_name": "Hong Kong Disneyland",
+      "dest_poi_id": 598,
+      "dest_poi_name": "Ocean Park",
+      "flow_n": 6,
+      "avg_edge_sentiment": 0.8672582399513987
+    },
+    {
+      "origin_poi_id": 1003,
+      "origin_poi_name": "World of Frozen",
+      "dest_poi_id": 296,
+      "dest_poi_name": "Hong Kong Disneyland",
+      "flow_n": 6,
+      "avg_edge_sentiment": 0.8653854414683213
+    },
+    {
+      "origin_poi_id": 296,
+      "origin_poi_name": "Hong Kong Disneyland",
+      "dest_poi_id": 180,
+      "dest_poi_name": "Disney's Hollywood Hotel",
+      "flow_n": 6,
+      "avg_edge_sentiment": 0.8528332480226828
+    },
+    {
+      "origin_poi_id": 296,
+      "origin_poi_name": "Hong Kong Disneyland",
+      "dest_poi_id": 598,
+      "dest_poi_name": "Ocean Park",
+      "flow_n": 6,
+      "avg_edge_sentiment": 0.8473415288020565
+    },
+    {
+      "origin_poi_id": 296,
+      "origin_poi_name": "Hong Kong Disneyland",
+      "dest_poi_id": 1003,
+      "dest_poi_name": "World of Frozen",
+      "flow_n": 6,
+      "avg_edge_sentiment": 0.8383241494882251
+    },
+    {
+      "origin_poi_id": 296,
+      "origin_poi_name": "Hong Kong Disneyland",
+      "dest_poi_id": 180,
+      "dest_poi_name": "Disney's Hollywood Hotel",
+      "flow_n": 6,
+      "avg_edge_sentiment": 0.8349899831745359
+    },
+    {
+      "origin_poi_id": 296,
+      "origin_poi_name": "Hong Kong Disneyland",
+      "dest_poi_id": 598,
+      "dest_poi_name": "Ocean Park",
+      "flow_n": 6,
+      "avg_edge_sentiment": 0.8269729079344333
+    },
+    {
+      "origin_poi_id": 598,
+      "origin_poi_name": "Ocean Park",
+      "dest_poi_id": 296,
+      "dest_poi_name": "Hong Kong Disneyland",
+      "flow_n": 6,
+      "avg_edge_sentiment": 0.8259971697060835
+    },
+    {
+      "origin_poi_id": 296,
+      "origin_poi_name": "Hong Kong Disneyland",
+      "dest_poi_id": 598,
+      "dest_poi_name": "Ocean Park",
+      "flow_n": 6,
+      "avg_edge_sentiment": 0.8191662064029112
+    },
+    {
+      "origin_poi_id": 296,
+      "origin_poi_name": "Hong Kong Disneyland",
+      "dest_poi_id": 598,
+      "dest_poi_name": "Ocean Park",
+      "flow_n": 6,
+      "avg_edge_sentiment": 0.8037297343391748
+    },
+    {
+      "origin_poi_id": 296,
+      "origin_poi_name": "Hong Kong Disneyland",
+      "dest_poi_id": 180,
+      "dest_poi_name": "Disney's Hollywood Hotel",
+      "flow_n": 6,
+      "avg_edge_sentiment": 0.7989169805258003
+    },
+    {
+      "origin_poi_id": 296,
+      "origin_poi_name": "Hong Kong Disneyland",
+      "dest_poi_id": 598,
+      "dest_poi_name": "Ocean Park",
+      "flow_n": 6,
+      "avg_edge_sentiment": 0.7917452134657651
+    },
+    {
+      "origin_poi_id": 296,
+      "origin_poi_name": "Hong Kong Disneyland",
+      "dest_poi_id": 598,
+      "dest_poi_name": "Ocean Park",
+      "flow_n": 6,
+      "avg_edge_sentiment": 0.7884779957433542
+    },
+    {
+      "origin_poi_id": 598,
+      "origin_poi_name": "Ocean Park",
+      "dest_poi_id": 296,
+      "dest_poi_name": "Hong Kong Disneyland",
+      "flow_n": 6,
+      "avg_edge_sentiment": 0.7798718244044317
+    },
+    {
+      "origin_poi_id": 296,
+      "origin_poi_name": "Hong Kong Disneyland",
+      "dest_poi_id": 180,
+      "dest_poi_name": "Disney's Hollywood Hotel",
+      "flow_n": 6,
+      "avg_edge_sentiment": 0.7660565207091471
+    },
+    {
+      "origin_poi_id": 300,
+      "origin_poi_name": "Hong Kong International Airport",
+      "dest_poi_id": 296,
+      "dest_poi_name": "Hong Kong Disneyland",
+      "flow_n": 6,
+      "avg_edge_sentiment": 0.7631969914047255
+    },
+    {
+      "origin_poi_id": 296,
+      "origin_poi_name": "Hong Kong Disneyland",
+      "dest_poi_id": 180,
+      "dest_poi_name": "Disney's Hollywood Hotel",
+      "flow_n": 6,
+      "avg_edge_sentiment": 0.7619864709603671
+    },
+    {
+      "origin_poi_id": 296,
+      "origin_poi_name": "Hong Kong Disneyland",
+      "dest_poi_id": 598,
+      "dest_poi_name": "Ocean Park",
+      "flow_n": 6,
+      "avg_edge_sentiment": 0.7563945433055913
+    },
+    {
+      "origin_poi_id": 300,
+      "origin_poi_name": "Hong Kong International Airport",
+      "dest_poi_id": 296,
+      "dest_poi_name": "Hong Kong Disneyland",
+      "flow_n": 6,
+      "avg_edge_sentiment": 0.7534527223143312
+    },
+    {
+      "origin_poi_id": 296,
+      "origin_poi_name": "Hong Kong Disneyland",
+      "dest_poi_id": 180,
+      "dest_poi_name": "Disney's Hollywood Hotel",
+      "flow_n": 6,
+      "avg_edge_sentiment": 0.7441913446894398
+    },
+    {
+      "origin_poi_id": 296,
+      "origin_poi_name": "Hong Kong Disneyland",
+      "dest_poi_id": 598,
+      "dest_poi_name": "Ocean Park",
+      "flow_n": 6,
+      "avg_edge_sentiment": 0.7426662605258055
+    },
+    {
+      "origin_poi_id": 296,
+      "origin_poi_name": "Hong Kong Disneyland",
+      "dest_poi_id": 300,
+      "dest_poi_name": "Hong Kong International Airport",
+      "flow_n": 6,
+      "avg_edge_sentiment": 0.7368030811625498
+    },
+    {
+      "origin_poi_id": 300,
+      "origin_poi_name": "Hong Kong International Airport",
+      "dest_poi_id": 296,
+      "dest_poi_name": "Hong Kong Disneyland",
+      "flow_n": 6,
+      "avg_edge_sentiment": 0.7353976337860028
+    },
+    {
+      "origin_poi_id": 598,
+      "origin_poi_name": "Ocean Park",
+      "dest_poi_id": 296,
+      "dest_poi_name": "Hong Kong Disneyland",
+      "flow_n": 6,
+      "avg_edge_sentiment": 0.7295572627335787
+    },
+    {
+      "origin_poi_id": 296,
+      "origin_poi_name": "Hong Kong Disneyland",
+      "dest_poi_id": 300,
+      "dest_poi_name": "Hong Kong International Airport",
+      "flow_n": 6,
+      "avg_edge_sentiment": 0.7082787686958909
+    },
+    {
+      "origin_poi_id": 296,
+      "origin_poi_name": "Hong Kong Disneyland",
+      "dest_poi_id": 180,
+      "dest_poi_name": "Disney's Hollywood Hotel",
+      "flow_n": 6,
+      "avg_edge_sentiment": 0.6980279761085671
+    },
+    {
+      "origin_poi_id": 296,
+      "origin_poi_name": "Hong Kong Disneyland",
+      "dest_poi_id": 598,
+      "dest_poi_name": "Ocean Park",
+      "flow_n": 6,
+      "avg_edge_sentiment": 0.6959143978026178
+    },
+    {
+      "origin_poi_id": 300,
+      "origin_poi_name": "Hong Kong International Airport",
+      "dest_poi_id": 296,
+      "dest_poi_name": "Hong Kong Disneyland",
+      "flow_n": 6,
+      "avg_edge_sentiment": 0.695444992588716
+    },
+    {
+      "origin_poi_id": 300,
+      "origin_poi_name": "Hong Kong International Airport",
+      "dest_poi_id": 296,
+      "dest_poi_name": "Hong Kong Disneyland",
+      "flow_n": 6,
+      "avg_edge_sentiment": 0.6777918452184654
+    },
+    {
+      "origin_poi_id": 598,
+      "origin_poi_name": "Ocean Park",
+      "dest_poi_id": 296,
+      "dest_poi_name": "Hong Kong Disneyland",
+      "flow_n": 6,
+      "avg_edge_sentiment": 0.6757707895918025
+    },
+    {
+      "origin_poi_id": 300,
+      "origin_poi_name": "Hong Kong International Airport",
+      "dest_poi_id": 296,
+      "dest_poi_name": "Hong Kong Disneyland",
+      "flow_n": 6,
+      "avg_edge_sentiment": 0.6718945053982592
+    },
+    {
+      "origin_poi_id": 300,
+      "origin_poi_name": "Hong Kong International Airport",
+      "dest_poi_id": 296,
+      "dest_poi_name": "Hong Kong Disneyland",
+      "flow_n": 6,
+      "avg_edge_sentiment": 0.6409059489156962
+    },
+    {
+      "origin_poi_id": 300,
+      "origin_poi_name": "Hong Kong International Airport",
+      "dest_poi_id": 296,
+      "dest_poi_name": "Hong Kong Disneyland",
+      "flow_n": 6,
+      "avg_edge_sentiment": 0.6320713842164468
+    },
+    {
+      "origin_poi_id": 300,
+      "origin_poi_name": "Hong Kong International Airport",
+      "dest_poi_id": 296,
+      "dest_poi_name": "Hong Kong Disneyland",
+      "flow_n": 6,
+      "avg_edge_sentiment": 0.5929593280785613
+    },
+    {
+      "origin_poi_id": 296,
+      "origin_poi_name": "Hong Kong Disneyland",
+      "dest_poi_id": 300,
+      "dest_poi_name": "Hong Kong International Airport",
+      "flow_n": 6,
+      "avg_edge_sentiment": 0.5895188299732076
+    },
+    {
+      "origin_poi_id": 300,
+      "origin_poi_name": "Hong Kong International Airport",
+      "dest_poi_id": 296,
+      "dest_poi_name": "Hong Kong Disneyland",
+      "flow_n": 6,
+      "avg_edge_sentiment": 0.5677386674409112
+    },
+    {
+      "origin_poi_id": 296,
+      "origin_poi_name": "Hong Kong Disneyland",
+      "dest_poi_id": 300,
+      "dest_poi_name": "Hong Kong International Airport",
+      "flow_n": 6,
+      "avg_edge_sentiment": 0.5641786419786513
+    },
+    {
+      "origin_poi_id": 296,
+      "origin_poi_name": "Hong Kong Disneyland",
+      "dest_poi_id": 180,
+      "dest_poi_name": "Disney's Hollywood Hotel",
+      "flow_n": 5,
+      "avg_edge_sentiment": 0.9140302004416784
+    },
+    {
+      "origin_poi_id": 296,
+      "origin_poi_name": "Hong Kong Disneyland",
+      "dest_poi_id": 598,
+      "dest_poi_name": "Ocean Park",
+      "flow_n": 5,
+      "avg_edge_sentiment": 0.9082336663159112
+    },
+    {
+      "origin_poi_id": 598,
+      "origin_poi_name": "Ocean Park",
+      "dest_poi_id": 296,
+      "dest_poi_name": "Hong Kong Disneyland",
+      "flow_n": 5,
+      "avg_edge_sentiment": 0.9010447294513384
+    },
+    {
+      "origin_poi_id": 1003,
+      "origin_poi_name": "World of Frozen",
+      "dest_poi_id": 296,
+      "dest_poi_name": "Hong Kong Disneyland",
+      "flow_n": 5,
+      "avg_edge_sentiment": 0.8982999882656774
+    },
+    {
+      "origin_poi_id": 296,
+      "origin_poi_name": "Hong Kong Disneyland",
+      "dest_poi_id": 598,
+      "dest_poi_name": "Ocean Park",
+      "flow_n": 5,
+      "avg_edge_sentiment": 0.8966673294703165
+    },
+    {
+      "origin_poi_id": 296,
+      "origin_poi_name": "Hong Kong Disneyland",
+      "dest_poi_id": 180,
+      "dest_poi_name": "Disney's Hollywood Hotel",
+      "flow_n": 5,
+      "avg_edge_sentiment": 0.8942757079998651
+    },
+    {
+      "origin_poi_id": 296,
+      "origin_poi_name": "Hong Kong Disneyland",
+      "dest_poi_id": 1003,
+      "dest_poi_name": "World of Frozen",
+      "flow_n": 5,
+      "avg_edge_sentiment": 0.8935641419002014
+    },
+    {
+      "origin_poi_id": 296,
+      "origin_poi_name": "Hong Kong Disneyland",
+      "dest_poi_id": 598,
+      "dest_poi_name": "Ocean Park",
+      "flow_n": 5,
+      "avg_edge_sentiment": 0.8835184726450178
+    },
+    {
+      "origin_poi_id": 598,
+      "origin_poi_name": "Ocean Park",
+      "dest_poi_id": 296,
+      "dest_poi_name": "Hong Kong Disneyland",
+      "flow_n": 5,
+      "avg_edge_sentiment": 0.8816686443736156
+    },
+    {
+      "origin_poi_id": 296,
+      "origin_poi_name": "Hong Kong Disneyland",
+      "dest_poi_id": 180,
+      "dest_poi_name": "Disney's Hollywood Hotel",
+      "flow_n": 5,
+      "avg_edge_sentiment": 0.8806977770725887
+    },
+    {
+      "origin_poi_id": 296,
+      "origin_poi_name": "Hong Kong Disneyland",
+      "dest_poi_id": 897,
+      "dest_poi_name": "Tomorrowland",
+      "flow_n": 5,
+      "avg_edge_sentiment": 0.8804144304711372
+    },
+    {
+      "origin_poi_id": 296,
+      "origin_poi_name": "Hong Kong Disneyland",
+      "dest_poi_id": 1003,
+      "dest_poi_name": "World of Frozen",
+      "flow_n": 5,
+      "avg_edge_sentiment": 0.8745520782470703
+    },
+    {
+      "origin_poi_id": 296,
+      "origin_poi_name": "Hong Kong Disneyland",
+      "dest_poi_id": 598,
+      "dest_poi_name": "Ocean Park",
+      "flow_n": 5,
+      "avg_edge_sentiment": 0.8732253642131885
+    },
+    {
+      "origin_poi_id": 1003,
+      "origin_poi_name": "World of Frozen",
+      "dest_poi_id": 296,
+      "dest_poi_name": "Hong Kong Disneyland",
+      "flow_n": 5,
+      "avg_edge_sentiment": 0.8682571836991475
+    },
+    {
+      "origin_poi_id": 296,
+      "origin_poi_name": "Hong Kong Disneyland",
+      "dest_poi_id": 180,
+      "dest_poi_name": "Disney's Hollywood Hotel",
+      "flow_n": 5,
+      "avg_edge_sentiment": 0.864663545290629
+    },
+    {
+      "origin_poi_id": 296,
+      "origin_poi_name": "Hong Kong Disneyland",
+      "dest_poi_id": 180,
+      "dest_poi_name": "Disney's Hollywood Hotel",
+      "flow_n": 5,
+      "avg_edge_sentiment": 0.8639528639531797
+    },
+    {
+      "origin_poi_id": 296,
+      "origin_poi_name": "Hong Kong Disneyland",
+      "dest_poi_id": 54,
+      "dest_poi_name": "Big Grizzly Mountain Runaway Mine Cars",
+      "flow_n": 5,
+      "avg_edge_sentiment": 0.8603681769635942
+    },
+    {
+      "origin_poi_id": 296,
+      "origin_poi_name": "Hong Kong Disneyland",
+      "dest_poi_id": 598,
+      "dest_poi_name": "Ocean Park",
+      "flow_n": 5,
+      "avg_edge_sentiment": 0.8595345978080839
+    },
+    {
+      "origin_poi_id": 296,
+      "origin_poi_name": "Hong Kong Disneyland",
+      "dest_poi_id": 180,
+      "dest_poi_name": "Disney's Hollywood Hotel",
+      "flow_n": 5,
+      "avg_edge_sentiment": 0.8584088926513991
+    },
+    {
+      "origin_poi_id": 180,
+      "origin_poi_name": "Disney's Hollywood Hotel",
+      "dest_poi_id": 296,
+      "dest_poi_name": "Hong Kong Disneyland",
+      "flow_n": 5,
+      "avg_edge_sentiment": 0.8572784296340412
+    },
+    {
+      "origin_poi_id": 296,
+      "origin_poi_name": "Hong Kong Disneyland",
+      "dest_poi_id": 598,
+      "dest_poi_name": "Ocean Park",
+      "flow_n": 5,
+      "avg_edge_sentiment": 0.8551714686055979
+    },
+    {
+      "origin_poi_id": 54,
+      "origin_poi_name": "Big Grizzly Mountain Runaway Mine Cars",
+      "dest_poi_id": 296,
+      "dest_poi_name": "Hong Kong Disneyland",
+      "flow_n": 5,
+      "avg_edge_sentiment": 0.854496404197481
+    },
+    {
+      "origin_poi_id": 296,
+      "origin_poi_name": "Hong Kong Disneyland",
+      "dest_poi_id": 300,
+      "dest_poi_name": "Hong Kong International Airport",
+      "flow_n": 5,
+      "avg_edge_sentiment": 0.8456153796897048
+    },
+    {
+      "origin_poi_id": 598,
+      "origin_poi_name": "Ocean Park",
+      "dest_poi_id": 296,
+      "dest_poi_name": "Hong Kong Disneyland",
+      "flow_n": 5,
+      "avg_edge_sentiment": 0.8416240149583573
+    },
+    {
+      "origin_poi_id": 598,
+      "origin_poi_name": "Ocean Park",
+      "dest_poi_id": 296,
+      "dest_poi_name": "Hong Kong Disneyland",
+      "flow_n": 5,
+      "avg_edge_sentiment": 0.8351171811421713
+    },
+    {
+      "origin_poi_id": 296,
+      "origin_poi_name": "Hong Kong Disneyland",
+      "dest_poi_id": 598,
+      "dest_poi_name": "Ocean Park",
+      "flow_n": 5,
+      "avg_edge_sentiment": 0.8320638544857502
+    },
+    {
+      "origin_poi_id": 598,
+      "origin_poi_name": "Ocean Park",
+      "dest_poi_id": 296,
+      "dest_poi_name": "Hong Kong Disneyland",
+      "flow_n": 5,
+      "avg_edge_sentiment": 0.8297399088740349
+    },
+    {
+      "origin_poi_id": 598,
+      "origin_poi_name": "Ocean Park",
+      "dest_poi_id": 296,
+      "dest_poi_name": "Hong Kong Disneyland",
+      "flow_n": 5,
+      "avg_edge_sentiment": 0.8268431317806243
+    },
+    {
+      "origin_poi_id": 598,
+      "origin_poi_name": "Ocean Park",
+      "dest_poi_id": 296,
+      "dest_poi_name": "Hong Kong Disneyland",
+      "flow_n": 5,
+      "avg_edge_sentiment": 0.8193972431478047
+    },
+    {
+      "origin_poi_id": 180,
+      "origin_poi_name": "Disney's Hollywood Hotel",
+      "dest_poi_id": 296,
+      "dest_poi_name": "Hong Kong Disneyland",
+      "flow_n": 5,
+      "avg_edge_sentiment": 0.8170791820401238
+    },
+    {
+      "origin_poi_id": 180,
+      "origin_poi_name": "Disney's Hollywood Hotel",
+      "dest_poi_id": 296,
+      "dest_poi_name": "Hong Kong Disneyland",
+      "flow_n": 5,
+      "avg_edge_sentiment": 0.8168405700297583
+    },
+    {
+      "origin_poi_id": 296,
+      "origin_poi_name": "Hong Kong Disneyland",
+      "dest_poi_id": 946,
+      "dest_poi_name": "Victoria Peak",
+      "flow_n": 5,
+      "avg_edge_sentiment": 0.8028485672548413
+    },
+    {
+      "origin_poi_id": 296,
+      "origin_poi_name": "Hong Kong Disneyland",
+      "dest_poi_id": 598,
+      "dest_poi_name": "Ocean Park",
+      "flow_n": 5,
+      "avg_edge_sentiment": 0.7997526593506337
+    },
+    {
+      "origin_poi_id": 296,
+      "origin_poi_name": "Hong Kong Disneyland",
+      "dest_poi_id": 598,
+      "dest_poi_name": "Ocean Park",
+      "flow_n": 5,
+      "avg_edge_sentiment": 0.7919936712582907
+    },
+    {
+      "origin_poi_id": 296,
+      "origin_poi_name": "Hong Kong Disneyland",
+      "dest_poi_id": 180,
+      "dest_poi_name": "Disney's Hollywood Hotel",
+      "flow_n": 5,
+      "avg_edge_sentiment": 0.7884848471420506
+    },
+    {
+      "origin_poi_id": 296,
+      "origin_poi_name": "Hong Kong Disneyland",
+      "dest_poi_id": 598,
+      "dest_poi_name": "Ocean Park",
+      "flow_n": 5,
+      "avg_edge_sentiment": 0.7850463457050777
+    },
+    {
+      "origin_poi_id": 296,
+      "origin_poi_name": "Hong Kong Disneyland",
+      "dest_poi_id": 180,
+      "dest_poi_name": "Disney's Hollywood Hotel",
+      "flow_n": 5,
+      "avg_edge_sentiment": 0.7847349308566614
+    },
+    {
+      "origin_poi_id": 180,
+      "origin_poi_name": "Disney's Hollywood Hotel",
+      "dest_poi_id": 296,
+      "dest_poi_name": "Hong Kong Disneyland",
+      "flow_n": 5,
+      "avg_edge_sentiment": 0.777868730310801
+    },
+    {
+      "origin_poi_id": 296,
+      "origin_poi_name": "Hong Kong Disneyland",
+      "dest_poi_id": 54,
+      "dest_poi_name": "Big Grizzly Mountain Runaway Mine Cars",
+      "flow_n": 5,
+      "avg_edge_sentiment": 0.7723773475913774
+    },
+    {
+      "origin_poi_id": 296,
+      "origin_poi_name": "Hong Kong Disneyland",
+      "dest_poi_id": 598,
+      "dest_poi_name": "Ocean Park",
+      "flow_n": 5,
+      "avg_edge_sentiment": 0.7721118903656801
+    },
+    {
+      "origin_poi_id": 296,
+      "origin_poi_name": "Hong Kong Disneyland",
+      "dest_poi_id": 598,
+      "dest_poi_name": "Ocean Park",
+      "flow_n": 5,
+      "avg_edge_sentiment": 0.7635081375638644
+    },
+    {
+      "origin_poi_id": 296,
+      "origin_poi_name": "Hong Kong Disneyland",
+      "dest_poi_id": 598,
+      "dest_poi_name": "Ocean Park",
+      "flow_n": 5,
+      "avg_edge_sentiment": 0.7604049088075907
+    },
+    {
+      "origin_poi_id": 296,
+      "origin_poi_name": "Hong Kong Disneyland",
+      "dest_poi_id": 598,
+      "dest_poi_name": "Ocean Park",
+      "flow_n": 5,
+      "avg_edge_sentiment": 0.7597454706827799
+    },
+    {
+      "origin_poi_id": 300,
+      "origin_poi_name": "Hong Kong International Airport",
+      "dest_poi_id": 296,
+      "dest_poi_name": "Hong Kong Disneyland",
+      "flow_n": 5,
+      "avg_edge_sentiment": 0.7515781657053874
+    },
+    {
+      "origin_poi_id": 300,
+      "origin_poi_name": "Hong Kong International Airport",
+      "dest_poi_id": 296,
+      "dest_poi_name": "Hong Kong Disneyland",
+      "flow_n": 5,
+      "avg_edge_sentiment": 0.7395442781349024
+    },
+    {
+      "origin_poi_id": 300,
+      "origin_poi_name": "Hong Kong International Airport",
+      "dest_poi_id": 296,
+      "dest_poi_name": "Hong Kong Disneyland",
+      "flow_n": 5,
+      "avg_edge_sentiment": 0.736096423342824
+    },
+    {
+      "origin_poi_id": 300,
+      "origin_poi_name": "Hong Kong International Airport",
+      "dest_poi_id": 296,
+      "dest_poi_name": "Hong Kong Disneyland",
+      "flow_n": 5,
+      "avg_edge_sentiment": 0.7322880643227121
+    },
+    {
+      "origin_poi_id": 180,
+      "origin_poi_name": "Disney's Hollywood Hotel",
+      "dest_poi_id": 296,
+      "dest_poi_name": "Hong Kong Disneyland",
+      "flow_n": 5,
+      "avg_edge_sentiment": 0.7273883658771714
+    },
+    {
+      "origin_poi_id": 300,
+      "origin_poi_name": "Hong Kong International Airport",
+      "dest_poi_id": 296,
+      "dest_poi_name": "Hong Kong Disneyland",
+      "flow_n": 5,
+      "avg_edge_sentiment": 0.7196940133968989
+    },
+    {
+      "origin_poi_id": 598,
+      "origin_poi_name": "Ocean Park",
+      "dest_poi_id": 296,
+      "dest_poi_name": "Hong Kong Disneyland",
+      "flow_n": 5,
+      "avg_edge_sentiment": 0.7118628352880478
+    },
+    {
+      "origin_poi_id": 307,
+      "origin_poi_name": "Hong Kong Observation Wheel",
+      "dest_poi_id": 296,
+      "dest_poi_name": "Hong Kong Disneyland",
+      "flow_n": 5,
+      "avg_edge_sentiment": 0.7075549133831547
+    },
+    {
+      "origin_poi_id": 296,
+      "origin_poi_name": "Hong Kong Disneyland",
+      "dest_poi_id": 300,
+      "dest_poi_name": "Hong Kong International Airport",
+      "flow_n": 5,
+      "avg_edge_sentiment": 0.7042663857340813
+    },
+    {
+      "origin_poi_id": 180,
+      "origin_poi_name": "Disney's Hollywood Hotel",
+      "dest_poi_id": 296,
+      "dest_poi_name": "Hong Kong Disneyland",
+      "flow_n": 5,
+      "avg_edge_sentiment": 0.7034796160459519
+    },
+    {
+      "origin_poi_id": 46,
+      "origin_poi_name": "Bakehouse (Wan Chai)",
+      "dest_poi_id": 296,
+      "dest_poi_name": "Hong Kong Disneyland",
+      "flow_n": 5,
+      "avg_edge_sentiment": 0.6902518108868125
+    },
+    {
+      "origin_poi_id": 300,
+      "origin_poi_name": "Hong Kong International Airport",
+      "dest_poi_id": 296,
+      "dest_poi_name": "Hong Kong Disneyland",
+      "flow_n": 5,
+      "avg_edge_sentiment": 0.685920231484554
+    },
+    {
+      "origin_poi_id": 296,
+      "origin_poi_name": "Hong Kong Disneyland",
+      "dest_poi_id": 598,
+      "dest_poi_name": "Ocean Park",
+      "flow_n": 5,
+      "avg_edge_sentiment": 0.683159972106417
+    },
+    {
+      "origin_poi_id": 296,
+      "origin_poi_name": "Hong Kong Disneyland",
+      "dest_poi_id": 46,
+      "dest_poi_name": "Bakehouse (Wan Chai)",
+      "flow_n": 5,
+      "avg_edge_sentiment": 0.6771702830214054
+    },
+    {
+      "origin_poi_id": 598,
+      "origin_poi_name": "Ocean Park",
+      "dest_poi_id": 296,
+      "dest_poi_name": "Hong Kong Disneyland",
+      "flow_n": 5,
+      "avg_edge_sentiment": 0.6735254778185238
+    },
+    {
+      "origin_poi_id": 300,
+      "origin_poi_name": "Hong Kong International Airport",
+      "dest_poi_id": 296,
+      "dest_poi_name": "Hong Kong Disneyland",
+      "flow_n": 5,
+      "avg_edge_sentiment": 0.6693051377104389
+    },
+    {
+      "origin_poi_id": 296,
+      "origin_poi_name": "Hong Kong Disneyland",
+      "dest_poi_id": 300,
+      "dest_poi_name": "Hong Kong International Airport",
+      "flow_n": 5,
+      "avg_edge_sentiment": 0.6663991830001275
+    },
+    {
+      "origin_poi_id": 296,
+      "origin_poi_name": "Hong Kong Disneyland",
+      "dest_poi_id": 300,
+      "dest_poi_name": "Hong Kong International Airport",
+      "flow_n": 5,
+      "avg_edge_sentiment": 0.6622080254368484
+    },
+    {
+      "origin_poi_id": 296,
+      "origin_poi_name": "Hong Kong Disneyland",
+      "dest_poi_id": 300,
+      "dest_poi_name": "Hong Kong International Airport",
+      "flow_n": 5,
+      "avg_edge_sentiment": 0.6580396538972855
+    },
+    {
+      "origin_poi_id": 944,
+      "origin_poi_name": "Victoria Harbour",
+      "dest_poi_id": 37,
+      "dest_poi_name": "Avenue Of Stars",
+      "flow_n": 5,
+      "avg_edge_sentiment": 0.6559600962946812
+    },
+    {
+      "origin_poi_id": 598,
+      "origin_poi_name": "Ocean Park",
+      "dest_poi_id": 296,
+      "dest_poi_name": "Hong Kong Disneyland",
+      "flow_n": 5,
+      "avg_edge_sentiment": 0.6519366625696421
+    },
+    {
+      "origin_poi_id": 296,
+      "origin_poi_name": "Hong Kong Disneyland",
+      "dest_poi_id": 300,
+      "dest_poi_name": "Hong Kong International Airport",
+      "flow_n": 5,
+      "avg_edge_sentiment": 0.6512463875930934
+    },
+    {
+      "origin_poi_id": 296,
+      "origin_poi_name": "Hong Kong Disneyland",
+      "dest_poi_id": 300,
+      "dest_poi_name": "Hong Kong International Airport",
+      "flow_n": 5,
+      "avg_edge_sentiment": 0.6369983328382174
+    },
+    {
+      "origin_poi_id": 296,
+      "origin_poi_name": "Hong Kong Disneyland",
+      "dest_poi_id": 598,
+      "dest_poi_name": "Ocean Park",
+      "flow_n": 5,
+      "avg_edge_sentiment": 0.6367995246623953
+    },
+    {
+      "origin_poi_id": 296,
+      "origin_poi_name": "Hong Kong Disneyland",
+      "dest_poi_id": 300,
+      "dest_poi_name": "Hong Kong International Airport",
+      "flow_n": 5,
+      "avg_edge_sentiment": 0.6351685994903423
+    },
+    {
+      "origin_poi_id": 300,
+      "origin_poi_name": "Hong Kong International Airport",
+      "dest_poi_id": 296,
+      "dest_poi_name": "Hong Kong Disneyland",
+      "flow_n": 5,
+      "avg_edge_sentiment": 0.6281703377390901
+    },
+    {
+      "origin_poi_id": 296,
+      "origin_poi_name": "Hong Kong Disneyland",
+      "dest_poi_id": 598,
+      "dest_poi_name": "Ocean Park",
+      "flow_n": 5,
+      "avg_edge_sentiment": 0.626130418771257
+    },
+    {
+      "origin_poi_id": 180,
+      "origin_poi_name": "Disney's Hollywood Hotel",
+      "dest_poi_id": 296,
+      "dest_poi_name": "Hong Kong Disneyland",
+      "flow_n": 5,
+      "avg_edge_sentiment": 0.613151732472082
+    },
+    {
+      "origin_poi_id": 296,
+      "origin_poi_name": "Hong Kong Disneyland",
+      "dest_poi_id": 874,
+      "dest_poi_name": "The Peninsula",
+      "flow_n": 5,
+      "avg_edge_sentiment": 0.6026591141397754
+    },
+    {
+      "origin_poi_id": 300,
+      "origin_poi_name": "Hong Kong International Airport",
+      "dest_poi_id": 296,
+      "dest_poi_name": "Hong Kong Disneyland",
+      "flow_n": 5,
+      "avg_edge_sentiment": 0.6009659318253397
+    },
+    {
+      "origin_poi_id": 300,
+      "origin_poi_name": "Hong Kong International Airport",
+      "dest_poi_id": 296,
+      "dest_poi_name": "Hong Kong Disneyland",
+      "flow_n": 5,
+      "avg_edge_sentiment": 0.5970746406841846
+    },
+    {
+      "origin_poi_id": 874,
+      "origin_poi_name": "The Peninsula",
+      "dest_poi_id": 296,
+      "dest_poi_name": "Hong Kong Disneyland",
+      "flow_n": 5,
+      "avg_edge_sentiment": 0.5597525424737897
+    },
+    {
+      "origin_poi_id": 300,
+      "origin_poi_name": "Hong Kong International Airport",
+      "dest_poi_id": 296,
+      "dest_poi_name": "Hong Kong Disneyland",
+      "flow_n": 5,
+      "avg_edge_sentiment": 0.5563910603997382
+    },
+    {
+      "origin_poi_id": 300,
+      "origin_poi_name": "Hong Kong International Airport",
+      "dest_poi_id": 296,
+      "dest_poi_name": "Hong Kong Disneyland",
+      "flow_n": 5,
+      "avg_edge_sentiment": 0.5196066597043811
+    },
+    {
+      "origin_poi_id": 300,
+      "origin_poi_name": "Hong Kong International Airport",
+      "dest_poi_id": 324,
+      "dest_poi_name": "Hong Kong-Zhuhai-Macao Bridge",
+      "flow_n": 5,
+      "avg_edge_sentiment": 0.4720921565778553
+    },
+    {
+      "origin_poi_id": 300,
+      "origin_poi_name": "Hong Kong International Airport",
+      "dest_poi_id": 567,
+      "dest_poi_name": "Nathan Rd",
+      "flow_n": 5,
+      "avg_edge_sentiment": 0.0995161866396665
+    },
+    {
+      "origin_poi_id": 296,
+      "origin_poi_name": "Hong Kong Disneyland",
+      "dest_poi_id": 1003,
+      "dest_poi_name": "World of Frozen",
+      "flow_n": 4,
+      "avg_edge_sentiment": 0.927872619902094
+    },
+    {
+      "origin_poi_id": 1003,
+      "origin_poi_name": "World of Frozen",
+      "dest_poi_id": 296,
+      "dest_poi_name": "Hong Kong Disneyland",
+      "flow_n": 4,
+      "avg_edge_sentiment": 0.9257878088694697
+    },
+    {
+      "origin_poi_id": 946,
+      "origin_poi_name": "Victoria Peak",
+      "dest_poi_id": 296,
+      "dest_poi_name": "Hong Kong Disneyland",
+      "flow_n": 4,
+      "avg_edge_sentiment": 0.9206855595111848
+    },
+    {
+      "origin_poi_id": 897,
+      "origin_poi_name": "Tomorrowland",
+      "dest_poi_id": 296,
+      "dest_poi_name": "Hong Kong Disneyland",
+      "flow_n": 4,
+      "avg_edge_sentiment": 0.918364718556404
+    },
+    {
+      "origin_poi_id": 180,
+      "origin_poi_name": "Disney's Hollywood Hotel",
+      "dest_poi_id": 296,
+      "dest_poi_name": "Hong Kong Disneyland",
+      "flow_n": 4,
+      "avg_edge_sentiment": 0.914709545804986
+    },
+    {
+      "origin_poi_id": 1003,
+      "origin_poi_name": "World of Frozen",
+      "dest_poi_id": 296,
+      "dest_poi_name": "Hong Kong Disneyland",
+      "flow_n": 4,
+      "avg_edge_sentiment": 0.9120982532345112
+    },
+    {
+      "origin_poi_id": 296,
+      "origin_poi_name": "Hong Kong Disneyland",
+      "dest_poi_id": 944,
+      "dest_poi_name": "Victoria Harbour",
+      "flow_n": 4,
+      "avg_edge_sentiment": 0.9006001241505146
+    },
+    {
+      "origin_poi_id": 180,
+      "origin_poi_name": "Disney's Hollywood Hotel",
+      "dest_poi_id": 296,
+      "dest_poi_name": "Hong Kong Disneyland",
+      "flow_n": 4,
+      "avg_edge_sentiment": 0.8986190000973773
+    },
+    {
+      "origin_poi_id": 944,
+      "origin_poi_name": "Victoria Harbour",
+      "dest_poi_id": 296,
+      "dest_poi_name": "Hong Kong Disneyland",
+      "flow_n": 4,
+      "avg_edge_sentiment": 0.8978408128023148
+    },
+    {
+      "origin_poi_id": 296,
+      "origin_poi_name": "Hong Kong Disneyland",
+      "dest_poi_id": 180,
+      "dest_poi_name": "Disney's Hollywood Hotel",
+      "flow_n": 4,
+      "avg_edge_sentiment": 0.8971827980130911
+    },
+    {
+      "origin_poi_id": 1003,
+      "origin_poi_name": "World of Frozen",
+      "dest_poi_id": 296,
+      "dest_poi_name": "Hong Kong Disneyland",
+      "flow_n": 4,
+      "avg_edge_sentiment": 0.8970504152434056
+    },
+    {
+      "origin_poi_id": 180,
+      "origin_poi_name": "Disney's Hollywood Hotel",
+      "dest_poi_id": 296,
+      "dest_poi_name": "Hong Kong Disneyland",
+      "flow_n": 4,
+      "avg_edge_sentiment": 0.8970196191221476
+    },
+    {
+      "origin_poi_id": 1003,
+      "origin_poi_name": "World of Frozen",
+      "dest_poi_id": 296,
+      "dest_poi_name": "Hong Kong Disneyland",
+      "flow_n": 4,
+      "avg_edge_sentiment": 0.8964652947738374
+    },
+    {
+      "origin_poi_id": 598,
+      "origin_poi_name": "Ocean Park",
+      "dest_poi_id": 296,
+      "dest_poi_name": "Hong Kong Disneyland",
+      "flow_n": 4,
+      "avg_edge_sentiment": 0.8962985016405582
+    },
+    {
+      "origin_poi_id": 946,
+      "origin_poi_name": "Victoria Peak",
+      "dest_poi_id": 296,
+      "dest_poi_name": "Hong Kong Disneyland",
+      "flow_n": 4,
+      "avg_edge_sentiment": 0.8934163416425387
+    },
+    {
+      "origin_poi_id": 296,
+      "origin_poi_name": "Hong Kong Disneyland",
+      "dest_poi_id": 1003,
+      "dest_poi_name": "World of Frozen",
+      "flow_n": 4,
+      "avg_edge_sentiment": 0.8919907121919095
+    },
+    {
+      "origin_poi_id": 180,
+      "origin_poi_name": "Disney's Hollywood Hotel",
+      "dest_poi_id": 296,
+      "dest_poi_name": "Hong Kong Disneyland",
+      "flow_n": 4,
+      "avg_edge_sentiment": 0.891506912616583
+    },
+    {
+      "origin_poi_id": 944,
+      "origin_poi_name": "Victoria Harbour",
+      "dest_poi_id": 296,
+      "dest_poi_name": "Hong Kong Disneyland",
+      "flow_n": 4,
+      "avg_edge_sentiment": 0.8889124020934105
+    },
+    {
+      "origin_poi_id": 944,
+      "origin_poi_name": "Victoria Harbour",
+      "dest_poi_id": 296,
+      "dest_poi_name": "Hong Kong Disneyland",
+      "flow_n": 4,
+      "avg_edge_sentiment": 0.8857928141951561
+    },
+    {
+      "origin_poi_id": 180,
+      "origin_poi_name": "Disney's Hollywood Hotel",
+      "dest_poi_id": 296,
+      "dest_poi_name": "Hong Kong Disneyland",
+      "flow_n": 4,
+      "avg_edge_sentiment": 0.8828186869621277
+    },
+    {
+      "origin_poi_id": 598,
+      "origin_poi_name": "Ocean Park",
+      "dest_poi_id": 296,
+      "dest_poi_name": "Hong Kong Disneyland",
+      "flow_n": 4,
+      "avg_edge_sentiment": 0.8814136149982612
+    },
+    {
+      "origin_poi_id": 180,
+      "origin_poi_name": "Disney's Hollywood Hotel",
+      "dest_poi_id": 296,
+      "dest_poi_name": "Hong Kong Disneyland",
+      "flow_n": 4,
+      "avg_edge_sentiment": 0.8812547738791681
+    },
+    {
+      "origin_poi_id": 296,
+      "origin_poi_name": "Hong Kong Disneyland",
+      "dest_poi_id": 598,
+      "dest_poi_name": "Ocean Park",
+      "flow_n": 4,
+      "avg_edge_sentiment": 0.8808371164579538
+    },
+    {
+      "origin_poi_id": 296,
+      "origin_poi_name": "Hong Kong Disneyland",
+      "dest_poi_id": 180,
+      "dest_poi_name": "Disney's Hollywood Hotel",
+      "flow_n": 4,
+      "avg_edge_sentiment": 0.8791602847299406
+    },
+    {
+      "origin_poi_id": 296,
+      "origin_poi_name": "Hong Kong Disneyland",
+      "dest_poi_id": 1003,
+      "dest_poi_name": "World of Frozen",
+      "flow_n": 4,
+      "avg_edge_sentiment": 0.8784064290424187
+    },
+    {
+      "origin_poi_id": 1003,
+      "origin_poi_name": "World of Frozen",
+      "dest_poi_id": 296,
+      "dest_poi_name": "Hong Kong Disneyland",
+      "flow_n": 4,
+      "avg_edge_sentiment": 0.8761479003975788
+    },
+    {
+      "origin_poi_id": 296,
+      "origin_poi_name": "Hong Kong Disneyland",
+      "dest_poi_id": 598,
+      "dest_poi_name": "Ocean Park",
+      "flow_n": 4,
+      "avg_edge_sentiment": 0.8748924518624941
+    },
+    {
+      "origin_poi_id": 296,
+      "origin_poi_name": "Hong Kong Disneyland",
+      "dest_poi_id": 598,
+      "dest_poi_name": "Ocean Park",
+      "flow_n": 4,
+      "avg_edge_sentiment": 0.8731331899762154
+    },
+    {
+      "origin_poi_id": 228,
+      "origin_poi_name": "Frozen Ever After",
+      "dest_poi_id": 296,
+      "dest_poi_name": "Hong Kong Disneyland",
+      "flow_n": 4,
+      "avg_edge_sentiment": 0.8720826830831356
+    },
+    {
+      "origin_poi_id": 296,
+      "origin_poi_name": "Hong Kong Disneyland",
+      "dest_poi_id": 598,
+      "dest_poi_name": "Ocean Park",
+      "flow_n": 4,
+      "avg_edge_sentiment": 0.8704864215105772
+    },
+    {
+      "origin_poi_id": 296,
+      "origin_poi_name": "Hong Kong Disneyland",
+      "dest_poi_id": 598,
+      "dest_poi_name": "Ocean Park",
+      "flow_n": 4,
+      "avg_edge_sentiment": 0.8670584065218767
+    },
+    {
+      "origin_poi_id": 598,
+      "origin_poi_name": "Ocean Park",
+      "dest_poi_id": 296,
+      "dest_poi_name": "Hong Kong Disneyland",
+      "flow_n": 4,
+      "avg_edge_sentiment": 0.8606154998764396
+    },
+    {
+      "origin_poi_id": 873,
+      "origin_poi_name": "The Peak Tram",
+      "dest_poi_id": 946,
+      "dest_poi_name": "Victoria Peak",
+      "flow_n": 4,
+      "avg_edge_sentiment": 0.8603225775063038
+    },
+    {
+      "origin_poi_id": 296,
+      "origin_poi_name": "Hong Kong Disneyland",
+      "dest_poi_id": 897,
+      "dest_poi_name": "Tomorrowland",
+      "flow_n": 4,
+      "avg_edge_sentiment": 0.8580478252843022
+    }
+  ]
+}

@@ -1,112 +1,123 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Report</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Place Report · Multi Modal Mobility</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./assets/css/styles.css" />
+  <link rel="stylesheet" href="./assets/styles.css" />
 </head>
-<body>
-<div class="page-shell">
-  <header class="site-header">
-    <div class="header-inner">
-      <a class="brand" href="./index.html">
-        <div class="brand-text solo">
-          <div class="brand-title" data-site-name>Multi Modal Mobility</div>
-          <div class="brand-sub">Tourist mobility and experience intelligence</div>
+<body data-page="report">
+<header class="site-header"><div class="container site-header-inner"><a class="brand" href="index.html"><span class="brand-mark">M</span><div><div>Multi Modal Mobility</div></div></a><nav class="nav"><a href="index.html" data-page="home">Home</a><a href="mobility.html" data-page="mobility">Mobility</a><a href="experience.html" data-page="experience">Experience</a><a href="networks.html" data-page="networks">Place Networks</a><a href="report.html" data-page="report">Place Report</a><a href="about.html" data-page="about">About</a></nav></div></header>
+<main class="page page-wide">
+  <div class="container wider report-shell-v3">
+    <aside class="report-rail-v3">
+      <section class="section-card report-rail-card report-controls-v3">
+        <div class="control-box report-range-box-v3">
+          <label>Start - End</label>
+          <input id="report-start" type="date" placeholder="Start date">
+          <input id="report-end" type="date" placeholder="End date">
         </div>
-      </a>
-      <button class="nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false">☰</button>
-      <nav class="top-nav">
-        <a href="./index.html" data-page="home">Home</a>
-        <a href="./movement.html" data-page="movement">Movement</a>
-        <a href="./sentiment.html" data-page="sentiment">Sentiment</a>
-        <a href="./combinations.html" data-page="combinations">Combinations</a>
-        <a href="./report.html" data-page="report">Report</a>
-        <a href="./about.html" data-page="about">About</a>
-      </nav>
-    </div>
-  </header>
+        <div class="control-box"><label>Focal Place</label><select id="report-place"></select></div>
+        <div class="control-box"><label>Compare Places</label><input id="report-compare-input" list="report-compare-list" placeholder="Type to add a compare place"></div>
+        <datalist id="report-compare-list"></datalist>
+        <select id="report-compare" multiple size="8" class="sr-only"></select>
+        <div id="report-compare-chips" class="compare-pills report-compare-chips"></div>
+        <div class="report-actions-row-v3">
+          <div class="export-menu-wrap report-action-grow"><button id="report-export-toggle" class="btn btn-primary report-action-grow">Export</button><div id="report-export-menu" class="export-menu hidden"><button id="report-export-pdf" class="export-option">PDF</button><button id="report-export-ppt" class="export-option">PPT</button></div></div>
+          <button id="report-reset" class="btn btn-reset report-action-grow">Reset</button>
+        </div>
+      </section>
+    </aside>
 
-  <main class="main">
-    <section class="wide-page">
-      <div class="page-intro">
-        <div>
-          <h1>Place report</h1>
-          <p>Select one focal place, optionally compare it with up to three places, and export the current report as PPT or PDF.</p>
+    <section id="report-main" class="report-main-v3">
+      <section id="section-overview" data-section class="section-card report-hero-v3">
+        <div class="eyebrow">Place Report</div>
+        <h1 id="report-title"></h1>
+        <p id="report-subtitle" class="report-hero-summary"></p>
+        <div id="report-kpis" class="report-kpis-v3"></div>
+        <div id="report-hero-compare-line" class="report-hero-compare-line hidden">
+          <span class="report-hero-compare-label">Compare mode</span>
+          <div id="report-hero-compare-chips" class="compare-pills"></div>
         </div>
-      </div>
+      </section>
 
-      <div class="toolbar-row report-toolbar-top">
-        <div class="toolbar-group">
-          <label class="toolbar-label">Focal place</label>
-          <input id="report-focal-input" class="search-input" list="report-focal-options" placeholder="Choose a focal place">
-          <datalist id="report-focal-options"></datalist>
-        </div>
-        <div class="toolbar-group">
-          <label class="toolbar-label">Compare places</label>
-          <div class="add-compare-row">
-            <input id="report-compare-input" class="search-input" list="report-compare-options" placeholder="Add up to 3 places">
-            <button class="button-secondary" id="report-add-compare" type="button">Add</button>
+      <section id="section-visits" data-section class="section-card report-section-v3">
+        <div class="report-section-head">
+          <div class="report-section-title"><div class="report-section-label">VISITS</div><h2>Visit Trend</h2></div>
+          <div class="report-scale-tabs" data-group="visits">
+            <button class="scale-chip" data-scale="daily">Daily</button>
+            <button class="scale-chip active" data-scale="weekly">Weekly</button>
+            <button class="scale-chip" data-scale="monthly">Monthly</button>
           </div>
-          <datalist id="report-compare-options"></datalist>
         </div>
-        <div class="toolbar-group">
-          <label class="toolbar-label">Start date</label>
-          <input type="date" id="report-start-date">
-        </div>
-        <div class="toolbar-group">
-          <label class="toolbar-label">End date</label>
-          <input type="date" id="report-end-date">
-        </div>
-        <div class="toolbar-actions report-toolbar-actions">
-          <div class="export-wrap" id="report-export-wrap">
-            <button class="button-primary" id="report-export-toggle" type="button">Export</button>
-            <div class="export-menu">
-              <button type="button" id="report-export-ppt">Export PPT</button>
-              <button type="button" id="report-export-pdf">Export PDF</button>
-            </div>
-          </div>
-          <button class="button-secondary" id="report-reset" type="button">Reset</button>
-        </div>
-      </div>
-      <div class="report-selected-row">
-        <div id="report-focal-summary" class="report-selected-main"></div>
-        <div id="report-compare-chips" class="selected-chip-row report-selected-compares"></div>
-      </div>
+        <div class="chart-shell report-chart-lg"><canvas id="report-visits-chart"></canvas></div>
+        <div id="report-visits-note" class="note-inline"></div>
+        <div id="report-visits-markets" class="report-card-grid"></div>
+      </section>
 
-      <div class="report-grid">
-        <section class="report-section" id="report-overview-section"></section>
-        <section class="report-section" id="report-visits-section"></section>
-        <section class="report-section" id="report-sentiment-section"></section>
-        <section class="report-section" id="report-movement-section"></section>
-        <section class="report-section" id="report-combinations-section"></section>
-      </div>
+      <section id="section-mobility" data-section class="section-card report-section-v3">
+        <div class="report-section-head">
+          <div class="report-section-title"><div class="report-section-label">MOBILITY</div><h2>Flow Trend</h2></div>
+          <div class="report-scale-tabs" data-group="flow">
+            <button class="scale-chip" data-scale="daily">Daily</button>
+            <button class="scale-chip active" data-scale="weekly">Weekly</button>
+            <button class="scale-chip" data-scale="monthly">Monthly</button>
+          </div>
+        </div>
+        <div class="chart-shell report-chart-lg"><canvas id="report-flow-chart"></canvas></div>
+        <div id="report-flow-note" class="note-inline"></div>
+        <div id="report-mobility-inbound" class="report-card-grid"></div>
+        <div id="report-mobility-outbound" class="report-card-grid report-grid-gap-top"></div>
+      </section>
+
+      <section id="section-experience" data-section class="section-card report-section-v3">
+        <div class="report-section-head">
+          <div class="report-section-title"><div class="report-section-label">EXPERIENCE</div><h2>Experience Trend</h2></div>
+          <div class="report-scale-tabs" data-group="experience">
+            <button class="scale-chip" data-scale="daily">Daily</button>
+            <button class="scale-chip active" data-scale="weekly">Weekly</button>
+            <button class="scale-chip" data-scale="monthly">Monthly</button>
+          </div>
+        </div>
+        <div class="chart-shell report-chart-lg"><canvas id="report-experience-chart"></canvas></div>
+        <div id="report-experience-note" class="note-inline"></div>
+        <div id="report-experience-markets" class="report-card-grid"></div>
+      </section>
+
+      <section id="section-combinations" data-section class="section-card report-section-v3">
+        <div class="report-section-head">
+          <div class="report-section-title"><div class="report-section-label">PLACE COMBINATIONS</div><h2>Combination Quality</h2></div>
+        </div>
+        <div id="report-combinations-main" class="report-card-grid"></div>
+        <div id="report-combinations-compare" class="report-card-grid report-grid-gap-top"></div>
+      </section>
+
+      <section id="section-compare" data-section class="section-card report-section-v3 hidden">
+        <div class="report-section-head">
+          <div class="report-section-title"><div class="report-section-label">OVERLAY COMPARISON</div><h2>Comparison</h2></div>
+        </div>
+        <div id="report-compare-table"></div>
+      </section>
+
+      <section id="section-takeaways" data-section class="section-card report-section-v3">
+        <div class="report-section-head">
+          <div class="report-section-title"><div class="report-section-label">TAKEAWAYS</div><h2>Key Takeaways</h2></div>
+        </div>
+        <div id="report-takeaways" class="report-takeaways-grid"></div>
+      </section>
     </section>
-  </main>
-
-  <footer class="footer">
-    <div class="footer-inner">
-      <div><strong data-site-name>Multi Modal Mobility</strong><br><span>Hong Kong case · Updated <span id="site-last-updated"></span></span></div>
-    </div>
-  </footer>
-</div>
-
-<button id="chatbot-open" class="chatbot-button" aria-label="Open chatbot">✦</button>
-<div id="chatbot-modal" class="chatbot-modal">
-  <div class="chatbot-card">
-    <div class="chatbot-header"><strong>Ask MMM</strong><button class="button-secondary" id="chatbot-close">Close</button></div>
-    <div id="chatbot-frame-wrap" style="flex:1;"></div>
   </div>
-</div>
-
-<script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/echarts@5.5.0/dist/echarts.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/pptxgenjs@3.12.0/dist/pptxgen.bundle.js"></script>
+</main>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/jspdf@2.5.1/dist/jspdf.umd.min.js"></script>
-<script type="module" src="./assets/js/report.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/html2pdf.js@0.10.1/dist/html2pdf.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/pptxgenjs@3.12.0/dist/pptxgen.bundle.js"></script>
+<script src="./assets/config.js"></script>
+<script src="./assets/core.js"></script>
+<script src="./assets/report.js"></script>
 </body>
 </html>
