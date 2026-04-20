@@ -7,6 +7,8 @@ document.addEventListener('DOMContentLoaded', async () => {
       { label:'Places', value:MMM.fmtNum(overview.total_pois), sub:'Standardized POIs' },
       { label:'Avg. Stops / Journey', value:Number(overview.avg_stops_per_journey || 0).toFixed(1), sub:'Visible path depth' },
       { label:'Avg. Journey Experience', value:Number(overview.avg_journey_sentiment || 0).toFixed(2), sub:'Observed journey-level experience' },
+      { label:'Earliest Date', value:(overview.default_start_date || '—'), sub:'Visible coverage begins' },
+      { label:'Latest Date', value:(overview.default_end_date || '—'), sub:'Visible coverage ends' },
     ]);
 
     const fab = MMM.qs('#assistant-fab');
