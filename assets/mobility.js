@@ -341,7 +341,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     MMM.qsa('[data-visits-scale]').forEach(btn => btn.addEventListener('click', () => { state.visitsScale = btn.dataset.visitsScale; MMM.qsa('[data-visits-scale]').forEach(b => b.classList.toggle('active', b === btn)); render('visits'); }));
     MMM.qsa('[data-flow-scale]').forEach(btn => btn.addEventListener('click', () => { state.flowScale = btn.dataset.flowScale; MMM.qsa('[data-flow-scale]').forEach(b => b.classList.toggle('active', b === btn)); render('flow'); }));
     [startInput, endInput, focalOnly].forEach(el => el.addEventListener('change', render));
-    resetBtn.addEventListener('click', () => { state.selectedPlaceId = ''; startInput.value = defaultStart; endInput.value = meta.max_date; focalOnly.checked = true; MMM.setParam({ place:null }); map.setView(defaultCenter, defaultZoom); render(); });
+    resetBtn.addEventListener('click', () => { state.selectedPlaceId = ''; startInput.value = defaultStart; endInput.value = meta.max_date; focalOnly.checked = false; MMM.setParam({ place:null }); map.setView(defaultCenter, defaultZoom); render(); });
     render();
   } catch (err) { console.error(err); }
 });

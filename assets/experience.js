@@ -490,7 +490,7 @@ document.addEventListener('DOMContentLoaded', async () => {
       startInput.value = defaultStart;
       endInput.value = meta.max_date;
       catSelect.value = '';
-      focalOnly.checked = true;
+      focalOnly.checked = false;
       MMM.setParam({ place: null });
       map.setView(defaultCenter, defaultZoom);
       render();
