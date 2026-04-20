@@ -1058,3 +1058,278 @@ body[data-page="home"] .home-platform-title{white-space:nowrap;}
 }
 .simple-markdown ul { margin: 10px 0 0 22px; padding: 0; }
 .simple-markdown hr { border: 0; border-top: 1px solid var(--line); margin: 24px 0; }
+
+/* Final responsive scaling */
+:root{
+  --analysis-shell-w:min(1500px,calc(100% - 28px));
+  --analysis-shell-gap:22px;
+  --analysis-shared-rail-w:248px;
+  --explorer-sidebar-w:clamp(320px,30vw,390px);
+}
+
+/* Nav stays larger until dropdown */
+.brand > div > div:first-child{font-size:clamp(1.12rem,1vw + .82rem,1.4rem);}
+.nav a{font-size:clamp(1rem,.55vw + .85rem,1.2rem);}
+
+/* Home scales fluidly */
+body[data-page="home"] .container{width:min(var(--max),calc(100% - clamp(24px,4vw,56px)));}
+body[data-page="home"] .home-hero-grid{grid-template-columns:1.08fr .92fr;gap:clamp(16px,2vw,24px);padding-top:8px;padding-bottom:6px;align-items:stretch;}
+body[data-page="home"] .home-hero-copy{padding:clamp(16px,1.8vw,24px);gap:clamp(8px,1vw,12px);align-content:start;justify-content:start;}
+body[data-page="home"] .home-platform-title{font-size:clamp(1.6rem,2.1vw,2.35rem);line-height:1.08;white-space:nowrap;}
+body[data-page="home"] .home-hero-intro{font-size:clamp(.96rem,1vw,1.08rem);line-height:1.55;max-width:56ch;padding:0;}
+body[data-page="home"] .home-section-block{padding:clamp(16px,2.4vw,28px) 0 clamp(28px,3vw,40px);}
+body[data-page="home"] .home-demo-grid,
+body[data-page="home"] .home-usecases-grid{grid-template-columns:repeat(4,minmax(0,1fr));gap:clamp(12px,1.4vw,16px);}
+body[data-page="home"] .home-value-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(12px,1.4vw,16px);}
+body[data-page="home"] .home-demo-card,
+body[data-page="home"] .home-value-card,
+body[data-page="home"] .home-usecase-card{padding:clamp(14px,1.4vw,18px);}
+body[data-page="home"] .home-card-head h3{font-size:clamp(1rem,1.1vw,1.16rem);}
+body[data-page="home"] .home-demo-card p,
+body[data-page="home"] .home-value-card p,
+body[data-page="home"] .home-usecase-card p{font-size:clamp(.9rem,.8vw,.98rem);line-height:1.6;}
+
+/* Networks and Report match */
+body[data-page="networks"] .wider,
+body[data-page="report"] .wider{width:var(--analysis-shell-w);}
+body[data-page="networks"] .network-shell-page,
+body[data-page="report"] .report-shell-v2{grid-template-columns:var(--analysis-shared-rail-w) minmax(0,1fr) !important;gap:var(--analysis-shell-gap) !important;align-items:start;}
+body[data-page="networks"] .network-rail,
+body[data-page="report"] .report-rail-v2{position:sticky !important;top:92px !important;align-self:start;}
+body[data-page="networks"] .network-main-col,
+body[data-page="report"] .report-main-v2{min-width:0;display:grid;gap:20px;}
+body[data-page="networks"] .network-rail-card>.title-row{display:none;}
+
+/* Mobility and Experience match */
+body[data-page="mobility"],
+body[data-page="experience"]{height:100vh;overflow:hidden;}
+body[data-page="mobility"] .site-header,
+body[data-page="experience"] .site-header{position:sticky !important;top:0;z-index:1000;overflow:visible;}
+body[data-page="mobility"] .site-header-inner,
+body[data-page="experience"] .site-header-inner{flex-direction:row !important;align-items:center !important;min-height:var(--header-h);overflow:visible;}
+body[data-page="mobility"] .explorer-page,
+body[data-page="experience"] .explorer-page{height:calc(100vh - var(--header-h));overflow:hidden;}
+body[data-page="mobility"] .explorer-shell.mobility-layout,
+body[data-page="experience"] .explorer-shell.experience-layout{grid-template-columns:minmax(0,1fr) var(--explorer-sidebar-w) !important;height:100%;align-items:stretch;}
+body[data-page="mobility"] .sidebar-pane,
+body[data-page="experience"] .sidebar-pane{min-width:0;overflow:hidden;border-left:1px solid var(--line);}
+body[data-page="mobility"] .sidebar-scroll,
+body[data-page="experience"] .sidebar-scroll{height:100%;overflow-y:auto;overflow-x:hidden;padding:clamp(12px,1.2vw,18px);font-size:clamp(.93rem,.35vw + .82rem,1rem);}
+body[data-page="mobility"] *,
+body[data-page="experience"] *{min-width:0;}
+body[data-page="mobility"] .section-card,
+body[data-page="experience"] .section-card{padding:clamp(14px,1.2vw,18px);}
+body[data-page="mobility"] .section-card h3,
+body[data-page="experience"] .section-card h3{font-size:clamp(1rem,.55vw + .82rem,1.18rem);}
+body[data-page="mobility"] .filter-grid-2,
+body[data-page="experience"] .filter-grid-2{grid-template-columns:repeat(2,minmax(120px,1fr));gap:clamp(8px,1vw,12px);}
+body[data-page="mobility"] .tab-btn,
+body[data-page="experience"] .tab-btn{padding:clamp(7px,.5vw,10px) clamp(10px,.8vw,14px);font-size:clamp(.85rem,.25vw + .78rem,.94rem);}
+body[data-page="mobility"] .rank-bar,
+body[data-page="experience"] .rank-bar{padding:clamp(10px,1vw,14px);}
+body[data-page="mobility"] .rank-index,
+body[data-page="experience"] .rank-index{width:clamp(30px,2.1vw,34px);height:clamp(30px,2.1vw,34px);font-size:clamp(.86rem,.35vw + .75rem,1rem);}
+body[data-page="mobility"] .rank-name,
+body[data-page="experience"] .rank-name{font-size:clamp(.92rem,.3vw + .84rem,1rem);}
+body[data-page="mobility"] .rank-metric,
+body[data-page="experience"] .rank-metric{font-size:clamp(.86rem,.28vw + .78rem,.98rem);}
+body[data-page="mobility"] .map-summary,
+body[data-page="experience"] .map-summary{max-width:clamp(300px,28vw,420px);padding:clamp(10px,1vw,14px);}
+body[data-page="mobility"] .map-summary h1,
+body[data-page="mobility"] .map-summary h2,
+body[data-page="experience"] .map-summary h1,
+body[data-page="experience"] .map-summary h2{font-size:clamp(1.05rem,.8vw + .86rem,1.35rem);}
+body[data-page="experience"] .scale-switch-compact{min-width:0;grid-template-columns:repeat(3,minmax(0,1fr));width:100%;}
+body[data-page="experience"] .chart-shell-tall{min-height:360px;}
+
+@media (max-width: 1200px) and (min-width: 981px){
+  body[data-page="home"] .home-demo-grid,
+  body[data-page="home"] .home-usecases-grid{grid-template-columns:repeat(2,minmax(0,1fr));}
+  body[data-page="home"] .home-value-grid{grid-template-columns:repeat(3,minmax(0,1fr));}
+}
+
+/* Dropdown threshold is also the single-column threshold */
+@media (max-width:980px){
+  .nav a{font-size:1rem;}
+  body[data-page="home"] .home-hero-grid,
+  body[data-page="mobility"] .explorer-shell.mobility-layout,
+  body[data-page="experience"] .explorer-shell.experience-layout,
+  body[data-page="networks"] .network-shell-page,
+  body[data-page="report"] .report-shell-v2{grid-template-columns:1fr !important;}
+  body[data-page="home"] .home-platform-title,
+  body[data-page="home"] .home-hero-intro{max-width:none;width:100%;white-space:normal;}
+  body[data-page="home"] .home-demo-grid,
+  body[data-page="home"] .home-value-grid,
+  body[data-page="home"] .home-usecases-grid{grid-template-columns:1fr;}
+  body[data-page="home"] .home-media-image,
+  body[data-page="home"] .home-image-fallback{min-height:240px !important;}
+  body[data-page="mobility"],
+  body[data-page="experience"]{height:auto !important;overflow:auto !important;}
+  body[data-page="mobility"] .explorer-page,
+  body[data-page="experience"] .explorer-page{height:auto !important;overflow:visible !important;}
+  body[data-page="mobility"] .sidebar-pane,
+  body[data-page="experience"] .sidebar-pane{overflow:visible;border-left:none;}
+  body[data-page="mobility"] .sidebar-scroll,
+  body[data-page="experience"] .sidebar-scroll{height:auto;overflow:visible;}
+  body[data-page="mobility"] .map-pane,
+  body[data-page="experience"] .map-pane{min-height:56vh;height:auto;}
+  body[data-page="mobility"] .nav,
+  body[data-page="experience"] .nav{z-index:1200;}
+  body[data-page="networks"] .network-rail,
+  body[data-page="report"] .report-rail-v2{position:static !important;top:auto !important;}
+}
+
+
+/* Final consistency corrections */
+:root{--explorer-sidebar-w:clamp(340px,31vw,420px);--analysis-shared-rail-w:248px;}
+.site-header-inner{flex-wrap:nowrap;}
+.nav{flex-wrap:nowrap;}
+body[data-page="report"] .report-rail-card{width:100% !important;}
+body[data-page="networks"] .network-rail{margin-left:0 !important;}
+body[data-page="networks"] .network-shell-page,
+body[data-page="report"] .report-shell-v2{grid-template-columns:var(--analysis-shared-rail-w) minmax(0,1fr) !important;gap:22px !important;}
+body[data-page="networks"] .wider,
+body[data-page="report"] .wider{width:min(1500px,calc(100% - 28px)) !important;}
+body[data-page="mobility"] .explorer-shell.mobility-layout,
+body[data-page="experience"] .explorer-shell.experience-layout{grid-template-columns:minmax(0,1fr) var(--explorer-sidebar-w) !important;}
+
+@media (max-width:1180px){
+  .nav-toggle{display:flex !important;margin-left:auto;}
+  .nav{display:none !important;position:absolute;top:calc(100% + 10px);right:0;left:auto;min-width:240px;background:rgba(255,255,255,.98);backdrop-filter:blur(12px);border:1px solid var(--line);border-radius:18px;box-shadow:var(--shadow);padding:10px;flex-direction:column;align-items:stretch;gap:6px;z-index:1200;}
+  .site-header-inner.nav-open .nav{display:flex !important;}
+  .nav a{font-size:1rem;padding:12px 14px;}
+  body[data-page="networks"] .network-shell-page,
+  body[data-page="report"] .report-shell-v2{grid-template-columns:1fr !important;}
+  body[data-page="networks"] .network-rail,
+  body[data-page="report"] .report-rail-v2{position:static !important;top:auto !important;}
+}
+
+
+/* Final selector fixes */
+:root{--explorer-sidebar-w:clamp(360px,31vw,450px);--analysis-shared-rail-w:248px;}
+body[data-page="mobility"] .explorer-shell.mobility-layout,
+body[data-page="experience"] .explorer-shell.experience-layout{grid-template-columns:minmax(0,1fr) var(--explorer-sidebar-w) !important;}
+
+body[data-page="report"] .wider,
+body[data-page="networks"] .wider{width:min(1500px,calc(100% - 28px)) !important;}
+body[data-page="report"] .report-shell-v3,
+body[data-page="networks"] .network-shell-page{grid-template-columns:var(--analysis-shared-rail-w) minmax(0,1fr) !important;gap:22px !important;align-items:start;}
+body[data-page="report"] .report-rail-v3,
+body[data-page="networks"] .network-rail{position:sticky !important;top:92px !important;align-self:start;margin-left:0 !important;}
+body[data-page="report"] .report-rail-card,
+body[data-page="networks"] .network-rail-card{width:100% !important;}
+@media (max-width:1180px){
+  body[data-page="report"] .report-shell-v3,
+  body[data-page="networks"] .network-shell-page{grid-template-columns:1fr !important;}
+  body[data-page="report"] .report-rail-v3,
+  body[data-page="networks"] .network-rail{position:static !important;top:auto !important;margin-left:0 !important;}
+}
+
+
+/* Final width + breakpoint fixes */
+:root{--explorer-sidebar-w:clamp(380px,32vw,480px);--analysis-shared-rail-w:248px;}
+body[data-page="mobility"] .explorer-shell.mobility-layout,
+body[data-page="experience"] .explorer-shell.experience-layout{grid-template-columns:minmax(0,1fr) var(--explorer-sidebar-w) !important;}
+body[data-page="report"] .report-shell-v3,
+body[data-page="networks"] .network-shell-page{grid-template-columns:var(--analysis-shared-rail-w) minmax(0,1fr) !important;gap:22px !important;}
+body[data-page="report"] .report-rail-v3,
+body[data-page="networks"] .network-rail{position:sticky !important;top:92px !important;align-self:start;margin-left:0 !important;}
+body[data-page="report"] .report-rail-card,
+body[data-page="networks"] .network-rail-card{width:100% !important;overflow-x:hidden;}
+body[data-page="report"] .report-actions-row-v3{display:flex;gap:10px;align-items:stretch;}
+body[data-page="report"] .report-actions-row-v3 .export-menu-wrap{flex:1 1 auto;min-width:0;position:static !important;overflow:visible !important;}
+body[data-page="report"] #report-export-toggle{width:100%;}
+body[data-page="report"] #report-reset{flex:0 0 84px;min-width:84px;padding-inline:10px;}
+
+@media (max-width:1180px){
+  body[data-page="mobility"], body[data-page="experience"]{height:auto !important;overflow:auto !important;}
+  body[data-page="mobility"] .explorer-page, body[data-page="experience"] .explorer-page{height:auto !important;overflow:visible !important;}
+  body[data-page="mobility"] .explorer-shell.mobility-layout,
+  body[data-page="experience"] .explorer-shell.experience-layout,
+  body[data-page="report"] .report-shell-v3,
+  body[data-page="networks"] .network-shell-page{grid-template-columns:1fr !important;}
+  body[data-page="mobility"] .sidebar-pane,
+  body[data-page="experience"] .sidebar-pane{overflow:visible;border-left:none;}
+  body[data-page="mobility"] .sidebar-scroll,
+  body[data-page="experience"] .sidebar-scroll{height:auto;overflow:visible;}
+  body[data-page="mobility"] .map-pane,
+  body[data-page="experience"] .map-pane{min-height:56vh;height:auto;}
+  body[data-page="report"] .report-rail-v3,
+  body[data-page="networks"] .network-rail{position:static !important;top:auto !important;}
+}
+
+
+/* Requested fine-tuning */
+:root{--explorer-sidebar-w:clamp(395px,34vw,500px);}
+body[data-page="mobility"] .explorer-shell.mobility-layout,
+body[data-page="experience"] .explorer-shell.experience-layout{grid-template-columns:minmax(0,1fr) var(--explorer-sidebar-w) !important;}
+
+/* Mobility / Experience section heads should be two-row: title then controls */
+body[data-page="mobility"] .section-head-inline,
+body[data-page="experience"] .section-head-inline{display:grid !important;grid-template-columns:1fr !important;gap:8px;align-items:start;}
+body[data-page="mobility"] .section-head-inline .title-with-desc,
+body[data-page="experience"] .section-head-inline .title-with-desc,
+body[data-page="mobility"] .section-head-inline .title-row,
+body[data-page="experience"] .section-head-inline .title-row{width:100%;}
+body[data-page="mobility"] .section-head-inline .scale-switch-compact,
+body[data-page="experience"] .section-head-inline .scale-switch-compact,
+body[data-page="experience"] .section-head-inline .scale-switch-2{justify-self:end;align-self:start;min-width:0;width:auto;max-width:100%;}
+
+/* Report: equal buttons and no horizontal overflow */
+body[data-page="report"],
+body[data-page="report"] .report-main-v3,
+body[data-page="report"] .report-section-v3,
+body[data-page="report"] .section-card,
+body[data-page="report"] .report-card-grid,
+body[data-page="report"] .report-kpis-v3{min-width:0;max-width:100%;overflow-x:hidden;}
+body[data-page="report"] .report-actions-row-v3{display:grid !important;grid-template-columns:1fr 1fr !important;gap:10px;align-items:stretch;}
+body[data-page="report"] .report-actions-row-v3 .export-menu-wrap,
+body[data-page="report"] .report-actions-row-v3 #report-reset{width:100%;min-width:0 !important;}
+body[data-page="report"] #report-reset{padding-inline:12px !important;flex:none !important;}
+
+@media (max-width:1180px){
+  body[data-page="report"] .report-actions-row-v3{grid-template-columns:1fr 1fr !important;}
+}
+
+
+/* Mobility / Experience final tuning */
+html{scrollbar-gutter:stable;}
+:root{--explorer-sidebar-w:clamp(420px,34vw,540px);}
+body[data-page="mobility"] .explorer-shell.mobility-layout,
+body[data-page="experience"] .explorer-shell.experience-layout{grid-template-columns:minmax(0,1fr) var(--explorer-sidebar-w) !important;}
+body[data-page="mobility"] .section-head-inline,
+body[data-page="experience"] .section-head-inline{gap:4px !important;}
+body[data-page="mobility"] .scale-switch-compact,
+body[data-page="experience"] .scale-switch-compact,
+body[data-page="experience"] .scale-switch-2{justify-self:end !important;align-self:start !important;gap:6px !important;margin:0 !important;min-width:0 !important;width:auto !important;}
+body[data-page="mobility"] .scale-switch-compact .tab-btn,
+body[data-page="experience"] .scale-switch-compact .tab-btn,
+body[data-page="experience"] .scale-switch-2 .tab-btn{padding:5px 10px !important;font-size:.84rem !important;line-height:1.2 !important;}
+
+/* When nav becomes dropdown, explorer pages stack map above sidebar */
+@media (max-width:1180px){
+  body[data-page="mobility"], body[data-page="experience"]{height:auto !important;overflow:auto !important;}
+  body[data-page="mobility"] .explorer-page, body[data-page="experience"] .explorer-page{height:auto !important;overflow:visible !important;}
+  body[data-page="mobility"] .explorer-shell.mobility-layout,
+  body[data-page="experience"] .explorer-shell.experience-layout{grid-template-columns:1fr !important;height:auto !important;}
+  body[data-page="mobility"] .map-pane,
+  body[data-page="experience"] .map-pane{min-height:56vh !important;height:auto !important;}
+  body[data-page="mobility"] .sidebar-pane,
+  body[data-page="experience"] .sidebar-pane{overflow:visible !important;border-left:none !important;}
+  body[data-page="mobility"] .sidebar-scroll,
+  body[data-page="experience"] .sidebar-scroll{height:auto !important;overflow:visible !important;}
+}
+
+
+/* Detail polish for mobility / experience / networks */
+body[data-page="mobility"] .section-stack > .section-card:first-child h3,
+body[data-page="experience"] .section-stack > .section-card:first-child h3{display:none;}
+body[data-page="mobility"] #title-inbound,
+body[data-page="mobility"] #title-outbound,
+body[data-page="mobility"] #title-receivers,
+body[data-page="mobility"] #title-senders{margin-bottom:6px;display:inline-block;}
+body[data-page="experience"] #experience-market-sort{justify-self:end !important;margin-left:auto;}
+body[data-page="networks"] .network-date-box{grid-column:1 / -1;}
+body[data-page="networks"] .network-date-stack{display:grid;gap:8px;}
+body[data-page="networks"] .network-date-stack input{width:100%;}
+body[data-page="networks"] .network-rail-card>.title-row{display:none;}

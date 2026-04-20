@@ -20,6 +20,17 @@ document.addEventListener('DOMContentLoaded', async () => {
     const defaultCenter = [22.38, 114.2];
     const defaultZoom = 11;
     map.setView(defaultCenter, defaultZoom);
+
+    requestAnimationFrame(() => map.invalidateSize());
+    setTimeout(() => map.invalidateSize(), 180);
+    const handleViewportResize = () => {
+      setTimeout(() => {
+        map.invalidateSize();
+        if (window.innerWidth <= 1180) map.setView(defaultCenter, defaultZoom);
+      }, 120);
+    };
+    window.addEventListener('resize', handleViewportResize);
+
     const nodeLayer = L.layerGroup().addTo(map);
 
     const fmt2 = (v) => v == null || Number.isNaN(Number(v)) ? '—' : Number(v).toFixed(2);

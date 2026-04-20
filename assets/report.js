@@ -796,6 +796,16 @@ document.addEventListener('DOMContentLoaded', async () => {
     document.addEventListener('click', (e) => { if (!e.target.closest('.export-menu-wrap') && !e.target.closest('#report-export-menu')) exportMenu.classList.add('hidden'); });
     window.addEventListener('resize', () => { if (!exportMenu.classList.contains('hidden')) positionExportMenu(); });
     window.addEventListener('scroll', () => { if (!exportMenu.classList.contains('hidden')) positionExportMenu(); }, { passive:true });
+
+    let resizeTimer = null;
+    window.addEventListener('resize', () => {
+      clearTimeout(resizeTimer);
+      resizeTimer = setTimeout(() => {
+        render();
+        if (!exportMenu.classList.contains('hidden')) positionExportMenu();
+      }, 140);
+    });
+
     MMM.qs('#report-export-pdf').addEventListener('click', async () => { exportMenu.classList.add('hidden'); await exportPdf(); });
     MMM.qs('#report-export-ppt').addEventListener('click', async () => { exportMenu.classList.add('hidden'); await exportPpt(); });
 
