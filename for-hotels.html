@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hotels View · Multi Modal Mobility</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/styles.css" />
+</head>
+<body data-page="home" class="persona-page hotel-persona-page">
+  <header class="site-header"><div class="container site-header-inner"><a class="brand" href="index.html"><span class="brand-mark">M</span><div><div>Multi Modal Mobility</div></div></a><nav class="nav"><a href="index.html" data-page="home">Home</a><a href="mobility.html" data-page="mobility">Mobility</a><a href="experience.html" data-page="experience">Experience</a><a href="networks.html" data-page="networks">Place Networks</a><a href="report.html" data-page="report">Place Report</a><a href="about.html" data-page="about">About</a></nav></div></header>
+  <main class="page">
+    <section class="container hotel-persona-shell">
+      <article class="section-card hotel-hero-card">
+        <h1>Understand Hong Kong Hotels</h1>
+        <p>Find popular hotels, top-rated hotels, and the places guests often visit with them.</p>
+        <div class="hotel-hero-note">Click any hotel name to open its place report.</div>
+      </article>
+
+      <section class="hotel-ranking-section">
+        <article class="section-card hotel-ranking-card hotel-ranking-card--popular">
+          <div class="hotel-card-head">
+            <h2>Popular Hotels</h2><span class="section-info" tabindex="0" aria-label="Hotels with the strongest presence in the data." data-tip="Hotels with the strongest presence in the data.">i</span>
+          </div>
+          <div id="hotel-popular-list"></div>
+        </article>
+
+        <article class="section-card hotel-ranking-card hotel-ranking-card--rated">
+          <div class="hotel-card-head">
+            <h2>Top-Rated Hotels</h2><span class="section-info" tabindex="0" aria-label="Highest-rated hotels with enough data." data-tip="Highest-rated hotels with enough data.">i</span>
+          </div>
+          <div id="hotel-rated-list"></div>
+        </article>
+      </section>
+
+      <article class="section-card hotel-compare-card">
+        <div class="hotel-card-head hotel-card-head--spacious">
+          <h2>Popular vs Top-Rated Hotels</h2><span class="section-info" tabindex="0" aria-label="Hotels placed by popularity and rating." data-tip="Hotels placed by popularity and rating.">i</span>
+        </div>
+        <div id="hotel-compare-chart" class="hotel-compare-chart"></div>
+      </article>
+
+      <article class="section-card hotel-pairings-card">
+        <div class="hotel-card-head hotel-card-head--spacious">
+          <h2>Places often visited with hotels</h2><span class="section-info" tabindex="0" aria-label="Places most often paired with hotels." data-tip="Places most often paired with hotels.">i</span>
+        </div>
+        <div id="hotel-linked-grid" class="hotel-linked-grid"></div>
+      </article>
+    </section>
+  </main>
+  <script>window.PERSONA_PAGE = { key: 'hotels-v2', threshold: 5 };</script>
+  <script src="./assets/config.js"></script>
+  <script src="./assets/core.js"></script>
+  <script src="./assets/persona-pages.js"></script>
+</body>
+</html>

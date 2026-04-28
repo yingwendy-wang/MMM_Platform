@@ -21,12 +21,13 @@ document.addEventListener('DOMContentLoaded', async () => {
     const resetBtn = MMM.qs('#report-reset');
 
     const initialPlace = MMM.getParam('place') || String(focals[0]?.poi_id || '');
+    const initialCompare = (MMM.getParam('compare') || '').split(',').map(s => String(s).trim()).filter(Boolean).slice(0,3);
     const defaultStart = (meta.min_date && meta.max_date && '2024-01-01' >= meta.min_date && '2024-01-01' <= meta.max_date) ? '2024-01-01' : (meta.min_date || '');
     const defaultEnd = meta.max_date || '';
     dateStart.value = MMM.getParam('start') || defaultStart;
     dateEnd.value = MMM.getParam('end') || defaultEnd;
     MMM.setSelect(placeSelect, focals, { includeAll: false }, initialPlace);
-    MMM.setMulti(compareSelect, focals.filter(p => String(p.poi_id) !== String(initialPlace)), []);
+    MMM.setMulti(compareSelect, focals.filter(p => String(p.poi_id) !== String(initialPlace)), initialCompare.filter(v => v !== String(initialPlace)));
 
     const trendScale = { visits: 'weekly', flow: 'weekly', experience: 'weekly' };
 

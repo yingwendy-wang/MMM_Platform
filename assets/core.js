@@ -35,13 +35,20 @@ const MMM = (() => {
     qs('.notice', box).textContent = message;
   }
 
+  function parseJSON(text) {
+    return JSON.parse(text
+      .replace(/:\s*NaN(?=\s*[,}])/g, ': null')
+      .replace(/:\s*Infinity(?=\s*[,}])/g, ': null')
+      .replace(/:\s*-Infinity(?=\s*[,}])/g, ': null'));
+  }
+
   async function fetchJSON(path) {
     const full = `${cfg.dataRoot.replace(/\/$/, '')}/${path.replace(/^\//, '')}`;
     if (cache.has(full)) return cache.get(full);
     try {
       const res = await fetch(full);
       if (!res.ok) throw new Error(full);
-      const data = await res.json();
+      const data = parseJSON(await res.text());
       cache.set(full, data);
       return data;
     } catch (err) {
