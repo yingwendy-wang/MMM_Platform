@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Marketing Insights · Multi Modal Mobility</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/styles.css" />
+</head>
+<body data-page="marketing">
+  <header class="site-header">
+    <div class="container site-header-inner">
+      <a class="brand" href="index.html"><span class="brand-mark">M</span><div><div>Multi Modal Mobility</div></div></a>
+      <nav class="nav">
+        <a href="index.html" data-page="home">Home</a>
+        <a href="mobility.html" data-page="mobility">Mobility</a>
+        <a href="experience.html" data-page="experience">Experience</a>
+        <a href="networks.html" data-page="networks">Place Networks</a>
+        <a href="report.html" data-page="report">Place Report</a>
+        <a href="about.html" data-page="about">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page marketing-page">
+    <section class="container marketing-hero">
+      <article class="section-card marketing-hero-card">
+        <div class="eyebrow">Marketing Insights</div>
+        <h1>Know which markets to focus on</h1>
+        <p>See where visitor comes from, what each market cares about, and which places may be worth promoting.</p>
+      </article>
+    </section>
+
+    <section class="container marketing-section marketing-overview-section">
+      <article class="section-card marketing-panel marketing-snapshot-panel">
+        <div class="marketing-panel-head">
+          <div class="title-row">
+            <h2>Marketing Snapshot</h2><span class="section-info" tabindex="0" aria-label="A quick view of the main source markets in the current data." data-tip="A quick view of the main source markets in the current data.">i</span>
+          </div>
+        </div>
+        <div id="marketing-kpis" class="kpi-grid marketing-kpi-grid"></div>
+      </article>
+    </section>
+
+    <section class="container marketing-section marketing-market-section">
+      <article class="section-card marketing-panel marketing-market-panel">
+        <div class="marketing-panel-head">
+          <div class="title-row">
+            <h2>Top 10 Source Markets</h2><span class="section-info" tabindex="0" aria-label="Markets with the largest share of mentions. Click one to update the cards below." data-tip="Markets with the largest share of mentions. Click one to update the cards below.">i</span>
+          </div>
+          <p class="section-desc">Click a market to see what that market pays attention to.</p>
+        </div>
+        <div id="marketing-market-list" class="marketing-market-list"></div>
+      </article>
+    </section>
+
+    <section class="container marketing-section marketing-market-detail-section">
+      <div id="marketing-market-context" class="marketing-market-context"></div>
+      <div class="marketing-two-col">
+        <article class="section-card marketing-panel">
+          <div class="marketing-panel-head marketing-panel-head--inline">
+            <div class="marketing-panel-title-block">
+              <div class="title-row">
+                <h2 id="marketing-demand-title">Most Talked-About Place Types</h2><span class="section-info" tabindex="0" aria-label="Place types ranked by share of mentions for the selected market." data-tip="Place types ranked by share of mentions for the selected market.">i</span>
+              </div>
+              <p id="marketing-demand-subtitle" class="marketing-module-subtitle"></p>
+            </div>
+            <a class="marketing-module-link" href="mobility.html">View in Mobility →</a>
+          </div>
+          <div id="marketing-category-demand-list" class="marketing-category-list"></div>
+        </article>
+
+        <article class="section-card marketing-panel">
+          <div class="marketing-panel-head marketing-panel-head--inline">
+            <div class="marketing-panel-title-block">
+              <div class="title-row">
+                <h2 id="marketing-rating-title">Best-Rated Place Types</h2><span class="section-info" tabindex="0" aria-label="Place types ranked by rating for the selected market." data-tip="Place types ranked by rating for the selected market.">i</span>
+              </div>
+              <p id="marketing-rating-subtitle" class="marketing-module-subtitle"></p>
+            </div>
+            <a class="marketing-module-link" href="experience.html">View in Experience →</a>
+          </div>
+          <div id="marketing-category-rating-list" class="marketing-category-list"></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="container marketing-section">
+      <div class="marketing-two-col">
+        <article class="section-card marketing-panel">
+          <div class="marketing-panel-head marketing-panel-head--inline">
+            <div class="marketing-panel-title-block">
+              <div class="title-row">
+                <h2 id="marketing-demand-places-title">Most Talked-About Places</h2><span class="section-info" tabindex="0" aria-label="Places ranked by share of mentions for the selected market. Click any place card to open its Place Report." data-tip="Places ranked by share of mentions for the selected market. Click any place card to open its Place Report.">i</span>
+              </div>
+              <p id="marketing-demand-places-subtitle" class="marketing-module-subtitle"></p>
+            </div>
+            <a class="marketing-module-link" href="mobility.html">View in Mobility →</a>
+          </div>
+          <div id="marketing-demand-places" class="marketing-place-list"></div>
+        </article>
+
+        <article class="section-card marketing-panel">
+          <div class="marketing-panel-head marketing-panel-head--inline">
+            <div class="marketing-panel-title-block">
+              <div class="title-row">
+                <h2 id="marketing-rating-places-title">Best-Rated Places</h2><span class="section-info" tabindex="0" aria-label="Places with at least 0.10% of mentions, ranked by rating for the selected market. Click any place card to open its Place Report." data-tip="Places with at least 0.10% of mentions, ranked by rating for the selected market. Click any place card to open its Place Report.">i</span>
+              </div>
+              <p id="marketing-rating-places-subtitle" class="marketing-module-subtitle"></p>
+            </div>
+            <a class="marketing-module-link" href="experience.html">View in Experience →</a>
+          </div>
+          <div id="marketing-rating-places" class="marketing-place-list"></div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <script src="./assets/config.js"></script>
+  <script src="./assets/core.js"></script>
+  <script src="./assets/marketing-insights.js"></script>
+</body>
+</html>

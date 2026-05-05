@@ -10,6 +10,9 @@ document.addEventListener('DOMContentLoaded', async () => {
     ]);
 
     const placeSelect = MMM.qs('#report-place');
+    const placeInput = MMM.qs('#report-place-input');
+    const placeList = MMM.qs('#report-place-list');
+    const placeClear = MMM.qs('#report-place-clear');
     const compareSelect = MMM.qs('#report-compare');
     const compareInput = MMM.qs('#report-compare-input');
     const compareList = MMM.qs('#report-compare-list');
@@ -28,6 +31,69 @@ document.addEventListener('DOMContentLoaded', async () => {
     dateEnd.value = MMM.getParam('end') || defaultEnd;
     MMM.setSelect(placeSelect, focals, { includeAll: false }, initialPlace);
     MMM.setMulti(compareSelect, focals.filter(p => String(p.poi_id) !== String(initialPlace)), initialCompare.filter(v => v !== String(initialPlace)));
+
+    const focalSearchPlaces = (focals || []).slice().sort((a, b) => String(a.poi_name || '').localeCompare(String(b.poi_name || '')));
+
+    function selectedFocalRow() {
+      return focals.find(p => String(p.poi_id) === String(placeSelect.value)) || focals[0] || null;
+    }
+    function updateFocalClear() {
+      if (placeClear) placeClear.hidden = !String(placeInput?.value || '').trim();
+    }
+    function syncFocalInput() {
+      if (!placeInput) return;
+      const row = selectedFocalRow();
+      placeInput.value = row?.poi_name || '';
+      updateFocalClear();
+    }
+    function populateFocalList() {
+      if (!placeList) return;
+      placeList.innerHTML = focalSearchPlaces.map(p => `<option value="${escapeHtml(p.poi_name)}"></option>`).join('');
+    }
+    function applyFocalInput() {
+      if (!placeInput) return false;
+      const name = String(placeInput.value || '').trim();
+      const row = focalSearchPlaces.find(p => String(p.poi_name || '').toLowerCase() === name.toLowerCase());
+      if (!row) return false;
+      const id = String(row.poi_id);
+      if (String(placeSelect.value) !== id) {
+        placeSelect.value = id;
+        resetScaleTabs();
+        ensureCompareOptions(placeSelect.value);
+        syncCompareChips();
+        render();
+      }
+      syncFocalInput();
+      return true;
+    }
+    function setupFocalSearch() {
+      if (!placeInput) return;
+      populateFocalList();
+      placeInput.addEventListener('focus', () => placeInput.select());
+      placeInput.addEventListener('input', updateFocalClear);
+      placeInput.addEventListener('change', () => {
+        if (!applyFocalInput()) syncFocalInput();
+      });
+      placeInput.addEventListener('keydown', (event) => {
+        if (event.key === 'Enter') {
+          event.preventDefault();
+          if (!applyFocalInput()) syncFocalInput();
+          placeInput.blur();
+        }
+        if (event.key === 'Escape') {
+          syncFocalInput();
+          placeInput.blur();
+        }
+      });
+      if (placeClear) {
+        placeClear.addEventListener('click', () => {
+          placeInput.value = '';
+          updateFocalClear();
+          placeInput.focus();
+        });
+      }
+      syncFocalInput();
+    }
 
     const trendScale = { visits: 'weekly', flow: 'weekly', experience: 'weekly' };
 
@@ -760,7 +826,7 @@ document.addEventListener('DOMContentLoaded', async () => {
       });
     });
 
-    placeSelect.addEventListener('change', () => { ensureCompareOptions(placeSelect.value); syncCompareChips(); render(); });
+    placeSelect.addEventListener('change', () => { syncFocalInput(); ensureCompareOptions(placeSelect.value); syncCompareChips(); render(); });
     compareInput.addEventListener('change', () => addCompareByName(compareInput.value.trim()));
     compareChipRail.addEventListener('click', (e) => { const btn = e.target.closest('[data-remove-compare]'); if (btn) removeCompareById(btn.dataset.removeCompare); });
     compareChipHero.addEventListener('click', (e) => { const btn = e.target.closest('[data-remove-compare]'); if (btn) removeCompareById(btn.dataset.removeCompare); });
@@ -810,6 +876,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     MMM.qs('#report-export-pdf').addEventListener('click', async () => { exportMenu.classList.add('hidden'); await exportPdf(); });
     MMM.qs('#report-export-ppt').addEventListener('click', async () => { exportMenu.classList.add('hidden'); await exportPpt(); });
 
+    setupFocalSearch();
     ensureCompareOptions(placeSelect.value);
     syncCompareChips();
     resetScaleTabs();

@@ -3,12 +3,12 @@ document.addEventListener('DOMContentLoaded', async () => {
     const overview = await MMM.fetchJSON('home/home_overview.json');
 
     MMM.renderStats(MMM.qs('#home-kpis'), [
-      { label:'Journeys / Videos', value:MMM.fmtNum(overview.total_videos), sub:'Visible journey records' },
-      { label:'Places', value:MMM.fmtNum(overview.total_pois), sub:'Standardized POIs' },
-      { label:'Avg. Stops / Journey', value:Number(overview.avg_stops_per_journey || 0).toFixed(1), sub:'Visible path depth' },
-      { label:'Avg. Journey Experience', value:Number(overview.avg_journey_sentiment || 0).toFixed(2), sub:'Observed journey-level experience' },
-      { label:'Earliest Date', value:(overview.default_start_date || '—'), sub:'Visible coverage begins' },
-      { label:'Latest Date', value:(overview.default_end_date || '—'), sub:'Visible coverage ends' },
+      { label:'Activity Records', value:MMM.fmtNum(overview.total_videos), sub:'Social media records used here' },
+      { label:'Places', value:MMM.fmtNum(overview.total_pois), sub:'Standardized Hong Kong places' },
+      { label:'Avg. Places / Record', value:Number(overview.avg_stops_per_journey || 0).toFixed(1), sub:'How many places appear together' },
+      { label:'Avg. Rating Signal', value:Number(overview.avg_journey_sentiment || 0).toFixed(2), sub:'Overall response signal' },
+      { label:'Earliest Date', value:(overview.default_start_date || '—'), sub:'Data coverage begins' },
+      { label:'Latest Date', value:(overview.default_end_date || '—'), sub:'Data coverage ends' },
     ]);
 
     const fab = MMM.qs('#assistant-fab');

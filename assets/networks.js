@@ -24,6 +24,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     const catSelect = MMM.qs('#network-category');
     const placeInput = MMM.qs('#network-place-search');
     const placeList = MMM.qs('#network-place-list');
+    const placeClear = MMM.qs('#network-place-clear');
     const focalOnly = MMM.qs('#network-focal');
     const resetBtn = MMM.qs('#network-reset');
 
@@ -80,6 +81,18 @@ document.addEventListener('DOMContentLoaded', async () => {
       placeList.innerHTML = state.visiblePlaceOptions
         .map(p => `<option value="${String(p.poi_name).replace(/"/g, '&quot;')}"></option>`)
         .join('');
+    }
+
+    function updatePlaceClear() {
+      if (placeClear) placeClear.hidden = !String(placeInput?.value || '').trim();
+    }
+
+    function clearSelectedPlace() {
+      placeInput.value = '';
+      state.selectedPlaceId = '';
+      MMM.setParam({ place: null });
+      updatePlaceClear();
+      render();
     }
 
     function resolvePlaceInput() {
@@ -486,6 +499,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     function render() {
       updatePlaceOptions();
+      updatePlaceClear();
       const { co, fl } = filtered();
       const pairs = companionPairs(co);
       const seqs = directionalSequences(fl);
@@ -511,17 +525,26 @@ document.addEventListener('DOMContentLoaded', async () => {
       if (!id) return;
       state.selectedPlaceId = id;
       placeInput.value = getPlace(id).poi_name || placeInput.value;
+      updatePlaceClear();
       MMM.setParam({ place: id });
       render();
     });
 
     placeInput.addEventListener('input', () => {
+      updatePlaceClear();
       if (!placeInput.value.trim() && state.selectedPlaceId) {
         state.selectedPlaceId = '';
         MMM.setParam({ place: null });
         render();
       }
     });
+
+    if (placeClear) {
+      placeClear.addEventListener('click', () => {
+        clearSelectedPlace();
+        placeInput.focus();
+      });
+    }
 
     resetBtn.addEventListener('click', () => {
       startInput.value = defaultStart;
@@ -536,6 +559,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     });
 
     if (state.selectedPlaceId) placeInput.value = getPlace(state.selectedPlaceId).poi_name || '';
+    updatePlaceClear();
     render();
   } catch (err) {
     console.error(err);

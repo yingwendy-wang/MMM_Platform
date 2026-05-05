@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Place Performance · Multi Modal Mobility</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/styles.css" />
+</head>
+<body data-page="place-performance">
+  <header class="site-header">
+    <div class="container site-header-inner">
+      <a class="brand" href="index.html"><span class="brand-mark">M</span><div><div>Multi Modal Mobility</div></div></a>
+      <nav class="nav">
+        <a href="index.html" data-page="home">Home</a>
+        <a href="mobility.html" data-page="mobility">Mobility</a>
+        <a href="experience.html" data-page="experience">Experience</a>
+        <a href="networks.html" data-page="networks">Place Networks</a>
+        <a href="report.html" data-page="report">Place Report</a>
+        <a href="about.html" data-page="about">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page place-performance-page">
+    <section class="container place-performance-hero">
+      <article class="section-card place-performance-hero-card">
+        <div class="eyebrow">Place Performance</div>
+        <h1>Find places worth a closer look</h1>
+        <p>Spot strong places, promotion candidates, and places that may need attention.</p>
+      </article>
+    </section>
+
+    <section class="container place-performance-section">
+      <article class="section-card place-performance-panel">
+        <div class="place-performance-panel-head">
+          <div class="title-row">
+            <h2>Find Places by Purpose</h2><span class="section-info" tabindex="0" aria-label="Choose the kind of place decision you want to make." data-tip="Choose the kind of place decision you want to make.">i</span>
+          </div>
+        </div>
+        <div class="place-purpose-grid">
+          <a class="place-purpose-card" href="#strong-performers">
+            <span class="place-purpose-kicker">Strong places</span>
+            <strong>Often talked about, well-rated</strong>
+            <span>Use these as anchor places, examples, or comparison points.</span>
+          </a>
+          <a class="place-purpose-card" href="#promotion-candidates">
+            <span class="place-purpose-kicker">Promotion ideas</span>
+            <strong>Well-rated, less talked about</strong>
+            <span>Good candidates for promotion or new route packaging.</span>
+          </a>
+          <a class="place-purpose-card" href="#places-to-check">
+            <span class="place-purpose-kicker">Closer look</span>
+            <strong>Often talked about, lower rating</strong>
+            <span>Places that get attention but may need a deeper check.</span>
+          </a>
+          <a class="place-purpose-card" href="#category-leaders">
+            <span class="place-purpose-kicker">By place type</span>
+            <strong>Standouts by category</strong>
+            <span>Leaders in different place categories.</span>
+          </a>
+        </div>
+      </article>
+    </section>
+
+    <section class="container place-performance-section">
+      <div class="place-performance-two-col">
+        <article id="strong-performers" class="section-card place-performance-panel">
+          <div class="place-performance-panel-head place-performance-panel-head--inline">
+            <div class="place-performance-panel-title-block">
+              <div class="title-row">
+                <h2>Often Talked About, Well-Rated</h2><span class="section-info" tabindex="0" aria-label="Places mentioned often on social media and rated above the city median." data-tip="Places mentioned often on social media and rated above the city median.">i</span>
+              </div>
+              <p class="place-performance-module-subtitle">Strong places to use as anchors, examples, or comparison points.</p>
+            </div>
+          </div>
+          <div id="strong-performer-list" class="place-performance-list"></div>
+        </article>
+
+        <article id="promotion-candidates" class="section-card place-performance-panel">
+          <div class="place-performance-panel-head place-performance-panel-head--inline">
+            <div class="place-performance-panel-title-block">
+              <div class="title-row">
+                <h2>Well-Rated, Less Talked About</h2><span class="section-info" tabindex="0" aria-label="Places with above-median rating but a smaller share of mentions. Very small places are excluded when possible." data-tip="Places with above-median rating but a smaller share of mentions. Very small places are excluded when possible.">i</span>
+              </div>
+              <p class="place-performance-module-subtitle">Good candidates for promotion or new route packaging.</p>
+            </div>
+          </div>
+          <div id="promotion-candidate-list" class="place-performance-list"></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="container place-performance-section">
+      <article id="places-to-check" class="section-card place-performance-panel">
+        <div class="place-performance-panel-head place-performance-panel-head--inline">
+          <div class="place-performance-panel-title-block">
+            <div class="title-row">
+              <h2>Often Talked About, Lower Rating</h2><span class="section-info" tabindex="0" aria-label="Places mentioned often on social media but rated below the city median." data-tip="Places mentioned often on social media but rated below the city median.">i</span>
+            </div>
+            <p class="place-performance-module-subtitle">Places that get attention but may need a deeper check.</p>
+          </div>
+        </div>
+        <div id="places-to-check-list" class="place-performance-list place-performance-list--wide"></div>
+      </article>
+    </section>
+
+    <section class="container place-performance-section">
+      <article id="category-leaders" class="section-card place-performance-panel">
+        <div class="place-performance-panel-head place-performance-panel-head--inline">
+          <div class="place-performance-panel-title-block">
+            <div class="title-row">
+              <h2>Category Standouts</h2><span class="section-info" tabindex="0" aria-label="Leading places in core categories, based on mentions and rating." data-tip="Leading places in core categories, based on mentions and rating.">i</span>
+            </div>
+            <p class="place-performance-module-subtitle">Leaders in different place categories.</p>
+          </div>
+        </div>
+        <div id="category-leader-list" class="place-category-grid"></div>
+      </article>
+    </section>
+
+    <section class="container place-performance-section">
+      <article class="section-card place-performance-panel">
+        <div class="place-performance-panel-head">
+          <div class="title-row">
+            <h2>Good Places to Compare</h2><span class="section-info" tabindex="0" aria-label="Place pairs often linked together, grouped by whether they are the same type or different types." data-tip="Place pairs often linked together, grouped by whether they are the same type or different types.">i</span>
+          </div>
+        </div>
+        <div id="compare-suggestion-list" class="place-compare-grid"></div>
+      </article>
+    </section>
+
+    <section class="container place-performance-section">
+      <article class="section-card place-performance-panel place-search-panel">
+        <div class="place-performance-panel-head place-performance-panel-head--inline">
+          <div class="place-performance-panel-title-block">
+            <div class="title-row">
+              <h2>Already have a place in mind?</h2><span class="section-info" tabindex="0" aria-label="Search a place and open its full Place Report." data-tip="Search a place and open its full Place Report.">i</span>
+            </div>
+            <p class="place-performance-module-subtitle">Search and open the full report directly.</p>
+          </div>
+        </div>
+        <div class="place-search-row">
+          <div class="place-search-box">
+            <input id="place-performance-search" class="place-search-input" placeholder="Search Hong Kong places" autocomplete="off" />
+            <button id="place-performance-clear" class="place-search-clear" type="button" aria-label="Clear selected place" hidden>×</button>
+            <div id="place-performance-results" class="place-search-results" hidden></div>
+          </div>
+          <button id="place-performance-search-button" class="btn btn-primary" type="button">Open report</button>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <script src="./assets/config.js"></script>
+  <script src="./assets/core.js"></script>
+  <script src="./assets/place-performance.js"></script>
+</body>
+</html>

@@ -53,7 +53,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     MMM.qs('#persona-block-a-title').textContent = cfg.blocks[0].title;
     MMM.qs('#persona-block-a-copy').textContent = cfg.blocks[0].copy;
-    renderSimpleRanking('#persona-block-a-list', cfg.key === 'product-designers' ? buildPopularCombinations(cleanCo) : popular, cfg.key === 'product-designers' ? 'label' : 'poi_name', cfg.key === 'product-designers' ? 'score' : 'journey_n_total', cfg.key === 'product-designers' ? null : null, cfg.key === 'product-designers' ? 'Popular' : 'Popular');
+    renderSimpleRanking('#persona-block-a-list', cfg.key === 'product-designers' ? buildPopularCombinations(cleanCo) : popular, cfg.key === 'product-designers' ? 'label' : 'poi_name', cfg.key === 'product-designers' ? 'score' : 'journey_n_total', cfg.key === 'product-designers' ? null : null, 'Most Talked-About');
 
     MMM.qs('#persona-block-b-title').textContent = cfg.blocks[1].title;
     MMM.qs('#persona-block-b-copy').textContent = cfg.blocks[1].copy;
@@ -302,7 +302,7 @@ function renderHotelScatter(selector, rows){
   node.innerHTML = `
     <div class="hotel-scatter-wrap">
       <div class="hotel-scatter-tooltip" id="hotel-scatter-tooltip"></div>
-      <svg viewBox="0 0 ${W} ${H}" class="hotel-scatter-svg" role="img" aria-label="Popular vs top-rated places">
+      <svg viewBox="0 0 ${W} ${H}" class="hotel-scatter-svg" role="img" aria-label="Mention vs Rating Map">
         <rect x="0" y="0" width="${W}" height="${H}" rx="16" fill="#ffffff"></rect>
         <rect x="${pad.l}" y="${pad.t}" width="${midX-pad.l}" height="${midY-pad.t}" fill="#edf7ef"></rect>
         <rect x="${midX}" y="${pad.t}" width="${W-pad.r-midX}" height="${midY-pad.t}" fill="#eef5ff"></rect>
@@ -312,16 +312,16 @@ function renderHotelScatter(selector, rows){
         <line x1="${pad.l}" y1="${pad.t}" x2="${pad.l}" y2="${H-pad.b}" stroke="#cdd8e5" stroke-width="1.5"></line>
         <line x1="${midX}" y1="${pad.t}" x2="${midX}" y2="${H-pad.b}" stroke="#d8e2ef" stroke-dasharray="5 5"></line>
         <line x1="${pad.l}" y1="${midY}" x2="${W-pad.r}" y2="${midY}" stroke="#d8e2ef" stroke-dasharray="5 5"></line>
-        <text x="${lowX}" y="${xLabelY}" text-anchor="start" class="hotel-axis-label">Low popularity</text>
-        <text x="${medianX}" y="${xLabelY}" text-anchor="middle" class="hotel-axis-label">Median popularity</text>
-        <text x="${highX}" y="${xLabelY}" text-anchor="end" class="hotel-axis-label">High popularity</text>
+        <text x="${lowX}" y="${xLabelY}" text-anchor="start" class="hotel-axis-label">Low mentions</text>
+        <text x="${medianX}" y="${xLabelY}" text-anchor="middle" class="hotel-axis-label">Median mentions</text>
+        <text x="${highX}" y="${xLabelY}" text-anchor="end" class="hotel-axis-label">High mentions</text>
         <text x="${leftAxisX}" y="${H-pad.b}" text-anchor="end" class="hotel-axis-label">Low rating</text>
         <text x="${leftAxisX}" y="${midY}" text-anchor="end" class="hotel-axis-label">Median rating</text>
         <text x="${leftAxisX}" y="${pad.t}" text-anchor="end" class="hotel-axis-label">High rating</text>
-        <text x="${pad.l}" y="${pad.t-24}" class="hotel-quadrant-label hotel-quadrant-label--tl">Less known but highly rated</text>
-        <text x="${W-pad.r}" y="${pad.t-24}" text-anchor="end" class="hotel-quadrant-label hotel-quadrant-label--tr">Popular and highly rated</text>
-        <text x="${pad.l}" y="${lowerQuadrantY}" class="hotel-quadrant-label hotel-quadrant-label--bl">Less known and lower-rated</text>
-        <text x="${W-pad.r}" y="${lowerQuadrantY}" text-anchor="end" class="hotel-quadrant-label hotel-quadrant-label--br">Popular but mixed ratings</text>
+        <text x="${pad.l}" y="${pad.t-24}" class="hotel-quadrant-label hotel-quadrant-label--tl">Less talked about, well-rated</text>
+        <text x="${W-pad.r}" y="${pad.t-24}" text-anchor="end" class="hotel-quadrant-label hotel-quadrant-label--tr">Often talked about, well-rated</text>
+        <text x="${pad.l}" y="${lowerQuadrantY}" class="hotel-quadrant-label hotel-quadrant-label--bl">Less talked about, lower rating</text>
+        <text x="${W-pad.r}" y="${lowerQuadrantY}" text-anchor="end" class="hotel-quadrant-label hotel-quadrant-label--br">Often talked about, lower rating</text>
         ${rows.map(r => {
           const cx = x(r.popularityShare || popMin), cy = y(r.rating), radius = 3.7;
           return `<circle cx="${cx}" cy="${cy}" r="${radius}" class="hotel-scatter-point" data-name="${escapeHtml(r.poi_name || 'Unknown')}" data-pop="${(Number(r.popularityShare || 0)*100).toFixed(2)}" data-rating="${Number(r.rating || 0).toFixed(2)}" data-href="${reportHref(r.poi_id)}"></circle>`;
@@ -333,7 +333,7 @@ function renderHotelScatter(selector, rows){
   const wrap = node.querySelector('.hotel-scatter-wrap');
   const moveTip = (e, pt) => {
     const rect = wrap.getBoundingClientRect();
-    tooltip.innerHTML = `<strong>${pt.dataset.name}</strong><div>${pt.dataset.pop}% popular · ${pt.dataset.rating} rating</div>`;
+    tooltip.innerHTML = `<strong>${pt.dataset.name}</strong><div>${pt.dataset.pop}% of mentions · ${pt.dataset.rating} rating</div>`;
     tooltip.classList.add('show');
     tooltip.style.left = `${e.clientX - rect.left + 12}px`;
     tooltip.style.top = `${e.clientY - rect.top - 14}px`;
@@ -661,7 +661,7 @@ function buildHighPotentialPairings(pairings, threshold = 5, popularRows = [], r
     const rating = Number(r.avg || 0);
     const useGap = Math.max(0, (shareMedian - share) / Math.max(shareMedian, 1e-9));
     const ratingLift = Math.max(0, rating - ratingMedian);
-    return { ...r, useGap, ratingLift, whyLabel: 'Good rating · less common' };
+    return { ...r, useGap, ratingLift, whyLabel: 'well-rated · less talked about' };
   };
 
   const rank = rows => rows
@@ -783,7 +783,7 @@ function renderDesignerCompareChart(selector, rows, threshold = 5){
   node.innerHTML = `
     <div class="designer-scatter-wrap">
       <div class="designer-scatter-tooltip" id="designer-scatter-tooltip" aria-hidden="true"></div>
-      <svg viewBox="0 0 ${W} ${H}" class="designers-scatter-svg" role="img" aria-label="Popular vs top-rated pairings">
+      <svg viewBox="0 0 ${W} ${H}" class="designers-scatter-svg" role="img" aria-label="Pairing Map">
         <rect x="0" y="0" width="${W}" height="${H}" rx="16" fill="#ffffff"></rect>
         <rect x="${pad.l}" y="${pad.t}" width="${midX-pad.l}" height="${midY-pad.t}" fill="#eef7ef"></rect>
         <rect x="${midX}" y="${pad.t}" width="${W-pad.r-midX}" height="${midY-pad.t}" fill="#edf4ff"></rect>
@@ -794,17 +794,17 @@ function renderDesignerCompareChart(selector, rows, threshold = 5){
         <line x1="${midX}" y1="${pad.t}" x2="${midX}" y2="${H-pad.b}" stroke="#d8e2ef" stroke-dasharray="5 5"></line>
         <line x1="${pad.l}" y1="${midY}" x2="${W-pad.r}" y2="${midY}" stroke="#d8e2ef" stroke-dasharray="5 5"></line>
 
-        <text x="${lowX}" y="${xLabelY}" text-anchor="start" class="designer-axis-label">Low popularity</text>
-        <text x="${medianX}" y="${xLabelY}" text-anchor="middle" class="designer-axis-label">Median popularity</text>
-        <text x="${highX}" y="${xLabelY}" text-anchor="end" class="designer-axis-label">High popularity</text>
+        <text x="${lowX}" y="${xLabelY}" text-anchor="start" class="designer-axis-label">Low mentions</text>
+        <text x="${medianX}" y="${xLabelY}" text-anchor="middle" class="designer-axis-label">Median mentions</text>
+        <text x="${highX}" y="${xLabelY}" text-anchor="end" class="designer-axis-label">High mentions</text>
         <text x="${leftAxisX}" y="${H-pad.b}" text-anchor="end" class="designer-axis-label">Low rating</text>
         <text x="${leftAxisX}" y="${midY}" text-anchor="end" class="designer-axis-label">Median rating</text>
         <text x="${leftAxisX}" y="${pad.t}" text-anchor="end" class="designer-axis-label">High rating</text>
 
-        <text x="${pad.l}" y="${pad.t-18}" class="designer-quadrant designer-quadrant--tl">High-potential</text>
-        <text x="${W-pad.r}" y="${pad.t-18}" text-anchor="end" class="designer-quadrant designer-quadrant--tr">Popular and top-rated</text>
-        <text x="${pad.l}" y="${bottomQuadrantY}" class="designer-quadrant designer-quadrant--bl">Lower priority</text>
-        <text x="${W-pad.r}" y="${bottomQuadrantY}" text-anchor="end" class="designer-quadrant designer-quadrant--br">Popular but mixed</text>
+        <text x="${pad.l}" y="${pad.t-18}" class="designer-quadrant designer-quadrant--tl">Less talked about, well-rated</text>
+        <text x="${W-pad.r}" y="${pad.t-18}" text-anchor="end" class="designer-quadrant designer-quadrant--tr">Often talked about, well-rated</text>
+        <text x="${pad.l}" y="${bottomQuadrantY}" class="designer-quadrant designer-quadrant--bl">Less talked about, lower rating</text>
+        <text x="${W-pad.r}" y="${bottomQuadrantY}" text-anchor="end" class="designer-quadrant designer-quadrant--br">Often talked about, lower rating</text>
 
         ${rows.map(r => {
           const cx = x(r.share || popMin), cy = y(r.avg), radius = 3.8;
@@ -823,7 +823,7 @@ function renderDesignerCompareChart(selector, rows, threshold = 5){
   };
   const moveTip = (e, pt) => {
     const rect = wrap.getBoundingClientRect();
-    tooltip.innerHTML = `<strong>${pt.dataset.name}</strong><div>${pt.dataset.tag}</div><div>${pt.dataset.pop}% popularity · ${pt.dataset.rating} rating · ${pt.dataset.count} together</div>`;
+    tooltip.innerHTML = `<strong>${pt.dataset.name}</strong><div>${pt.dataset.tag}</div><div>${pt.dataset.pop}% of mentions · ${pt.dataset.rating} rating · ${pt.dataset.count} together</div>`;
     tooltip.classList.add('show');
     tooltip.setAttribute('aria-hidden', 'false');
     const width = tooltip.offsetWidth || 240;

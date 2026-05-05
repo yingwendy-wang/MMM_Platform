@@ -20,7 +20,15 @@
           <input id="report-start" type="date" placeholder="Start date">
           <input id="report-end" type="date" placeholder="End date">
         </div>
-        <div class="control-box"><label>Focal Place</label><select id="report-place"></select></div>
+        <div class="control-box report-focal-control">
+          <label>Focal Place</label>
+          <div class="report-place-input-wrap">
+            <input id="report-place-input" list="report-place-list" placeholder="Search or select a focal place" autocomplete="off" />
+            <button id="report-place-clear" class="report-place-clear" type="button" aria-label="Clear focal place search" hidden>×</button>
+          </div>
+          <datalist id="report-place-list"></datalist>
+          <select id="report-place" class="sr-only" aria-hidden="true" tabindex="-1"></select>
+        </div>
         <div class="control-box"><label>Compare Places</label><input id="report-compare-input" list="report-compare-list" placeholder="Type to add a compare place"></div>
         <datalist id="report-compare-list"></datalist>
         <select id="report-compare" multiple size="8" class="sr-only"></select>

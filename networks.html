@@ -20,7 +20,7 @@
         <div class="network-rail-grid">
           <div class="control-box network-date-box"><label>Start - End</label><div class="network-date-stack"><input id="network-start" type="date"><input id="network-end" type="date"></div></div>
           <div class="control-box"><label>Place Category</label><select id="network-category"></select></div>
-          <div class="control-box"><label>Selected Place</label><input id="network-place-search" list="network-place-list" placeholder="Type to search a place"></div>
+          <div class="control-box"><label>Selected Place</label><div class="network-place-input-wrap"><input id="network-place-search" list="network-place-list" placeholder="Type to search a place" autocomplete="off"><button id="network-place-clear" class="network-place-clear" type="button" aria-label="Clear selected place" hidden>×</button></div></div>
         </div>
         <datalist id="network-place-list"></datalist>
         <div class="network-rail-actions">
