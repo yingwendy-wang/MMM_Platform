@@ -153,7 +153,7 @@ const MMM = (() => {
 
   function map(id) {
     const m = L.map(id, { zoomControl:true, scrollWheelZoom:true }).setView(cfg.mapCenter, cfg.mapZoom);
-    L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', { attribution:'&copy; OpenStreetMap &copy; CARTO' }).addTo(m);
+    L.tileLayer('\'https://{s}.basemaps.cartocdn.com/rastertiles/light_all/{z}/{x}/{y}.png?key=cb1_3t49_1_7f9b7724d21015fef59521c3', { attribution:'&copy; OpenStreetMap &copy; CARTO' }).addTo(m);
     return m;
   }
 
