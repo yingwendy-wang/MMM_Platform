@@ -6,31 +6,55 @@
     "poi_lat": 22.2818843,
     "poi_lng": 114.1531348,
     "place_role": "Connector",
-    "summary": "Vission Bakery functions primarily as a connector in Hong Kong's visitor network. Its strongest observed source market is TH. It receives notable inbound connections from Bakehouse (Wan Chai). Visitors often continue to Bakehouse (Wan Chai)."
+    "summary": "Vission Bakery functions primarily as a connector in Hong Kong's visitor network. Its strongest observed source market is TH. It receives notable inbound connections from Central. Visitors often continue to Bakehouse (Wan Chai)."
   },
   "kpis": {
-    "journey_n_total": 81,
-    "stop_n_total": 82,
-    "avg_stop_sentiment": 0.7026,
-    "city_rank": 38.0,
-    "category_rank": 5.0,
+    "journey_n_total": 104,
+    "stop_n_total": 105,
+    "avg_stop_sentiment": 0.7607,
+    "city_rank": 56.0,
+    "category_rank": 7.0,
     "top_market": "TH",
-    "top_inbound_poi_name": "Bakehouse (Wan Chai)",
+    "top_inbound_poi_name": "Central",
     "top_outbound_poi_name": "Bakehouse (Wan Chai)",
     "top_companion_poi_name": "Bakehouse (Wan Chai)"
   },
   "benchmarks": {
-    "city_avg_stop_sentiment": 0.7168,
-    "category_avg_stop_sentiment": 0.702,
-    "exp_vs_city": -0.0142,
-    "exp_vs_category": 0.0006,
+    "city_avg_stop_sentiment": 0.7702,
+    "category_avg_stop_sentiment": 0.7675,
+    "exp_vs_city": -0.0095,
+    "exp_vs_category": -0.0068,
     "market_count": 19,
-    "top_market_share": 0.3457,
-    "companion_count": 116,
-    "total_inbound": 53,
-    "total_outbound": 54
+    "top_market_share": 0.2788,
+    "companion_count": 151,
+    "total_inbound": 72,
+    "total_outbound": 69
   },
   "performance_trend": [
+    {
+      "video_date": "2024-02-18",
+      "journey_n": 1,
+      "stop_n": 1,
+      "avg_stop_sentiment": 0.8877369165420532,
+      "inbound_n": 1,
+      "outbound_n": 0
+    },
+    {
+      "video_date": "2024-02-28",
+      "journey_n": 1,
+      "stop_n": 1,
+      "avg_stop_sentiment": 0.0096492990851402,
+      "inbound_n": 0,
+      "outbound_n": 1
+    },
+    {
+      "video_date": "2024-03-15",
+      "journey_n": 1,
+      "stop_n": 1,
+      "avg_stop_sentiment": 0.9736074805259703,
+      "inbound_n": 0,
+      "outbound_n": 0
+    },
     {
       "video_date": "2024-07-04",
       "journey_n": 1,
@@ -43,7 +67,7 @@
       "video_date": "2024-08-01",
       "journey_n": 1,
       "stop_n": 1,
-      "avg_stop_sentiment": 0.4197461307048797,
+      "avg_stop_sentiment": 0.7202466726303101,
       "inbound_n": 0,
       "outbound_n": 1
     },
@@ -75,7 +99,7 @@
       "video_date": "2024-08-27",
       "journey_n": 1,
       "stop_n": 1,
-      "avg_stop_sentiment": 0.7645494937896729,
+      "avg_stop_sentiment": 0.8597748279571533,
       "inbound_n": 1,
       "outbound_n": 1
     },
@@ -83,7 +107,7 @@
       "video_date": "2024-08-29",
       "journey_n": 1,
       "stop_n": 1,
-      "avg_stop_sentiment": 0.5058181285858154,
+      "avg_stop_sentiment": 0.5909702479839325,
       "inbound_n": 0,
       "outbound_n": 0
     },
@@ -91,7 +115,7 @@
       "video_date": "2024-08-30",
       "journey_n": 1,
       "stop_n": 1,
-      "avg_stop_sentiment": 0.7605542540550232,
+      "avg_stop_sentiment": 0.860614001750946,
       "inbound_n": 1,
       "outbound_n": 1
     },
@@ -107,7 +131,7 @@
       "video_date": "2024-09-17",
       "journey_n": 1,
       "stop_n": 1,
-      "avg_stop_sentiment": 0.6453456282615662,
+      "avg_stop_sentiment": 0.8422374725341797,
       "inbound_n": 1,
       "outbound_n": 1
     },
@@ -123,7 +147,7 @@
       "video_date": "2024-09-20",
       "journey_n": 1,
       "stop_n": 1,
-      "avg_stop_sentiment": 0.8837383091449738,
+      "avg_stop_sentiment": 0.951078474521637,
       "inbound_n": 1,
       "outbound_n": 1
     },
@@ -131,7 +155,47 @@
       "video_date": "2024-09-30",
       "journey_n": 1,
       "stop_n": 1,
-      "avg_stop_sentiment": 0.7627877593040466,
+      "avg_stop_sentiment": 0.8804128468036652,
+      "inbound_n": 1,
+      "outbound_n": 1
+    },
+    {
+      "video_date": "2024-10-03",
+      "journey_n": 1,
+      "stop_n": 1,
+      "avg_stop_sentiment": 0.7065500617027283,
+      "inbound_n": 1,
+      "outbound_n": 0
+    },
+    {
+      "video_date": "2024-10-05",
+      "journey_n": 2,
+      "stop_n": 2,
+      "avg_stop_sentiment": 0.9559880991776784,
+      "inbound_n": 1,
+      "outbound_n": 1
+    },
+    {
+      "video_date": "2024-10-15",
+      "journey_n": 1,
+      "stop_n": 1,
+      "avg_stop_sentiment": 0.6002086400985718,
+      "inbound_n": 1,
+      "outbound_n": 1
+    },
+    {
+      "video_date": "2024-10-17",
+      "journey_n": 1,
+      "stop_n": 1,
+      "avg_stop_sentiment": 0.9471718072891236,
+      "inbound_n": 0,
+      "outbound_n": 0
+    },
+    {
+      "video_date": "2024-10-21",
+      "journey_n": 1,
+      "stop_n": 1,
+      "avg_stop_sentiment": 0.4408614933490753,
       "inbound_n": 1,
       "outbound_n": 1
     },
@@ -139,7 +203,7 @@
       "video_date": "2024-10-24",
       "journey_n": 1,
       "stop_n": 1,
-      "avg_stop_sentiment": 0.8753707408905029,
+      "avg_stop_sentiment": 0.9073933959007264,
       "inbound_n": 1,
       "outbound_n": 0
     },
@@ -147,7 +211,23 @@
       "video_date": "2024-10-27",
       "journey_n": 1,
       "stop_n": 1,
-      "avg_stop_sentiment": 0.5959071516990662,
+      "avg_stop_sentiment": 0.7529313564300537,
+      "inbound_n": 0,
+      "outbound_n": 1
+    },
+    {
+      "video_date": "2024-10-29",
+      "journey_n": 1,
+      "stop_n": 1,
+      "avg_stop_sentiment": 0.6964014172554016,
+      "inbound_n": 0,
+      "outbound_n": 1
+    },
+    {
+      "video_date": "2024-11-03",
+      "journey_n": 1,
+      "stop_n": 1,
+      "avg_stop_sentiment": 0.8593736886978149,
       "inbound_n": 0,
       "outbound_n": 1
     },
@@ -161,19 +241,59 @@
     },
     {
       "video_date": "2024-11-17",
+      "journey_n": 2,
+      "stop_n": 2,
+      "avg_stop_sentiment": 0.915326863527298,
+      "inbound_n": 1,
+      "outbound_n": 1
+    },
+    {
+      "video_date": "2024-11-24",
       "journey_n": 1,
       "stop_n": 1,
-      "avg_stop_sentiment": 0.7230187654495239,
+      "avg_stop_sentiment": 0.6229052605728308,
+      "inbound_n": 1,
+      "outbound_n": 1
+    },
+    {
+      "video_date": "2024-11-26",
+      "journey_n": 1,
+      "stop_n": 1,
+      "avg_stop_sentiment": 0.964857816696167,
       "inbound_n": 0,
-      "outbound_n": 0
+      "outbound_n": 1
     },
     {
       "video_date": "2024-11-27",
       "journey_n": 1,
       "stop_n": 1,
-      "avg_stop_sentiment": 0.884418398141861,
+      "avg_stop_sentiment": 0.9423902630805968,
       "inbound_n": 1,
       "outbound_n": 1
+    },
+    {
+      "video_date": "2024-11-29",
+      "journey_n": 1,
+      "stop_n": 1,
+      "avg_stop_sentiment": 0.9095688939094544,
+      "inbound_n": 1,
+      "outbound_n": 0
+    },
+    {
+      "video_date": "2024-12-03",
+      "journey_n": 2,
+      "stop_n": 2,
+      "avg_stop_sentiment": 0.966410830616951,
+      "inbound_n": 1,
+      "outbound_n": 1
+    },
+    {
+      "video_date": "2024-12-08",
+      "journey_n": 1,
+      "stop_n": 1,
+      "avg_stop_sentiment": 0.4519329071044922,
+      "inbound_n": 0,
+      "outbound_n": 0
     },
     {
       "video_date": "2024-12-19",
@@ -187,7 +307,7 @@
       "video_date": "2024-12-22",
       "journey_n": 1,
       "stop_n": 1,
-      "avg_stop_sentiment": 0.5689581304788589,
+      "avg_stop_sentiment": 0.6599583715200424,
       "inbound_n": 1,
       "outbound_n": 1
     },
@@ -195,7 +315,7 @@
       "video_date": "2024-12-23",
       "journey_n": 1,
       "stop_n": 1,
-      "avg_stop_sentiment": 0.7003038078546524,
+      "avg_stop_sentiment": 0.7653325448433558,
       "inbound_n": 1,
       "outbound_n": 1
     },
@@ -203,8 +323,8 @@
       "video_date": "2024-12-25",
       "journey_n": 1,
       "stop_n": 1,
-      "avg_stop_sentiment": 0.8474314659833908,
-      "inbound_n": 0,
+      "avg_stop_sentiment": 0.8655379265546799,
+      "inbound_n": 1,
       "outbound_n": 1
     },
     {
@@ -219,7 +339,7 @@
       "video_date": "2025-01-03",
       "journey_n": 1,
       "stop_n": 1,
-      "avg_stop_sentiment": 0.9585825800895692,
+      "avg_stop_sentiment": 0.9802768230438232,
       "inbound_n": 0,
       "outbound_n": 0
     },
@@ -227,7 +347,7 @@
       "video_date": "2025-01-04",
       "journey_n": 1,
       "stop_n": 1,
-      "avg_stop_sentiment": 0.1979957371950149,
+      "avg_stop_sentiment": 0.3473142087459564,
       "inbound_n": 0,
       "outbound_n": 0
     },
@@ -235,7 +355,7 @@
       "video_date": "2025-01-05",
       "journey_n": 1,
       "stop_n": 1,
-      "avg_stop_sentiment": 0.5332531332969666,
+      "avg_stop_sentiment": 0.6983578205108643,
       "inbound_n": 0,
       "outbound_n": 1
     },
@@ -243,7 +363,7 @@
       "video_date": "2025-01-08",
       "journey_n": 1,
       "stop_n": 1,
-      "avg_stop_sentiment": 0.9227588772773744,
+      "avg_stop_sentiment": 0.9223061800003052,
       "inbound_n": 1,
       "outbound_n": 1
     },
@@ -267,7 +387,7 @@
       "video_date": "2025-01-15",
       "journey_n": 1,
       "stop_n": 1,
-      "avg_stop_sentiment": 0.7706138789653778,
+      "avg_stop_sentiment": 0.813414067029953,
       "inbound_n": 1,
       "outbound_n": 1
     },
@@ -275,7 +395,7 @@
       "video_date": "2025-01-18",
       "journey_n": 1,
       "stop_n": 1,
-      "avg_stop_sentiment": 0.8695259392261505,
+      "avg_stop_sentiment": 0.9183088541030884,
       "inbound_n": 0,
       "outbound_n": 0
     },
@@ -283,7 +403,7 @@
       "video_date": "2025-01-20",
       "journey_n": 1,
       "stop_n": 1,
-      "avg_stop_sentiment": 0.9460899829864502,
+      "avg_stop_sentiment": 0.9581937789916992,
       "inbound_n": 1,
       "outbound_n": 1
     },
@@ -291,7 +411,7 @@
       "video_date": "2025-01-22",
       "journey_n": 1,
       "stop_n": 1,
-      "avg_stop_sentiment": 0.6829618215560913,
+      "avg_stop_sentiment": 0.8225644826889038,
       "inbound_n": 1,
       "outbound_n": 1
     },
@@ -299,7 +419,7 @@
       "video_date": "2025-01-25",
       "journey_n": 3,
       "stop_n": 3,
-      "avg_stop_sentiment": 0.4838394448161125,
+      "avg_stop_sentiment": 0.5557349560161432,
       "inbound_n": 3,
       "outbound_n": 1
     },
@@ -307,7 +427,7 @@
       "video_date": "2025-01-28",
       "journey_n": 1,
       "stop_n": 1,
-      "avg_stop_sentiment": 0.8797453194856644,
+      "avg_stop_sentiment": 0.884947270154953,
       "inbound_n": 0,
       "outbound_n": 0
     },
@@ -315,7 +435,7 @@
       "video_date": "2025-01-29",
       "journey_n": 1,
       "stop_n": 1,
-      "avg_stop_sentiment": 0.8639134168624878,
+      "avg_stop_sentiment": 0.8954810202121735,
       "inbound_n": 1,
       "outbound_n": 0
     },
@@ -323,7 +443,7 @@
       "video_date": "2025-02-02",
       "journey_n": 1,
       "stop_n": 1,
-      "avg_stop_sentiment": 0.008175355537484,
+      "avg_stop_sentiment": 0.0074546649120748,
       "inbound_n": 0,
       "outbound_n": 0
     },
@@ -331,23 +451,31 @@
       "video_date": "2025-02-09",
       "journey_n": 2,
       "stop_n": 2,
-      "avg_stop_sentiment": 0.6647438257932663,
-      "inbound_n": 1,
+      "avg_stop_sentiment": 0.7402218580245972,
+      "inbound_n": 2,
       "outbound_n": 2
+    },
+    {
+      "video_date": "2025-02-13",
+      "journey_n": 1,
+      "stop_n": 1,
+      "avg_stop_sentiment": 0.272039412210385,
+      "inbound_n": 1,
+      "outbound_n": 1
     },
     {
       "video_date": "2025-02-14",
       "journey_n": 1,
       "stop_n": 1,
-      "avg_stop_sentiment": 0.8578070402145386,
-      "inbound_n": 0,
+      "avg_stop_sentiment": 0.8965818285942078,
+      "inbound_n": 1,
       "outbound_n": 1
     },
     {
       "video_date": "2025-02-19",
       "journey_n": 1,
       "stop_n": 1,
-      "avg_stop_sentiment": 0.7097446024417877,
+      "avg_stop_sentiment": 0.8593959808349609,
       "inbound_n": 1,
       "outbound_n": 1
     },
@@ -355,15 +483,15 @@
       "video_date": "2025-02-24",
       "journey_n": 1,
       "stop_n": 1,
-      "avg_stop_sentiment": 0.9462203681468964,
-      "inbound_n": 0,
+      "avg_stop_sentiment": 0.9536542892456056,
+      "inbound_n": 1,
       "outbound_n": 1
     },
     {
       "video_date": "2025-02-27",
       "journey_n": 1,
       "stop_n": 1,
-      "avg_stop_sentiment": 0.9402971267700196,
+      "avg_stop_sentiment": 0.9661086201667786,
       "inbound_n": 1,
       "outbound_n": 1
     },
@@ -371,39 +499,55 @@
       "video_date": "2025-03-01",
       "journey_n": 1,
       "stop_n": 1,
-      "avg_stop_sentiment": 0.5720068216323853,
+      "avg_stop_sentiment": 0.7941643595695496,
       "inbound_n": 1,
+      "outbound_n": 1
+    },
+    {
+      "video_date": "2025-03-04",
+      "journey_n": 1,
+      "stop_n": 1,
+      "avg_stop_sentiment": 0.5884857773780823,
+      "inbound_n": 0,
       "outbound_n": 1
     },
     {
       "video_date": "2025-03-05",
       "journey_n": 1,
       "stop_n": 1,
-      "avg_stop_sentiment": 0.6046374216675758,
+      "avg_stop_sentiment": 0.6304329857230186,
       "inbound_n": 0,
       "outbound_n": 0
     },
     {
       "video_date": "2025-03-07",
-      "journey_n": 2,
-      "stop_n": 2,
-      "avg_stop_sentiment": 0.5734772430732846,
-      "inbound_n": 0,
-      "outbound_n": 1
+      "journey_n": 3,
+      "stop_n": 3,
+      "avg_stop_sentiment": 0.7692934438172313,
+      "inbound_n": 2,
+      "outbound_n": 2
     },
     {
       "video_date": "2025-03-12",
       "journey_n": 1,
       "stop_n": 1,
       "avg_stop_sentiment": 0.9554699659347534,
-      "inbound_n": 0,
+      "inbound_n": 1,
       "outbound_n": 1
+    },
+    {
+      "video_date": "2025-03-15",
+      "journey_n": 1,
+      "stop_n": 1,
+      "avg_stop_sentiment": 0.9436780214309692,
+      "inbound_n": 0,
+      "outbound_n": 0
     },
     {
       "video_date": "2025-03-18",
       "journey_n": 1,
       "stop_n": 1,
-      "avg_stop_sentiment": 0.9196374118328094,
+      "avg_stop_sentiment": 0.938560664653778,
       "inbound_n": 1,
       "outbound_n": 0
     },
@@ -411,15 +555,23 @@
       "video_date": "2025-03-22",
       "journey_n": 1,
       "stop_n": 1,
-      "avg_stop_sentiment": 0.017951438203454,
+      "avg_stop_sentiment": 0.0254792645573616,
       "inbound_n": 0,
+      "outbound_n": 1
+    },
+    {
+      "video_date": "2025-03-23",
+      "journey_n": 1,
+      "stop_n": 1,
+      "avg_stop_sentiment": 0.9463784694671632,
+      "inbound_n": 1,
       "outbound_n": 1
     },
     {
       "video_date": "2025-03-24",
       "journey_n": 1,
       "stop_n": 1,
-      "avg_stop_sentiment": 0.0379854887723922,
+      "avg_stop_sentiment": 0.0467054434120655,
       "inbound_n": 1,
       "outbound_n": 1
     },
@@ -427,7 +579,7 @@
       "video_date": "2025-03-26",
       "journey_n": 1,
       "stop_n": 1,
-      "avg_stop_sentiment": 0.9416712522506714,
+      "avg_stop_sentiment": 0.9665555357933044,
       "inbound_n": 1,
       "outbound_n": 0
     },
@@ -443,7 +595,7 @@
       "video_date": "2025-04-02",
       "journey_n": 1,
       "stop_n": 1,
-      "avg_stop_sentiment": 0.8324420154094696,
+      "avg_stop_sentiment": 0.9116896986961364,
       "inbound_n": 1,
       "outbound_n": 1
     },
@@ -451,7 +603,7 @@
       "video_date": "2025-04-04",
       "journey_n": 1,
       "stop_n": 1,
-      "avg_stop_sentiment": 0.9399766325950624,
+      "avg_stop_sentiment": 0.9678813219070436,
       "inbound_n": 1,
       "outbound_n": 1
     },
@@ -459,15 +611,15 @@
       "video_date": "2025-04-08",
       "journey_n": 1,
       "stop_n": 1,
-      "avg_stop_sentiment": 0.1979957371950149,
-      "inbound_n": 0,
+      "avg_stop_sentiment": 0.3473142087459564,
+      "inbound_n": 1,
       "outbound_n": 1
     },
     {
       "video_date": "2025-04-11",
       "journey_n": 1,
       "stop_n": 1,
-      "avg_stop_sentiment": 0.7400544583797455,
+      "avg_stop_sentiment": 0.8889440298080444,
       "inbound_n": 1,
       "outbound_n": 1
     },
@@ -475,7 +627,7 @@
       "video_date": "2025-04-12",
       "journey_n": 1,
       "stop_n": 1,
-      "avg_stop_sentiment": 0.7433855831623077,
+      "avg_stop_sentiment": 0.8636379539966583,
       "inbound_n": 0,
       "outbound_n": 0
     },
@@ -483,7 +635,7 @@
       "video_date": "2025-04-13",
       "journey_n": 1,
       "stop_n": 1,
-      "avg_stop_sentiment": 0.2226024121046066,
+      "avg_stop_sentiment": 0.3524888753890991,
       "inbound_n": 1,
       "outbound_n": 1
     },
@@ -499,7 +651,7 @@
       "video_date": "2025-04-19",
       "journey_n": 1,
       "stop_n": 1,
-      "avg_stop_sentiment": 0.9272825717926024,
+      "avg_stop_sentiment": 0.9600250720977784,
       "inbound_n": 1,
       "outbound_n": 0
     },
@@ -507,7 +659,7 @@
       "video_date": "2025-04-20",
       "journey_n": 1,
       "stop_n": 1,
-      "avg_stop_sentiment": 0.8413117080926895,
+      "avg_stop_sentiment": 0.8753671050071716,
       "inbound_n": 1,
       "outbound_n": 1
     },
@@ -515,7 +667,7 @@
       "video_date": "2025-04-24",
       "journey_n": 2,
       "stop_n": 2,
-      "avg_stop_sentiment": 0.8936242732134732,
+      "avg_stop_sentiment": 0.940123888579282,
       "inbound_n": 1,
       "outbound_n": 1
     },
@@ -531,7 +683,7 @@
       "video_date": "2025-05-04",
       "journey_n": 3,
       "stop_n": 4,
-      "avg_stop_sentiment": 0.7104785179719328,
+      "avg_stop_sentiment": 0.7522482667118311,
       "inbound_n": 3,
       "outbound_n": 3
     },
@@ -539,15 +691,15 @@
       "video_date": "2025-05-05",
       "journey_n": 2,
       "stop_n": 2,
-      "avg_stop_sentiment": 0.5528008192777634,
+      "avg_stop_sentiment": 0.6793821901082993,
       "inbound_n": 1,
-      "outbound_n": 1
+      "outbound_n": 2
     },
     {
       "video_date": "2025-05-06",
       "journey_n": 2,
       "stop_n": 2,
-      "avg_stop_sentiment": 0.5383496358990669,
+      "avg_stop_sentiment": 0.5582376280799508,
       "inbound_n": 2,
       "outbound_n": 2
     },
@@ -555,7 +707,7 @@
       "video_date": "2025-09-07",
       "journey_n": 1,
       "stop_n": 1,
-      "avg_stop_sentiment": 0.8873902261257172,
+      "avg_stop_sentiment": 0.9096164405345916,
       "inbound_n": 1,
       "outbound_n": 0
     },
@@ -571,7 +723,7 @@
       "video_date": "2025-09-17",
       "journey_n": 1,
       "stop_n": 1,
-      "avg_stop_sentiment": 0.7587719336152077,
+      "avg_stop_sentiment": 0.8802561908960342,
       "inbound_n": 1,
       "outbound_n": 1
     },
@@ -579,7 +731,7 @@
       "video_date": "2025-09-21",
       "journey_n": 1,
       "stop_n": 1,
-      "avg_stop_sentiment": 0.9253978729248048,
+      "avg_stop_sentiment": 0.9407522479693096,
       "inbound_n": 1,
       "outbound_n": 1
     },
@@ -603,136 +755,136 @@
   "markets": [
     {
       "author_region": "TH",
-      "journey_n": 28.0,
-      "stop_n": 28.0,
-      "avg_stop_sentiment": 0.7189,
-      "journey_share": 0.3457
+      "journey_n": 29.0,
+      "stop_n": 29.0,
+      "avg_stop_sentiment": 0.7646,
+      "journey_share": 0.2788
     },
     {
       "author_region": "TW",
-      "journey_n": 14.0,
-      "stop_n": 14.0,
-      "avg_stop_sentiment": 0.6577,
-      "journey_share": 0.1728
-    },
-    {
-      "author_region": "JP",
-      "journey_n": 6.0,
-      "stop_n": 6.0,
-      "avg_stop_sentiment": 0.6827,
-      "journey_share": 0.0741
-    },
-    {
-      "author_region": "ID",
-      "journey_n": 6.0,
-      "stop_n": 6.0,
-      "avg_stop_sentiment": 0.6804,
-      "journey_share": 0.0741
+      "journey_n": 25.0,
+      "stop_n": 25.0,
+      "avg_stop_sentiment": 0.7865,
+      "journey_share": 0.2404
     },
     {
       "author_region": "SG",
-      "journey_n": 5.0,
+      "journey_n": 8.0,
+      "stop_n": 8.0,
+      "avg_stop_sentiment": 0.7477,
+      "journey_share": 0.0769
+    },
+    {
+      "author_region": "ID",
+      "journey_n": 7.0,
+      "stop_n": 7.0,
+      "avg_stop_sentiment": 0.7212,
+      "journey_share": 0.0673
+    },
+    {
+      "author_region": "JP",
+      "journey_n": 7.0,
+      "stop_n": 7.0,
+      "avg_stop_sentiment": 0.5976,
+      "journey_share": 0.0673
+    },
+    {
+      "author_region": "DE",
+      "journey_n": 4.0,
       "stop_n": 5.0,
-      "avg_stop_sentiment": 0.6279,
-      "journey_share": 0.0617
-    },
-    {
-      "author_region": "UZ",
-      "journey_n": 3.0,
-      "stop_n": 4.0,
-      "avg_stop_sentiment": 0.924,
-      "journey_share": 0.037
-    },
-    {
-      "author_region": "PH",
-      "journey_n": 3.0,
-      "stop_n": 3.0,
-      "avg_stop_sentiment": 0.3387,
-      "journey_share": 0.037
-    },
-    {
-      "author_region": "GB",
-      "journey_n": 2.0,
-      "stop_n": 2.0,
-      "avg_stop_sentiment": 0.9167,
-      "journey_share": 0.0247
+      "avg_stop_sentiment": 0.9285,
+      "journey_share": 0.0385
     },
     {
       "author_region": "MY",
+      "journey_n": 4.0,
+      "stop_n": 4.0,
+      "avg_stop_sentiment": 0.8936,
+      "journey_share": 0.0385
+    },
+    {
+      "author_region": "GB",
+      "journey_n": 3.0,
+      "stop_n": 3.0,
+      "avg_stop_sentiment": 0.9429,
+      "journey_share": 0.0288
+    },
+    {
+      "author_region": "US",
+      "journey_n": 3.0,
+      "stop_n": 3.0,
+      "avg_stop_sentiment": 0.8369,
+      "journey_share": 0.0288
+    },
+    {
+      "author_region": "MO",
       "journey_n": 2.0,
       "stop_n": 2.0,
-      "avg_stop_sentiment": 0.899,
-      "journey_share": 0.0247
+      "avg_stop_sentiment": 0.9119,
+      "journey_share": 0.0192
     },
     {
       "author_region": "CA",
       "journey_n": 2.0,
       "stop_n": 2.0,
-      "avg_stop_sentiment": 0.6456,
-      "journey_share": 0.0247
+      "avg_stop_sentiment": 0.723,
+      "journey_share": 0.0192
     },
     {
       "author_region": "AU",
       "journey_n": 2.0,
       "stop_n": 2.0,
-      "avg_stop_sentiment": 0.5197,
-      "journey_share": 0.0247
+      "avg_stop_sentiment": 0.6113,
+      "journey_share": 0.0192
     },
     {
-      "author_region": "MO",
-      "journey_n": 1.0,
-      "stop_n": 1.0,
-      "avg_stop_sentiment": 0.9682,
-      "journey_share": 0.0123
+      "author_region": "PH",
+      "journey_n": 2.0,
+      "stop_n": 2.0,
+      "avg_stop_sentiment": 0.3147,
+      "journey_share": 0.0192
     },
     {
-      "author_region": "IN",
+      "author_region": "AE",
       "journey_n": 1.0,
       "stop_n": 1.0,
-      "avg_stop_sentiment": 0.9435,
-      "journey_share": 0.0123
-    },
-    {
-      "author_region": "US",
-      "journey_n": 1.0,
-      "stop_n": 1.0,
-      "avg_stop_sentiment": 0.9254,
-      "journey_share": 0.0123
-    },
-    {
-      "author_region": "DE",
-      "journey_n": 1.0,
-      "stop_n": 1.0,
-      "avg_stop_sentiment": 0.863,
-      "journey_share": 0.0123
+      "avg_stop_sentiment": 0.9582,
+      "journey_share": 0.0096
     },
     {
       "author_region": "LA",
       "journey_n": 1.0,
       "stop_n": 1.0,
-      "avg_stop_sentiment": 0.8327,
-      "journey_share": 0.0123
+      "avg_stop_sentiment": 0.9072,
+      "journey_share": 0.0096
     },
     {
       "author_region": "NL",
       "journey_n": 1.0,
       "stop_n": 1.0,
-      "avg_stop_sentiment": 0.7613,
-      "journey_share": 0.0123
-    },
-    {
-      "author_region": "KZ",
-      "journey_n": 1.0,
-      "stop_n": 1.0,
-      "avg_stop_sentiment": 0.5333,
-      "journey_share": 0.0123
+      "avg_stop_sentiment": 0.8948,
+      "journey_share": 0.0096
     },
     {
       "author_region": "KR",
       "journey_n": 1.0,
       "stop_n": 1.0,
-      "avg_stop_sentiment": 0.4548,
-      "journey_share": 0.0123
+      "avg_stop_sentiment": 0.4946,
+      "journey_share": 0.0096
+    },
+    {
+      "author_region": "MA",
+      "journey_n": 1.0,
+      "stop_n": 1.0,
+      "avg_stop_sentiment": 0.4519,
+      "journey_share": 0.0096
+    },
+    {
+      "author_region": "VN",
+      "journey_n": 1.0,
+      "stop_n": 1.0,
+      "avg_stop_sentiment": 0.4409,
+      "journey_share": 0.0096
     }
   ],
   "mobility": {
@@ -742,79 +894,128 @@
         "origin_poi_name": "Bakehouse (Wan Chai)",
         "origin_poi_cate": "Dining",
         "flow_n": 1,
-        "avg_edge_sentiment": 0.9575349688529968
-      },
-      {
-        "origin_poi_id": 296,
-        "origin_poi_name": "Hong Kong Disneyland",
-        "origin_poi_cate": "Entertainment",
-        "flow_n": 1,
-        "avg_edge_sentiment": 0.9463967680931092
-      },
-      {
-        "origin_poi_id": 263,
-        "origin_poi_name": "Halfway Coffee",
-        "origin_poi_cate": "Dining",
-        "flow_n": 1,
-        "avg_edge_sentiment": 0.9446488916873932
-      },
-      {
-        "origin_poi_id": 382,
-        "origin_poi_name": "Kau Kee",
-        "origin_poi_cate": "Dining",
-        "flow_n": 1,
-        "avg_edge_sentiment": 0.9429462850093842
+        "avg_edge_sentiment": 0.9699268639087676
       },
       {
         "origin_poi_id": 1010,
         "origin_poi_name": "Yat Lok Restaurant",
         "origin_poi_cate": "Dining",
         "flow_n": 1,
-        "avg_edge_sentiment": 0.9362806081771852
+        "avg_edge_sentiment": 0.9652705788612366
       },
       {
-        "origin_poi_id": 46,
-        "origin_poi_name": "Bakehouse (Wan Chai)",
+        "origin_poi_id": 382,
+        "origin_poi_name": "Kau Kee",
         "origin_poi_cate": "Dining",
         "flow_n": 1,
-        "avg_edge_sentiment": 0.9159976541996002
+        "avg_edge_sentiment": 0.9645367860794068
       },
       {
-        "origin_poi_id": 410,
-        "origin_poi_name": "Kowloon Public Pier",
-        "origin_poi_cate": "Transit",
-        "flow_n": 1,
-        "avg_edge_sentiment": 0.9051888436079024
-      },
-      {
-        "origin_poi_id": 832,
-        "origin_poi_name": "Tei Mou Koon Dessert",
+        "origin_poi_id": 502,
+        "origin_poi_name": "Mak Man Kee Noodle Shop",
         "origin_poi_cate": "Dining",
         "flow_n": 1,
-        "avg_edge_sentiment": 0.902306854724884
+        "avg_edge_sentiment": 0.9591851234436036
       },
       {
-        "origin_poi_id": 580,
-        "origin_poi_name": "Ngong Ping 360",
+        "origin_poi_id": 296,
+        "origin_poi_name": "Hong Kong Disneyland",
         "origin_poi_cate": "Entertainment",
         "flow_n": 1,
-        "avg_edge_sentiment": 0.9001656025648117
+        "avg_edge_sentiment": 0.958339512348175
+      },
+      {
+        "origin_poi_id": 946,
+        "origin_poi_name": "Victoria Peak",
+        "origin_poi_cate": "Cityscape",
+        "flow_n": 1,
+        "avg_edge_sentiment": 0.9518082042535144
+      },
+      {
+        "origin_poi_id": 263,
+        "origin_poi_name": "Halfway Coffee",
+        "origin_poi_cate": "Dining",
+        "flow_n": 1,
+        "avg_edge_sentiment": 0.948814292748769
       },
       {
         "origin_poi_id": 366,
         "origin_poi_name": "Kai Kai Dessert",
         "origin_poi_cate": "Dining",
         "flow_n": 1,
-        "avg_edge_sentiment": 0.8987671732902527
+        "avg_edge_sentiment": 0.9419434865315754
+      },
+      {
+        "origin_poi_id": 832,
+        "origin_poi_name": "Tei Mou Koon Dessert",
+        "origin_poi_cate": "Dining",
+        "flow_n": 1,
+        "avg_edge_sentiment": 0.9418356493115424
+      },
+      {
+        "origin_poi_id": 101,
+        "origin_poi_name": "Central",
+        "origin_poi_cate": "area",
+        "flow_n": 1,
+        "avg_edge_sentiment": 0.9397251605987548
       }
     ],
     "outbound": [
+      {
+        "dest_poi_id": 607,
+        "dest_poi_name": "One Dim Sum",
+        "dest_poi_cate": "Dining",
+        "flow_n": 1,
+        "avg_edge_sentiment": 0.9585322737693788
+      },
+      {
+        "dest_poi_id": 296,
+        "dest_poi_name": "Hong Kong Disneyland",
+        "dest_poi_cate": "Entertainment",
+        "flow_n": 1,
+        "avg_edge_sentiment": 0.9562531908353168
+      },
+      {
+        "dest_poi_id": 793,
+        "dest_poi_name": "Tai Cheong Bakery",
+        "dest_poi_cate": "Dining",
+        "flow_n": 1,
+        "avg_edge_sentiment": 0.9516081710656484
+      },
       {
         "dest_poi_id": 46,
         "dest_poi_name": "Bakehouse (Wan Chai)",
         "dest_poi_cate": "Dining",
         "flow_n": 1,
-        "avg_edge_sentiment": 0.9378714561462402
+        "avg_edge_sentiment": 0.9477117285132408
+      },
+      {
+        "dest_poi_id": 207,
+        "dest_poi_name": "Eyebar",
+        "dest_poi_cate": "Dining",
+        "flow_n": 1,
+        "avg_edge_sentiment": 0.9470105469226836
+      },
+      {
+        "dest_poi_id": 296,
+        "dest_poi_name": "Hong Kong Disneyland",
+        "dest_poi_cate": "Entertainment",
+        "flow_n": 1,
+        "avg_edge_sentiment": 0.9466021955013276
+      },
+      {
+        "dest_poi_id": 46,
+        "dest_poi_name": "Bakehouse (Wan Chai)",
+        "dest_poi_cate": "Dining",
+        "flow_n": 1,
+        "avg_edge_sentiment": 0.9415884166955948
+      },
+      {
+        "dest_poi_id": 296,
+        "dest_poi_name": "Hong Kong Disneyland",
+        "dest_poi_cate": "Entertainment",
+        "flow_n": 1,
+        "avg_edge_sentiment": 0.9352193239963416
       },
       {
         "dest_poi_id": 820,
@@ -824,60 +1025,11 @@
         "avg_edge_sentiment": 0.93362358212471
       },
       {
-        "dest_poi_id": 607,
-        "dest_poi_name": "One Dim Sum",
-        "dest_poi_cate": "Dining",
-        "flow_n": 1,
-        "avg_edge_sentiment": 0.9295423030853271
-      },
-      {
-        "dest_poi_id": 793,
-        "dest_poi_name": "Tai Cheong Bakery",
-        "dest_poi_cate": "Dining",
-        "flow_n": 1,
-        "avg_edge_sentiment": 0.9254707992076874
-      },
-      {
-        "dest_poi_id": 46,
-        "dest_poi_name": "Bakehouse (Wan Chai)",
-        "dest_poi_cate": "Dining",
-        "flow_n": 1,
-        "avg_edge_sentiment": 0.9235890731215476
-      },
-      {
-        "dest_poi_id": 37,
-        "dest_poi_name": "Avenue Of Stars",
-        "dest_poi_cate": "Cityscape",
-        "flow_n": 1,
-        "avg_edge_sentiment": 0.9221595227718352
-      },
-      {
         "dest_poi_id": 296,
         "dest_poi_name": "Hong Kong Disneyland",
         "dest_poi_cate": "Entertainment",
         "flow_n": 1,
-        "avg_edge_sentiment": 0.9136795351902643
-      },
-      {
-        "dest_poi_id": 300,
-        "dest_poi_name": "Hong Kong International Airport",
-        "dest_poi_cate": "Transit",
-        "flow_n": 1,
-        "avg_edge_sentiment": 0.9086864292621613
-      },
-      {
-        "dest_poi_id": 296,
-        "dest_poi_name": "Hong Kong Disneyland",
-        "dest_poi_cate": "Entertainment",
-        "flow_n": 1,
-        "avg_edge_sentiment": 0.901138361543417
-      },
-      {
-        "dest_poi_id": 717,
-        "dest_poi_name": "Shelley St",
-        "dest_poi_cate": "Cityscape",
-        "flow_n": 1,
-        "avg_edge_sentiment": 0.8897795602679253
+        "avg_edge_sentiment": 0.9322170006732148
       }
     ]
   },
@@ -887,109 +1039,109 @@
         "companion_poi_id": 46,
         "companion_poi_name": "Bakehouse (Wan Chai)",
         "companion_poi_cate": "Dining",
-        "cooccur_n": 29.0,
-        "avg_journey_sentiment": 0.6993
+        "cooccur_n": 32.0,
+        "avg_journey_sentiment": 0.7465
+      },
+      {
+        "companion_poi_id": 101,
+        "companion_poi_name": "Central",
+        "companion_poi_cate": "area",
+        "cooccur_n": 27.0,
+        "avg_journey_sentiment": 0.6691
       },
       {
         "companion_poi_id": 300,
         "companion_poi_name": "Hong Kong International Airport",
         "companion_poi_cate": "Transit",
-        "cooccur_n": 12.0,
-        "avg_journey_sentiment": 0.6802
-      },
-      {
-        "companion_poi_id": 446,
-        "companion_poi_name": "Lan Fong Yuen",
-        "companion_poi_cate": "Dining",
-        "cooccur_n": 11.0,
-        "avg_journey_sentiment": 0.6572
+        "cooccur_n": 17.0,
+        "avg_journey_sentiment": 0.6972
       },
       {
         "companion_poi_id": 296,
         "companion_poi_name": "Hong Kong Disneyland",
         "companion_poi_cate": "Entertainment",
-        "cooccur_n": 10.0,
-        "avg_journey_sentiment": 0.7209
+        "cooccur_n": 16.0,
+        "avg_journey_sentiment": 0.7978
+      },
+      {
+        "companion_poi_id": 446,
+        "companion_poi_name": "Lan Fong Yuen",
+        "companion_poi_cate": "Dining",
+        "cooccur_n": 14.0,
+        "avg_journey_sentiment": 0.7124
       },
       {
         "companion_poi_id": 946,
         "companion_poi_name": "Victoria Peak",
         "companion_poi_cate": "Cityscape",
+        "cooccur_n": 12.0,
+        "avg_journey_sentiment": 0.7492
+      },
+      {
+        "companion_poi_id": 944,
+        "companion_poi_name": "Victoria Harbour",
+        "companion_poi_cate": "Cityscape",
+        "cooccur_n": 11.0,
+        "avg_journey_sentiment": 0.6864
+      },
+      {
+        "companion_poi_id": 907,
+        "companion_poi_name": "Tsim Sha Tsui",
+        "companion_poi_cate": "area",
         "cooccur_n": 10.0,
-        "avg_journey_sentiment": 0.7167
+        "avg_journey_sentiment": 0.7296
       },
       {
         "companion_poi_id": 278,
         "companion_poi_name": "Hashtag B",
         "companion_poi_cate": "Dining",
         "cooccur_n": 9.0,
-        "avg_journey_sentiment": 0.6656
-      },
-      {
-        "companion_poi_id": 944,
-        "companion_poi_name": "Victoria Harbour",
-        "companion_poi_cate": "Cityscape",
-        "cooccur_n": 9.0,
-        "avg_journey_sentiment": 0.6253
-      },
-      {
-        "companion_poi_id": 263,
-        "companion_poi_name": "Halfway Coffee",
-        "companion_poi_cate": "Dining",
-        "cooccur_n": 8.0,
-        "avg_journey_sentiment": 0.6417
+        "avg_journey_sentiment": 0.7003
       },
       {
         "companion_poi_id": 873,
         "companion_poi_name": "The Peak Tram",
         "companion_poi_cate": "Entertainment",
-        "cooccur_n": 7.0,
-        "avg_journey_sentiment": 0.6412
-      },
-      {
-        "companion_poi_id": 506,
-        "companion_poi_name": "Man Mo Temple",
-        "companion_poi_cate": "Religious",
-        "cooccur_n": 7.0,
-        "avg_journey_sentiment": 0.6336
+        "cooccur_n": 8.0,
+        "avg_journey_sentiment": 0.71
       }
     ]
   },
   "compare_candidates": [
     {
-      "poi_id": 123,
-      "poi_name": "Cheung Hing Kee Shanghai Pan Fried Buns",
+      "poi_id": 1010,
+      "poi_name": "Yat Lok Restaurant",
       "poi_cate": "Dining",
-      "journey_n_total": 85,
-      "avg_stop_sentiment": 0.7512173337301675
+      "journey_n_total": 108,
+      "avg_stop_sentiment": 0.779625796366276
     },
     {
       "poi_id": 503,
       "poi_name": "Mak's Noodle",
       "poi_cate": "Dining",
-      "journey_n_total": 73,
-      "avg_stop_sentiment": 0.6686432974128111
+      "journey_n_total": 109,
+      "avg_stop_sentiment": 0.736365962677701
     },
     {
-      "poi_id": 1010,
-      "poi_name": "Yat Lok Restaurant",
+      "poi_id": 366,
+      "poi_name": "Kai Kai Dessert",
+      "poi_cate": "Dining",
+      "journey_n_total": 95,
+      "avg_stop_sentiment": 0.7897558217620402
+    },
+    {
+      "poi_id": 263,
+      "poi_name": "Halfway Coffee",
+      "poi_cate": "Dining",
+      "journey_n_total": 78,
+      "avg_stop_sentiment": 0.7369986148812764
+    },
+    {
+      "poi_id": 344,
+      "poi_name": "ICHIRAN",
       "poi_cate": "Dining",
       "journey_n_total": 67,
-      "avg_stop_sentiment": 0.7107864436807623
-    },
-    {
-      "poi_id": 36,
-      "poi_name": "Australia Dairy Company",
-      "poi_cate": "Dining",
-      "journey_n_total": 80,
-      "avg_stop_sentiment": 0.4856997245658809
-    },
-    {
-      "poi_id": 278,
-      "poi_name": "Hashtag B",
-      "poi_cate": "Dining",
-      "journey_n_total": 102,
-      "avg_stop_sentiment": 0.7741846787034979
+      "avg_stop_sentiment": 0.8043630043085725
     }
   ],
   "opportunity_cards": [
@@ -1000,8 +1152,8 @@
     },
     {
       "type": "route_opportunity",
-      "title": "Strong onward link to Bakehouse (Wan Chai)",
-      "detail": "Visitors often continue from Vission Bakery to Bakehouse (Wan Chai), with relatively strong journey experience."
+      "title": "Strong onward link to One Dim Sum",
+      "detail": "Visitors often continue from Vission Bakery to One Dim Sum, with relatively strong journey experience."
     }
   ],
   "journey_examples": [
@@ -1011,37 +1163,37 @@
       "video_date": "2025-01-03",
       "n_stops": 1,
       "n_unique_pois": 1,
-      "journey_sentiment_stop_mean": 0.9585825800895692,
+      "journey_sentiment_stop_mean": 0.9802768230438232,
       "trajectory": "Vission Bakery",
-      "sentiment_trajectory": "0.9586"
+      "sentiment_trajectory": "0.9803"
+    },
+    {
+      "video_id": "7346423791100169474",
+      "author_region": "TH",
+      "video_date": "2024-03-15",
+      "n_stops": 1,
+      "n_unique_pois": 1,
+      "journey_sentiment_stop_mean": 0.9736074805259703,
+      "trajectory": "Vission Bakery",
+      "sentiment_trajectory": "0.9736"
     },
     {
       "video_id": "7398438678814641413",
-      "author_region": "MO",
+      "author_region": "TW",
       "video_date": "2024-08-02",
       "n_stops": 2,
       "n_unique_pois": 2,
-      "journey_sentiment_stop_mean": 0.9429462850093842,
+      "journey_sentiment_stop_mean": 0.9645367860794068,
       "trajectory": "Kau Kee -> Vission Bakery",
-      "sentiment_trajectory": "0.9177|0.9682"
-    },
-    {
-      "video_id": "7406637318460820753",
-      "author_region": "ID",
-      "video_date": "2024-08-24",
-      "n_stops": 1,
-      "n_unique_pois": 1,
-      "journey_sentiment_stop_mean": 0.9404741525650024,
-      "trajectory": "Vission Bakery",
-      "sentiment_trajectory": "0.9405"
+      "sentiment_trajectory": "0.9609|0.9682"
     }
   ],
   "site_context": {
     "city_name": "Hong Kong",
     "date_range": [
-      "2019-09-25",
+      "2016-02-28",
       "2025-10-14"
     ],
-    "city_avg_journey_sentiment": 0.74
+    "city_avg_journey_sentiment": 0.7932
   }
 }
