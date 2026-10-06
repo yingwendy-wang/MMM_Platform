@@ -6,29 +6,29 @@
     "poi_lat": 22.2345043,
     "poi_lng": 114.1952039,
     "place_role": "Connector",
-    "summary": "Repulse Bay functions primarily as a connector in Hong Kong's visitor network. Its strongest observed source market is TH. It receives notable inbound connections from Tai Po. Visitors often continue to Tai Po. Its observed experience trails the category average, despite existing visitor demand."
+    "summary": "Repulse Bay functions primarily as a connector in Hong Kong's visitor network. Its strongest observed source market is TH. It receives notable inbound connections from Tai Po. Visitors often continue to Hong Kong Disneyland. Its observed experience trails the category average, despite existing visitor demand."
   },
   "kpis": {
-    "journey_n_total": 184,
-    "stop_n_total": 189,
-    "avg_stop_sentiment": 0.7974,
-    "city_rank": 34.0,
-    "category_rank": 3.0,
+    "journey_n_total": 313,
+    "stop_n_total": 324,
+    "avg_stop_sentiment": 0.8042,
+    "city_rank": 41.0,
+    "category_rank": 4.0,
     "top_market": "TH",
     "top_inbound_poi_name": "Tai Po",
-    "top_outbound_poi_name": "Tai Po",
-    "top_companion_poi_name": "Lantau Island"
+    "top_outbound_poi_name": "Hong Kong Disneyland",
+    "top_companion_poi_name": "Hong Kong International Airport"
   },
   "benchmarks": {
-    "city_avg_stop_sentiment": 0.7702,
-    "category_avg_stop_sentiment": 0.8379,
-    "exp_vs_city": 0.0272,
-    "exp_vs_category": -0.0405,
-    "market_count": 21,
-    "top_market_share": 0.6957,
-    "companion_count": 161,
-    "total_inbound": 125,
-    "total_outbound": 122
+    "city_avg_stop_sentiment": 0.7753,
+    "category_avg_stop_sentiment": 0.8405,
+    "exp_vs_city": 0.0289,
+    "exp_vs_category": -0.0363,
+    "market_count": 27,
+    "top_market_share": 0.6741,
+    "companion_count": 202,
+    "total_inbound": 208,
+    "total_outbound": 213
   },
   "performance_trend": [
     {
@@ -352,6 +352,198 @@
       "outbound_n": 3
     },
     {
+      "video_date": "2024-04-06",
+      "journey_n": 2,
+      "stop_n": 2,
+      "avg_stop_sentiment": 0.7191952615976334,
+      "inbound_n": 2,
+      "outbound_n": 2
+    },
+    {
+      "video_date": "2024-04-13",
+      "journey_n": 1,
+      "stop_n": 1,
+      "avg_stop_sentiment": 0.931165337562561,
+      "inbound_n": 1,
+      "outbound_n": 1
+    },
+    {
+      "video_date": "2024-04-16",
+      "journey_n": 1,
+      "stop_n": 1,
+      "avg_stop_sentiment": 0.9093658328056335,
+      "inbound_n": 1,
+      "outbound_n": 1
+    },
+    {
+      "video_date": "2024-04-18",
+      "journey_n": 1,
+      "stop_n": 1,
+      "avg_stop_sentiment": 0.5253792405128479,
+      "inbound_n": 1,
+      "outbound_n": 1
+    },
+    {
+      "video_date": "2024-04-19",
+      "journey_n": 1,
+      "stop_n": 1,
+      "avg_stop_sentiment": 0.9657627940177916,
+      "inbound_n": 1,
+      "outbound_n": 1
+    },
+    {
+      "video_date": "2024-04-26",
+      "journey_n": 1,
+      "stop_n": 1,
+      "avg_stop_sentiment": 0.8392384648323059,
+      "inbound_n": 0,
+      "outbound_n": 0
+    },
+    {
+      "video_date": "2024-04-28",
+      "journey_n": 1,
+      "stop_n": 2,
+      "avg_stop_sentiment": 0.8942642311255138,
+      "inbound_n": 2,
+      "outbound_n": 2
+    },
+    {
+      "video_date": "2024-05-02",
+      "journey_n": 2,
+      "stop_n": 2,
+      "avg_stop_sentiment": 0.926332950592041,
+      "inbound_n": 0,
+      "outbound_n": 0
+    },
+    {
+      "video_date": "2024-05-04",
+      "journey_n": 1,
+      "stop_n": 1,
+      "avg_stop_sentiment": 0.9102087616920472,
+      "inbound_n": 1,
+      "outbound_n": 1
+    },
+    {
+      "video_date": "2024-05-07",
+      "journey_n": 1,
+      "stop_n": 1,
+      "avg_stop_sentiment": 0.7602735757827759,
+      "inbound_n": 1,
+      "outbound_n": 1
+    },
+    {
+      "video_date": "2024-05-17",
+      "journey_n": 1,
+      "stop_n": 1,
+      "avg_stop_sentiment": 0.8877344528834025,
+      "inbound_n": 0,
+      "outbound_n": 0
+    },
+    {
+      "video_date": "2024-05-25",
+      "journey_n": 1,
+      "stop_n": 1,
+      "avg_stop_sentiment": 0.8647558093070984,
+      "inbound_n": 0,
+      "outbound_n": 1
+    },
+    {
+      "video_date": "2024-06-03",
+      "journey_n": 1,
+      "stop_n": 1,
+      "avg_stop_sentiment": 0.9205389022827148,
+      "inbound_n": 0,
+      "outbound_n": 1
+    },
+    {
+      "video_date": "2024-06-05",
+      "journey_n": 1,
+      "stop_n": 1,
+      "avg_stop_sentiment": 0.919784128665924,
+      "inbound_n": 1,
+      "outbound_n": 1
+    },
+    {
+      "video_date": "2024-06-06",
+      "journey_n": 1,
+      "stop_n": 1,
+      "avg_stop_sentiment": 0.9284216165542604,
+      "inbound_n": 1,
+      "outbound_n": 1
+    },
+    {
+      "video_date": "2024-06-11",
+      "journey_n": 2,
+      "stop_n": 2,
+      "avg_stop_sentiment": 0.8028189241886139,
+      "inbound_n": 1,
+      "outbound_n": 1
+    },
+    {
+      "video_date": "2024-06-13",
+      "journey_n": 1,
+      "stop_n": 1,
+      "avg_stop_sentiment": 0.8978138566017151,
+      "inbound_n": 1,
+      "outbound_n": 1
+    },
+    {
+      "video_date": "2024-06-16",
+      "journey_n": 2,
+      "stop_n": 2,
+      "avg_stop_sentiment": 0.9340038597583772,
+      "inbound_n": 1,
+      "outbound_n": 2
+    },
+    {
+      "video_date": "2024-06-18",
+      "journey_n": 1,
+      "stop_n": 1,
+      "avg_stop_sentiment": 0.8201014697551727,
+      "inbound_n": 0,
+      "outbound_n": 1
+    },
+    {
+      "video_date": "2024-06-20",
+      "journey_n": 1,
+      "stop_n": 1,
+      "avg_stop_sentiment": 0.9621089696884156,
+      "inbound_n": 1,
+      "outbound_n": 1
+    },
+    {
+      "video_date": "2024-06-22",
+      "journey_n": 1,
+      "stop_n": 1,
+      "avg_stop_sentiment": 0.477627945797784,
+      "inbound_n": 0,
+      "outbound_n": 0
+    },
+    {
+      "video_date": "2024-06-25",
+      "journey_n": 2,
+      "stop_n": 2,
+      "avg_stop_sentiment": 0.670667976140976,
+      "inbound_n": 1,
+      "outbound_n": 1
+    },
+    {
+      "video_date": "2024-06-26",
+      "journey_n": 1,
+      "stop_n": 1,
+      "avg_stop_sentiment": 0.928726613521576,
+      "inbound_n": 0,
+      "outbound_n": 0
+    },
+    {
+      "video_date": "2024-06-29",
+      "journey_n": 1,
+      "stop_n": 1,
+      "avg_stop_sentiment": 0.8805487751960754,
+      "inbound_n": 1,
+      "outbound_n": 1
+    },
+    {
       "video_date": "2024-07-05",
       "journey_n": 1,
       "stop_n": 1,
@@ -360,12 +552,68 @@
       "outbound_n": 0
     },
     {
-      "video_date": "2024-07-27",
+      "video_date": "2024-07-09",
       "journey_n": 1,
       "stop_n": 1,
-      "avg_stop_sentiment": 0.8687207102775574,
+      "avg_stop_sentiment": 0.9228257536888124,
       "inbound_n": 1,
       "outbound_n": 1
+    },
+    {
+      "video_date": "2024-07-15",
+      "journey_n": 2,
+      "stop_n": 3,
+      "avg_stop_sentiment": 0.6809544795089297,
+      "inbound_n": 2,
+      "outbound_n": 3
+    },
+    {
+      "video_date": "2024-07-27",
+      "journey_n": 2,
+      "stop_n": 2,
+      "avg_stop_sentiment": 0.8966237008571625,
+      "inbound_n": 2,
+      "outbound_n": 2
+    },
+    {
+      "video_date": "2024-07-28",
+      "journey_n": 2,
+      "stop_n": 2,
+      "avg_stop_sentiment": 0.8947304487228394,
+      "inbound_n": 1,
+      "outbound_n": 1
+    },
+    {
+      "video_date": "2024-07-30",
+      "journey_n": 1,
+      "stop_n": 1,
+      "avg_stop_sentiment": 0.9285060167312622,
+      "inbound_n": 1,
+      "outbound_n": 1
+    },
+    {
+      "video_date": "2024-08-01",
+      "journey_n": 1,
+      "stop_n": 1,
+      "avg_stop_sentiment": 0.8734261989593506,
+      "inbound_n": 1,
+      "outbound_n": 1
+    },
+    {
+      "video_date": "2024-08-03",
+      "journey_n": 1,
+      "stop_n": 1,
+      "avg_stop_sentiment": 0.9066235423088074,
+      "inbound_n": 0,
+      "outbound_n": 0
+    },
+    {
+      "video_date": "2024-08-06",
+      "journey_n": 1,
+      "stop_n": 1,
+      "avg_stop_sentiment": 0.9102087616920472,
+      "inbound_n": 0,
+      "outbound_n": 0
     },
     {
       "video_date": "2024-08-07",
@@ -1136,6 +1384,462 @@
       "outbound_n": 0
     },
     {
+      "video_date": "2025-05-09",
+      "journey_n": 1,
+      "stop_n": 1,
+      "avg_stop_sentiment": 0.9633557200431824,
+      "inbound_n": 1,
+      "outbound_n": 1
+    },
+    {
+      "video_date": "2025-05-10",
+      "journey_n": 2,
+      "stop_n": 2,
+      "avg_stop_sentiment": 0.7227042317390442,
+      "inbound_n": 1,
+      "outbound_n": 2
+    },
+    {
+      "video_date": "2025-05-11",
+      "journey_n": 3,
+      "stop_n": 3,
+      "avg_stop_sentiment": 0.8558962941169739,
+      "inbound_n": 3,
+      "outbound_n": 1
+    },
+    {
+      "video_date": "2025-05-12",
+      "journey_n": 1,
+      "stop_n": 1,
+      "avg_stop_sentiment": 0.8631751537322998,
+      "inbound_n": 0,
+      "outbound_n": 1
+    },
+    {
+      "video_date": "2025-05-13",
+      "journey_n": 3,
+      "stop_n": 3,
+      "avg_stop_sentiment": 0.8960971368683709,
+      "inbound_n": 2,
+      "outbound_n": 2
+    },
+    {
+      "video_date": "2025-05-14",
+      "journey_n": 1,
+      "stop_n": 1,
+      "avg_stop_sentiment": 0.8167140285174052,
+      "inbound_n": 1,
+      "outbound_n": 0
+    },
+    {
+      "video_date": "2025-05-15",
+      "journey_n": 1,
+      "stop_n": 1,
+      "avg_stop_sentiment": 0.928441286087036,
+      "inbound_n": 1,
+      "outbound_n": 0
+    },
+    {
+      "video_date": "2025-05-16",
+      "journey_n": 4,
+      "stop_n": 4,
+      "avg_stop_sentiment": 0.9177322387695312,
+      "inbound_n": 3,
+      "outbound_n": 1
+    },
+    {
+      "video_date": "2025-05-17",
+      "journey_n": 1,
+      "stop_n": 1,
+      "avg_stop_sentiment": 0.9473332166671752,
+      "inbound_n": 1,
+      "outbound_n": 0
+    },
+    {
+      "video_date": "2025-05-18",
+      "journey_n": 2,
+      "stop_n": 2,
+      "avg_stop_sentiment": 0.7132872343063354,
+      "inbound_n": 1,
+      "outbound_n": 1
+    },
+    {
+      "video_date": "2025-05-21",
+      "journey_n": 1,
+      "stop_n": 1,
+      "avg_stop_sentiment": 0.9172822833061218,
+      "inbound_n": 0,
+      "outbound_n": 0
+    },
+    {
+      "video_date": "2025-05-22",
+      "journey_n": 2,
+      "stop_n": 2,
+      "avg_stop_sentiment": 0.8180225193500519,
+      "inbound_n": 0,
+      "outbound_n": 2
+    },
+    {
+      "video_date": "2025-05-23",
+      "journey_n": 1,
+      "stop_n": 2,
+      "avg_stop_sentiment": 0.8625223785638809,
+      "inbound_n": 2,
+      "outbound_n": 2
+    },
+    {
+      "video_date": "2025-05-24",
+      "journey_n": 1,
+      "stop_n": 1,
+      "avg_stop_sentiment": 0.8664279580116272,
+      "inbound_n": 1,
+      "outbound_n": 0
+    },
+    {
+      "video_date": "2025-05-25",
+      "journey_n": 1,
+      "stop_n": 1,
+      "avg_stop_sentiment": 0.761016845703125,
+      "inbound_n": 0,
+      "outbound_n": 1
+    },
+    {
+      "video_date": "2025-06-01",
+      "journey_n": 2,
+      "stop_n": 2,
+      "avg_stop_sentiment": 0.8698098659515381,
+      "inbound_n": 0,
+      "outbound_n": 1
+    },
+    {
+      "video_date": "2025-06-02",
+      "journey_n": 3,
+      "stop_n": 3,
+      "avg_stop_sentiment": 0.7387286822001139,
+      "inbound_n": 2,
+      "outbound_n": 2
+    },
+    {
+      "video_date": "2025-06-04",
+      "journey_n": 2,
+      "stop_n": 2,
+      "avg_stop_sentiment": 0.9500115513801576,
+      "inbound_n": 0,
+      "outbound_n": 1
+    },
+    {
+      "video_date": "2025-06-05",
+      "journey_n": 1,
+      "stop_n": 1,
+      "avg_stop_sentiment": 0.9048414826393129,
+      "inbound_n": 0,
+      "outbound_n": 0
+    },
+    {
+      "video_date": "2025-06-10",
+      "journey_n": 2,
+      "stop_n": 2,
+      "avg_stop_sentiment": 0.80454321205616,
+      "inbound_n": 2,
+      "outbound_n": 2
+    },
+    {
+      "video_date": "2025-06-11",
+      "journey_n": 3,
+      "stop_n": 3,
+      "avg_stop_sentiment": 0.8739604850610098,
+      "inbound_n": 2,
+      "outbound_n": 3
+    },
+    {
+      "video_date": "2025-06-13",
+      "journey_n": 1,
+      "stop_n": 1,
+      "avg_stop_sentiment": 0.309556245803833,
+      "inbound_n": 1,
+      "outbound_n": 1
+    },
+    {
+      "video_date": "2025-06-14",
+      "journey_n": 1,
+      "stop_n": 1,
+      "avg_stop_sentiment": 0.7419925332069397,
+      "inbound_n": 0,
+      "outbound_n": 0
+    },
+    {
+      "video_date": "2025-06-16",
+      "journey_n": 3,
+      "stop_n": 5,
+      "avg_stop_sentiment": 0.761640144387881,
+      "inbound_n": 2,
+      "outbound_n": 2
+    },
+    {
+      "video_date": "2025-06-17",
+      "journey_n": 1,
+      "stop_n": 1,
+      "avg_stop_sentiment": 0.9135200381278992,
+      "inbound_n": 1,
+      "outbound_n": 0
+    },
+    {
+      "video_date": "2025-06-18",
+      "journey_n": 2,
+      "stop_n": 2,
+      "avg_stop_sentiment": 0.8144534826278687,
+      "inbound_n": 2,
+      "outbound_n": 1
+    },
+    {
+      "video_date": "2025-06-19",
+      "journey_n": 1,
+      "stop_n": 1,
+      "avg_stop_sentiment": 0.7593722939491272,
+      "inbound_n": 1,
+      "outbound_n": 0
+    },
+    {
+      "video_date": "2025-06-21",
+      "journey_n": 1,
+      "stop_n": 2,
+      "avg_stop_sentiment": 0.5480063185095787,
+      "inbound_n": 2,
+      "outbound_n": 2
+    },
+    {
+      "video_date": "2025-06-24",
+      "journey_n": 2,
+      "stop_n": 2,
+      "avg_stop_sentiment": 0.6538098398596048,
+      "inbound_n": 1,
+      "outbound_n": 2
+    },
+    {
+      "video_date": "2025-06-25",
+      "journey_n": 1,
+      "stop_n": 1,
+      "avg_stop_sentiment": 0.9373891949653624,
+      "inbound_n": 1,
+      "outbound_n": 1
+    },
+    {
+      "video_date": "2025-06-26",
+      "journey_n": 1,
+      "stop_n": 1,
+      "avg_stop_sentiment": 0.5262869894504547,
+      "inbound_n": 1,
+      "outbound_n": 1
+    },
+    {
+      "video_date": "2025-06-27",
+      "journey_n": 1,
+      "stop_n": 1,
+      "avg_stop_sentiment": 0.8676514029502869,
+      "inbound_n": 1,
+      "outbound_n": 1
+    },
+    {
+      "video_date": "2025-07-01",
+      "journey_n": 1,
+      "stop_n": 1,
+      "avg_stop_sentiment": 0.7838245630264282,
+      "inbound_n": 0,
+      "outbound_n": 0
+    },
+    {
+      "video_date": "2025-07-03",
+      "journey_n": 1,
+      "stop_n": 1,
+      "avg_stop_sentiment": 0.5671271085739136,
+      "inbound_n": 0,
+      "outbound_n": 0
+    },
+    {
+      "video_date": "2025-07-04",
+      "journey_n": 3,
+      "stop_n": 3,
+      "avg_stop_sentiment": 0.9257241288820902,
+      "inbound_n": 3,
+      "outbound_n": 2
+    },
+    {
+      "video_date": "2025-07-05",
+      "journey_n": 1,
+      "stop_n": 1,
+      "avg_stop_sentiment": 0.7948472499847412,
+      "inbound_n": 0,
+      "outbound_n": 1
+    },
+    {
+      "video_date": "2025-07-08",
+      "journey_n": 1,
+      "stop_n": 1,
+      "avg_stop_sentiment": 0.6364721655845642,
+      "inbound_n": 0,
+      "outbound_n": 0
+    },
+    {
+      "video_date": "2025-07-09",
+      "journey_n": 3,
+      "stop_n": 3,
+      "avg_stop_sentiment": 0.7766942282517751,
+      "inbound_n": 2,
+      "outbound_n": 2
+    },
+    {
+      "video_date": "2025-07-11",
+      "journey_n": 1,
+      "stop_n": 1,
+      "avg_stop_sentiment": 0.6396786570549011,
+      "inbound_n": 1,
+      "outbound_n": 1
+    },
+    {
+      "video_date": "2025-07-12",
+      "journey_n": 1,
+      "stop_n": 1,
+      "avg_stop_sentiment": 0.9416886568069458,
+      "inbound_n": 1,
+      "outbound_n": 0
+    },
+    {
+      "video_date": "2025-07-14",
+      "journey_n": 3,
+      "stop_n": 3,
+      "avg_stop_sentiment": 0.8782479917009671,
+      "inbound_n": 3,
+      "outbound_n": 3
+    },
+    {
+      "video_date": "2025-07-16",
+      "journey_n": 2,
+      "stop_n": 2,
+      "avg_stop_sentiment": 0.8716443181037903,
+      "inbound_n": 1,
+      "outbound_n": 2
+    },
+    {
+      "video_date": "2025-07-18",
+      "journey_n": 1,
+      "stop_n": 1,
+      "avg_stop_sentiment": 0.9179748296737672,
+      "inbound_n": 1,
+      "outbound_n": 1
+    },
+    {
+      "video_date": "2025-07-21",
+      "journey_n": 2,
+      "stop_n": 2,
+      "avg_stop_sentiment": 0.5615671873092651,
+      "inbound_n": 1,
+      "outbound_n": 2
+    },
+    {
+      "video_date": "2025-07-24",
+      "journey_n": 1,
+      "stop_n": 1,
+      "avg_stop_sentiment": 0.822005569934845,
+      "inbound_n": 0,
+      "outbound_n": 1
+    },
+    {
+      "video_date": "2025-07-31",
+      "journey_n": 1,
+      "stop_n": 1,
+      "avg_stop_sentiment": 0.4139623641967773,
+      "inbound_n": 0,
+      "outbound_n": 1
+    },
+    {
+      "video_date": "2025-08-03",
+      "journey_n": 1,
+      "stop_n": 1,
+      "avg_stop_sentiment": 0.9243431091308594,
+      "inbound_n": 1,
+      "outbound_n": 1
+    },
+    {
+      "video_date": "2025-08-05",
+      "journey_n": 2,
+      "stop_n": 2,
+      "avg_stop_sentiment": 0.4963980764150619,
+      "inbound_n": 1,
+      "outbound_n": 0
+    },
+    {
+      "video_date": "2025-08-14",
+      "journey_n": 2,
+      "stop_n": 2,
+      "avg_stop_sentiment": 0.7777251452207565,
+      "inbound_n": 0,
+      "outbound_n": 2
+    },
+    {
+      "video_date": "2025-08-15",
+      "journey_n": 1,
+      "stop_n": 1,
+      "avg_stop_sentiment": 0.853352427482605,
+      "inbound_n": 1,
+      "outbound_n": 1
+    },
+    {
+      "video_date": "2025-08-18",
+      "journey_n": 2,
+      "stop_n": 2,
+      "avg_stop_sentiment": 0.8805166184902191,
+      "inbound_n": 0,
+      "outbound_n": 1
+    },
+    {
+      "video_date": "2025-08-19",
+      "journey_n": 1,
+      "stop_n": 1,
+      "avg_stop_sentiment": 0.8678662776947021,
+      "inbound_n": 0,
+      "outbound_n": 1
+    },
+    {
+      "video_date": "2025-08-21",
+      "journey_n": 1,
+      "stop_n": 1,
+      "avg_stop_sentiment": 0.8851346969604492,
+      "inbound_n": 1,
+      "outbound_n": 0
+    },
+    {
+      "video_date": "2025-08-25",
+      "journey_n": 1,
+      "stop_n": 1,
+      "avg_stop_sentiment": 0.9699156880378724,
+      "inbound_n": 1,
+      "outbound_n": 1
+    },
+    {
+      "video_date": "2025-08-27",
+      "journey_n": 1,
+      "stop_n": 1,
+      "avg_stop_sentiment": 0.4975070059299469,
+      "inbound_n": 1,
+      "outbound_n": 1
+    },
+    {
+      "video_date": "2025-08-28",
+      "journey_n": 2,
+      "stop_n": 2,
+      "avg_stop_sentiment": 0.9159560054540634,
+      "inbound_n": 2,
+      "outbound_n": 2
+    },
+    {
+      "video_date": "2025-08-31",
+      "journey_n": 1,
+      "stop_n": 1,
+      "avg_stop_sentiment": 0.9509589672088624,
+      "inbound_n": 1,
+      "outbound_n": 1
+    },
+    {
       "video_date": "2025-09-02",
       "journey_n": 1,
       "stop_n": 1,
@@ -1203,160 +1907,223 @@
   "markets": [
     {
       "author_region": "TH",
-      "journey_n": 128.0,
-      "stop_n": 130.0,
-      "avg_stop_sentiment": 0.7867,
-      "journey_share": 0.6957
+      "journey_n": 211.0,
+      "stop_n": 218.0,
+      "avg_stop_sentiment": 0.7872,
+      "journey_share": 0.6741
     },
     {
       "author_region": "VN",
-      "journey_n": 12.0,
-      "stop_n": 13.0,
-      "avg_stop_sentiment": 0.8489,
-      "journey_share": 0.0652
-    },
-    {
-      "author_region": "US",
-      "journey_n": 6.0,
-      "stop_n": 6.0,
-      "avg_stop_sentiment": 0.9031,
-      "journey_share": 0.0326
-    },
-    {
-      "author_region": "SG",
-      "journey_n": 5.0,
-      "stop_n": 5.0,
-      "avg_stop_sentiment": 0.8683,
-      "journey_share": 0.0272
+      "journey_n": 20.0,
+      "stop_n": 21.0,
+      "avg_stop_sentiment": 0.8672,
+      "journey_share": 0.0639
     },
     {
       "author_region": "PH",
-      "journey_n": 5.0,
-      "stop_n": 5.0,
-      "avg_stop_sentiment": 0.742,
-      "journey_share": 0.0272
+      "journey_n": 15.0,
+      "stop_n": 15.0,
+      "avg_stop_sentiment": 0.8008,
+      "journey_share": 0.0479
+    },
+    {
+      "author_region": "US",
+      "journey_n": 10.0,
+      "stop_n": 10.0,
+      "avg_stop_sentiment": 0.8688,
+      "journey_share": 0.0319
+    },
+    {
+      "author_region": "ID",
+      "journey_n": 9.0,
+      "stop_n": 9.0,
+      "avg_stop_sentiment": 0.893,
+      "journey_share": 0.0288
+    },
+    {
+      "author_region": "SG",
+      "journey_n": 7.0,
+      "stop_n": 7.0,
+      "avg_stop_sentiment": 0.8915,
+      "journey_share": 0.0224
     },
     {
       "author_region": "CA",
       "journey_n": 4.0,
       "stop_n": 4.0,
       "avg_stop_sentiment": 0.897,
-      "journey_share": 0.0217
+      "journey_share": 0.0128
+    },
+    {
+      "author_region": "JP",
+      "journey_n": 4.0,
+      "stop_n": 5.0,
+      "avg_stop_sentiment": 0.8633,
+      "journey_share": 0.0128
     },
     {
       "author_region": "KR",
       "journey_n": 4.0,
       "stop_n": 5.0,
       "avg_stop_sentiment": 0.6461,
-      "journey_share": 0.0217
+      "journey_share": 0.0128
     },
     {
-      "author_region": "JP",
+      "author_region": "MY",
       "journey_n": 3.0,
-      "stop_n": 4.0,
-      "avg_stop_sentiment": 0.8658,
-      "journey_share": 0.0163
+      "stop_n": 3.0,
+      "avg_stop_sentiment": 0.9489,
+      "journey_share": 0.0096
+    },
+    {
+      "author_region": "FR",
+      "journey_n": 3.0,
+      "stop_n": 3.0,
+      "avg_stop_sentiment": 0.898,
+      "journey_share": 0.0096
     },
     {
       "author_region": "HK",
       "journey_n": 3.0,
       "stop_n": 3.0,
       "avg_stop_sentiment": 0.7476,
-      "journey_share": 0.0163
+      "journey_share": 0.0096
     },
     {
-      "author_region": "ID",
+      "author_region": "LA",
+      "journey_n": 3.0,
+      "stop_n": 3.0,
+      "avg_stop_sentiment": 0.7015,
+      "journey_share": 0.0096
+    },
+    {
+      "author_region": "TW",
       "journey_n": 2.0,
       "stop_n": 2.0,
-      "avg_stop_sentiment": 0.8745,
-      "journey_share": 0.0109
+      "avg_stop_sentiment": 0.8008,
+      "journey_share": 0.0064
     },
     {
       "author_region": "GB",
       "journey_n": 2.0,
       "stop_n": 2.0,
       "avg_stop_sentiment": 0.7755,
-      "journey_share": 0.0109
+      "journey_share": 0.0064
+    },
+    {
+      "author_region": "AU",
+      "journey_n": 2.0,
+      "stop_n": 3.0,
+      "avg_stop_sentiment": 0.7411,
+      "journey_share": 0.0064
+    },
+    {
+      "author_region": "NZ",
+      "journey_n": 1.0,
+      "stop_n": 1.0,
+      "avg_stop_sentiment": 0.9663,
+      "journey_share": 0.0032
     },
     {
       "author_region": "CL",
       "journey_n": 1.0,
       "stop_n": 1.0,
       "avg_stop_sentiment": 0.9619,
-      "journey_share": 0.0054
+      "journey_share": 0.0032
     },
     {
-      "author_region": "MY",
+      "author_region": "DE",
       "journey_n": 1.0,
       "stop_n": 1.0,
-      "avg_stop_sentiment": 0.95,
-      "journey_share": 0.0054
+      "avg_stop_sentiment": 0.9335,
+      "journey_share": 0.0032
     },
     {
-      "author_region": "AU",
+      "author_region": "AT",
       "journey_n": 1.0,
       "stop_n": 1.0,
-      "avg_stop_sentiment": 0.9472,
-      "journey_share": 0.0054
+      "avg_stop_sentiment": 0.9284,
+      "journey_share": 0.0032
     },
     {
       "author_region": "MO",
       "journey_n": 1.0,
       "stop_n": 1.0,
       "avg_stop_sentiment": 0.8885,
-      "journey_share": 0.0054
+      "journey_share": 0.0032
     },
     {
       "author_region": "RE",
       "journey_n": 1.0,
       "stop_n": 1.0,
       "avg_stop_sentiment": 0.8687,
-      "journey_share": 0.0054
+      "journey_share": 0.0032
     },
     {
       "author_region": "MX",
       "journey_n": 1.0,
       "stop_n": 1.0,
       "avg_stop_sentiment": 0.8497,
-      "journey_share": 0.0054
-    },
-    {
-      "author_region": "FR",
-      "journey_n": 1.0,
-      "stop_n": 1.0,
-      "avg_stop_sentiment": 0.8325,
-      "journey_share": 0.0054
+      "journey_share": 0.0032
     },
     {
       "author_region": "MV",
       "journey_n": 1.0,
       "stop_n": 1.0,
       "avg_stop_sentiment": 0.8211,
-      "journey_share": 0.0054
+      "journey_share": 0.0032
     },
     {
-      "author_region": "TW",
+      "author_region": "AE",
       "journey_n": 1.0,
       "stop_n": 1.0,
-      "avg_stop_sentiment": 0.6358,
-      "journey_share": 0.0054
+      "avg_stop_sentiment": 0.8172,
+      "journey_share": 0.0032
     },
     {
-      "author_region": "LA",
+      "author_region": "CN",
       "journey_n": 1.0,
       "stop_n": 1.0,
-      "avg_stop_sentiment": 0.3418,
-      "journey_share": 0.0054
+      "avg_stop_sentiment": 0.742,
+      "journey_share": 0.0032
+    },
+    {
+      "author_region": "IT",
+      "journey_n": 1.0,
+      "stop_n": 1.0,
+      "avg_stop_sentiment": 0.5671,
+      "journey_share": 0.0032
     }
   ],
   "mobility": {
     "inbound": [
+      {
+        "origin_poi_id": 506,
+        "origin_poi_name": "Man Mo Temple",
+        "origin_poi_cate": "Religious",
+        "flow_n": 2,
+        "avg_edge_sentiment": 0.9149112701416016
+      },
+      {
+        "origin_poi_id": 451,
+        "origin_poi_name": "Lantau Island",
+        "origin_poi_cate": "Natural",
+        "flow_n": 2,
+        "avg_edge_sentiment": 0.8791814744472504
+      },
       {
         "origin_poi_id": 815,
         "origin_poi_name": "Tai Po",
         "origin_poi_cate": "area",
         "flow_n": 2,
         "avg_edge_sentiment": 0.8664301335811615
+      },
+      {
+        "origin_poi_id": 995,
+        "origin_poi_name": "Wong Tai Sin Temple",
+        "origin_poi_cate": "Religious",
+        "flow_n": 2,
+        "avg_edge_sentiment": 0.6778491623699665
       },
       {
         "origin_poi_id": 296,
@@ -1373,6 +2140,13 @@
         "avg_edge_sentiment": 0.9510321021080016
       },
       {
+        "origin_poi_id": 324,
+        "origin_poi_name": "Hong Kong-Zhuhai-Macao Bridge",
+        "origin_poi_cate": "Cityscape",
+        "flow_n": 1,
+        "avg_edge_sentiment": 0.9507938623428344
+      },
+      {
         "origin_poi_id": 296,
         "origin_poi_name": "Hong Kong Disneyland",
         "origin_poi_cate": "Entertainment",
@@ -1380,46 +2154,18 @@
         "avg_edge_sentiment": 0.9495424330234528
       },
       {
-        "origin_poi_id": 448,
-        "origin_poi_name": "Lan Kwai Fong",
-        "origin_poi_cate": "Cultural",
-        "flow_n": 1,
-        "avg_edge_sentiment": 0.944278620183468
-      },
-      {
-        "origin_poi_id": 506,
-        "origin_poi_name": "Man Mo Temple",
-        "origin_poi_cate": "Religious",
-        "flow_n": 1,
-        "avg_edge_sentiment": 0.9404297769069672
-      },
-      {
         "origin_poi_id": 296,
         "origin_poi_name": "Hong Kong Disneyland",
         "origin_poi_cate": "Entertainment",
         "flow_n": 1,
-        "avg_edge_sentiment": 0.935889944434166
+        "avg_edge_sentiment": 0.9481952339410782
       },
       {
-        "origin_poi_id": 150,
-        "origin_poi_name": "Clock Tower",
-        "origin_poi_cate": "Cultural",
+        "origin_poi_id": 307,
+        "origin_poi_name": "Hong Kong Observation Wheel",
+        "origin_poi_cate": "Entertainment",
         "flow_n": 1,
-        "avg_edge_sentiment": 0.9355779588222504
-      },
-      {
-        "origin_poi_id": 815,
-        "origin_poi_name": "Tai Po",
-        "origin_poi_cate": "area",
-        "flow_n": 1,
-        "avg_edge_sentiment": 0.9334898591041564
-      },
-      {
-        "origin_poi_id": 451,
-        "origin_poi_name": "Lantau Island",
-        "origin_poi_cate": "Natural",
-        "flow_n": 1,
-        "avg_edge_sentiment": 0.9325713515281676
+        "avg_edge_sentiment": 0.946308583021164
       }
     ],
     "outbound": [
@@ -1429,6 +2175,48 @@
         "dest_poi_cate": "Religious",
         "flow_n": 2,
         "avg_edge_sentiment": 0.7988174874335527
+      },
+      {
+        "dest_poi_id": 101,
+        "dest_poi_name": "Central",
+        "dest_poi_cate": "area",
+        "flow_n": 2,
+        "avg_edge_sentiment": 0.6739729021986325
+      },
+      {
+        "dest_poi_id": 995,
+        "dest_poi_name": "Wong Tai Sin Temple",
+        "dest_poi_cate": "Religious",
+        "flow_n": 2,
+        "avg_edge_sentiment": 0.516548927873373
+      },
+      {
+        "dest_poi_id": 296,
+        "dest_poi_name": "Hong Kong Disneyland",
+        "dest_poi_cate": "Entertainment",
+        "flow_n": 1,
+        "avg_edge_sentiment": 0.9698318690061568
+      },
+      {
+        "dest_poi_id": 946,
+        "dest_poi_name": "Victoria Peak",
+        "dest_poi_cate": "Cityscape",
+        "flow_n": 1,
+        "avg_edge_sentiment": 0.9624449908733368
+      },
+      {
+        "dest_poi_id": 296,
+        "dest_poi_name": "Hong Kong Disneyland",
+        "dest_poi_cate": "Entertainment",
+        "flow_n": 1,
+        "avg_edge_sentiment": 0.9602914601564408
+      },
+      {
+        "dest_poi_id": 804,
+        "dest_poi_name": "Tai O",
+        "dest_poi_cate": "area",
+        "flow_n": 1,
+        "avg_edge_sentiment": 0.9555045068264008
       },
       {
         "dest_poi_id": 296,
@@ -1450,172 +2238,125 @@
         "dest_poi_cate": "Entertainment",
         "flow_n": 1,
         "avg_edge_sentiment": 0.952730119228363
-      },
-      {
-        "dest_poi_id": 555,
-        "dest_poi_name": "Mui Wo",
-        "dest_poi_cate": "area",
-        "flow_n": 1,
-        "avg_edge_sentiment": 0.9458318650722504
-      },
-      {
-        "dest_poi_id": 683,
-        "dest_poi_name": "Sai Ying Pun",
-        "dest_poi_cate": "area",
-        "flow_n": 1,
-        "avg_edge_sentiment": 0.9423888921737672
-      },
-      {
-        "dest_poi_id": 946,
-        "dest_poi_name": "Victoria Peak",
-        "dest_poi_cate": "Cityscape",
-        "flow_n": 1,
-        "avg_edge_sentiment": 0.9421536773443222
-      },
-      {
-        "dest_poi_id": 629,
-        "dest_poi_name": "Po Lin Monastery",
-        "dest_poi_cate": "Religious",
-        "flow_n": 1,
-        "avg_edge_sentiment": 0.9379199743270874
-      },
-      {
-        "dest_poi_id": 471,
-        "dest_poi_name": "Lo Pan Temple",
-        "dest_poi_cate": "Religious",
-        "flow_n": 1,
-        "avg_edge_sentiment": 0.9377748370170592
-      },
-      {
-        "dest_poi_id": 683,
-        "dest_poi_name": "Sai Ying Pun",
-        "dest_poi_cate": "area",
-        "flow_n": 1,
-        "avg_edge_sentiment": 0.9372320175170898
       }
     ]
   },
   "networks": {
     "companions": [
       {
-        "companion_poi_id": 451,
-        "companion_poi_name": "Lantau Island",
-        "companion_poi_cate": "Natural",
-        "cooccur_n": 41.0,
-        "avg_journey_sentiment": 0.7684
-      },
-      {
         "companion_poi_id": 300,
         "companion_poi_name": "Hong Kong International Airport",
         "companion_poi_cate": "Transit",
-        "cooccur_n": 40.0,
-        "avg_journey_sentiment": 0.6838
+        "cooccur_n": 67.0,
+        "avg_journey_sentiment": 0.7035
+      },
+      {
+        "companion_poi_id": 451,
+        "companion_poi_name": "Lantau Island",
+        "companion_poi_cate": "Natural",
+        "cooccur_n": 63.0,
+        "avg_journey_sentiment": 0.7771
       },
       {
         "companion_poi_id": 296,
         "companion_poi_name": "Hong Kong Disneyland",
         "companion_poi_cate": "Entertainment",
-        "cooccur_n": 38.0,
-        "avg_journey_sentiment": 0.7958
-      },
-      {
-        "companion_poi_id": 815,
-        "companion_poi_name": "Tai Po",
-        "companion_poi_cate": "area",
-        "cooccur_n": 38.0,
-        "avg_journey_sentiment": 0.7533
+        "cooccur_n": 60.0,
+        "avg_journey_sentiment": 0.8192
       },
       {
         "companion_poi_id": 696,
         "companion_poi_name": "Sha Tin Che Kung Temple",
         "companion_poi_cate": "Religious",
-        "cooccur_n": 37.0,
-        "avg_journey_sentiment": 0.7205
-      },
-      {
-        "companion_poi_id": 413,
-        "companion_poi_name": "Kowloon Tin Hau Temple",
-        "companion_poi_cate": "Religious",
-        "cooccur_n": 31.0,
-        "avg_journey_sentiment": 0.7454
+        "cooccur_n": 55.0,
+        "avg_journey_sentiment": 0.7281
       },
       {
         "companion_poi_id": 944,
         "companion_poi_name": "Victoria Harbour",
         "companion_poi_cate": "Cityscape",
-        "cooccur_n": 29.0,
-        "avg_journey_sentiment": 0.7612
+        "cooccur_n": 50.0,
+        "avg_journey_sentiment": 0.7801
+      },
+      {
+        "companion_poi_id": 815,
+        "companion_poi_name": "Tai Po",
+        "companion_poi_cate": "area",
+        "cooccur_n": 50.0,
+        "avg_journey_sentiment": 0.7551
+      },
+      {
+        "companion_poi_id": 413,
+        "companion_poi_name": "Kowloon Tin Hau Temple",
+        "companion_poi_cate": "Religious",
+        "cooccur_n": 38.0,
+        "avg_journey_sentiment": 0.7392
+      },
+      {
+        "companion_poi_id": 101,
+        "companion_poi_name": "Central",
+        "companion_poi_cate": "area",
+        "cooccur_n": 38.0,
+        "avg_journey_sentiment": 0.7104
       },
       {
         "companion_poi_id": 946,
         "companion_poi_name": "Victoria Peak",
         "companion_poi_cate": "Cityscape",
-        "cooccur_n": 24.0,
-        "avg_journey_sentiment": 0.7999
+        "cooccur_n": 36.0,
+        "avg_journey_sentiment": 0.7947
       },
       {
         "companion_poi_id": 506,
         "companion_poi_name": "Man Mo Temple",
         "companion_poi_cate": "Religious",
-        "cooccur_n": 21.0,
-        "avg_journey_sentiment": 0.6958
-      },
-      {
-        "companion_poi_id": 995,
-        "companion_poi_name": "Wong Tai Sin Temple",
-        "companion_poi_cate": "Religious",
-        "cooccur_n": 20.0,
-        "avg_journey_sentiment": 0.7316
+        "cooccur_n": 36.0,
+        "avg_journey_sentiment": 0.7295
       }
     ]
   },
   "compare_candidates": [
     {
-      "poi_id": 444,
-      "poi_name": "Lamma Island",
+      "poi_id": 301,
+      "poi_name": "Hong Kong Island",
       "poi_cate": "Natural",
-      "journey_n_total": 165,
-      "avg_stop_sentiment": 0.7961853745589795
+      "journey_n_total": 317,
+      "avg_stop_sentiment": 0.6788937158808854
     },
     {
       "poi_id": 820,
       "poi_name": "Tai Tam Reservoir",
       "poi_cate": "Natural",
-      "journey_n_total": 171,
-      "avg_stop_sentiment": 0.8480823078397419
+      "journey_n_total": 260,
+      "avg_stop_sentiment": 0.8583171008912724
     },
     {
-      "poi_id": 301,
-      "poi_name": "Hong Kong Island",
+      "poi_id": 444,
+      "poi_name": "Lamma Island",
       "poi_cate": "Natural",
-      "journey_n_total": 216,
-      "avg_stop_sentiment": 0.6850498980006426
+      "journey_n_total": 235,
+      "avg_stop_sentiment": 0.8130222433051454
     },
     {
       "poi_id": 119,
       "poi_name": "Cheung Chau",
       "poi_cate": "Natural",
-      "journey_n_total": 82,
-      "avg_stop_sentiment": 0.7671743192410876
+      "journey_n_total": 124,
+      "avg_stop_sentiment": 0.7609758391626156
     },
     {
       "poi_id": 914,
       "poi_name": "Tsing Yi",
       "poi_cate": "Natural",
-      "journey_n_total": 101,
-      "avg_stop_sentiment": 0.5148529022618538
+      "journey_n_total": 144,
+      "avg_stop_sentiment": 0.5205380889246056
     }
   ],
   "opportunity_cards": [
     {
       "type": "partnership_opportunity",
-      "title": "Frequent companion: Lantau Island",
-      "detail": "Repulse Bay frequently appears alongside Lantau Island, suggesting cross-promotion or route packaging potential."
-    },
-    {
-      "type": "route_opportunity",
-      "title": "Strong onward link to Kowloon Tin Hau Temple",
-      "detail": "Visitors often continue from Repulse Bay to Kowloon Tin Hau Temple, with relatively strong journey experience."
+      "title": "Frequent companion: Hong Kong International Airport",
+      "detail": "Repulse Bay frequently appears alongside Hong Kong International Airport, suggesting cross-promotion or route packaging potential."
     },
     {
       "type": "experience_risk",
@@ -1664,8 +2405,8 @@
     "city_name": "Hong Kong",
     "date_range": [
       "2016-02-28",
-      "2025-10-14"
+      "2025-10-17"
     ],
-    "city_avg_journey_sentiment": 0.7932
+    "city_avg_journey_sentiment": 0.7986
   }
 }

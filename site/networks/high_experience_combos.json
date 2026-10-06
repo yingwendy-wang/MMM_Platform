@@ -1,26 +1,10 @@
 [
   {
-    "poi_id": 310,
-    "companion_poi_id": 877,
-    "companion_poi_name": "The Ritz-Carlton",
-    "companion_poi_cate": "Hotel",
-    "cooccur_n": 3.0,
-    "avg_journey_sentiment": 0.9666
-  },
-  {
-    "poi_id": 877,
-    "companion_poi_id": 310,
-    "companion_poi_name": "Hong Kong Park",
-    "companion_poi_cate": "Cityscape",
-    "cooccur_n": 3.0,
-    "avg_journey_sentiment": 0.9666
-  },
-  {
     "poi_id": 3,
     "companion_poi_id": 310,
     "companion_poi_name": "Hong Kong Park",
     "companion_poi_cate": "Cityscape",
-    "cooccur_n": 4.0,
+    "cooccur_n": 5.0,
     "avg_journey_sentiment": 0.9528
   },
   {
@@ -28,7 +12,7 @@
     "companion_poi_id": 3,
     "companion_poi_name": "1881 Heritage",
     "companion_poi_cate": "Shopping",
-    "cooccur_n": 4.0,
+    "cooccur_n": 5.0,
     "avg_journey_sentiment": 0.9528
   },
   {
@@ -112,6 +96,22 @@
     "avg_journey_sentiment": 0.9256
   },
   {
+    "poi_id": 526,
+    "companion_poi_id": 1003,
+    "companion_poi_name": "World of Frozen",
+    "companion_poi_cate": "Entertainment",
+    "cooccur_n": 3.0,
+    "avg_journey_sentiment": 0.9244
+  },
+  {
+    "poi_id": 1003,
+    "companion_poi_id": 526,
+    "companion_poi_name": "Midtown Delights",
+    "companion_poi_cate": "Dining",
+    "cooccur_n": 3.0,
+    "avg_journey_sentiment": 0.9244
+  },
+  {
     "poi_id": 331,
     "companion_poi_id": 944,
     "companion_poi_name": "Victoria Harbour",
@@ -160,6 +160,38 @@
     "avg_journey_sentiment": 0.924
   },
   {
+    "poi_id": 598,
+    "companion_poi_id": 614,
+    "companion_poi_name": "Panda Hotel",
+    "companion_poi_cate": "Hotel",
+    "cooccur_n": 5.0,
+    "avg_journey_sentiment": 0.9239
+  },
+  {
+    "poi_id": 603,
+    "companion_poi_id": 614,
+    "companion_poi_name": "Panda Hotel",
+    "companion_poi_cate": "Hotel",
+    "cooccur_n": 5.0,
+    "avg_journey_sentiment": 0.9239
+  },
+  {
+    "poi_id": 614,
+    "companion_poi_id": 598,
+    "companion_poi_name": "Ocean Park",
+    "companion_poi_cate": "Entertainment",
+    "cooccur_n": 5.0,
+    "avg_journey_sentiment": 0.9239
+  },
+  {
+    "poi_id": 614,
+    "companion_poi_id": 603,
+    "companion_poi_name": "Old Hong Kong",
+    "companion_poi_cate": "Cityscape",
+    "cooccur_n": 5.0,
+    "avg_journey_sentiment": 0.9239
+  },
+  {
     "poi_id": 801,
     "companion_poi_id": 921,
     "companion_poi_name": "Tsz Shan Monastery",
@@ -176,36 +208,20 @@
     "avg_journey_sentiment": 0.9234
   },
   {
-    "poi_id": 404,
-    "companion_poi_id": 877,
-    "companion_poi_name": "The Ritz-Carlton",
-    "companion_poi_cate": "Hotel",
-    "cooccur_n": 3.0,
-    "avg_journey_sentiment": 0.9205
-  },
-  {
-    "poi_id": 877,
-    "companion_poi_id": 404,
-    "companion_poi_name": "Kowloon",
-    "companion_poi_cate": "area",
-    "cooccur_n": 3.0,
-    "avg_journey_sentiment": 0.9205
-  },
-  {
-    "poi_id": 228,
-    "companion_poi_id": 897,
-    "companion_poi_name": "Tomorrowland",
+    "poi_id": 296,
+    "companion_poi_id": 745,
+    "companion_poi_name": "Space Traders",
     "companion_poi_cate": "Entertainment",
     "cooccur_n": 6.0,
-    "avg_journey_sentiment": 0.9204
+    "avg_journey_sentiment": 0.9215
   },
   {
-    "poi_id": 897,
-    "companion_poi_id": 228,
-    "companion_poi_name": "Frozen Ever After",
+    "poi_id": 745,
+    "companion_poi_id": 296,
+    "companion_poi_name": "Hong Kong Disneyland",
     "companion_poi_cate": "Entertainment",
     "cooccur_n": 6.0,
-    "avg_journey_sentiment": 0.9204
+    "avg_journey_sentiment": 0.9215
   },
   {
     "poi_id": 179,
@@ -224,116 +240,100 @@
     "avg_journey_sentiment": 0.919
   },
   {
-    "poi_id": 296,
-    "companion_poi_id": 900,
-    "companion_poi_name": "Transformers The Ark",
-    "companion_poi_cate": "Dining",
-    "cooccur_n": 3.0,
-    "avg_journey_sentiment": 0.9189
-  },
-  {
-    "poi_id": 900,
-    "companion_poi_id": 296,
-    "companion_poi_name": "Hong Kong Disneyland",
-    "companion_poi_cate": "Entertainment",
-    "cooccur_n": 3.0,
-    "avg_journey_sentiment": 0.9189
-  },
-  {
-    "poi_id": 579,
-    "companion_poi_id": 833,
-    "companion_poi_name": "Temple St",
-    "companion_poi_cate": "Cityscape",
-    "cooccur_n": 3.0,
-    "avg_journey_sentiment": 0.9183
-  },
-  {
-    "poi_id": 833,
-    "companion_poi_id": 579,
-    "companion_poi_name": "Ngong Ping",
-    "companion_poi_cate": "area",
-    "cooccur_n": 3.0,
-    "avg_journey_sentiment": 0.9183
-  },
-  {
-    "poi_id": 296,
-    "companion_poi_id": 745,
-    "companion_poi_name": "Space Traders",
-    "companion_poi_cate": "Entertainment",
-    "cooccur_n": 4.0,
-    "avg_journey_sentiment": 0.9181
-  },
-  {
-    "poi_id": 745,
-    "companion_poi_id": 296,
-    "companion_poi_name": "Hong Kong Disneyland",
-    "companion_poi_cate": "Entertainment",
-    "cooccur_n": 4.0,
-    "avg_journey_sentiment": 0.9181
-  },
-  {
-    "poi_id": 513,
-    "companion_poi_id": 898,
-    "companion_poi_name": "Toy Story Land",
-    "companion_poi_cate": "Entertainment",
-    "cooccur_n": 4.0,
-    "avg_journey_sentiment": 0.9177
-  },
-  {
-    "poi_id": 898,
-    "companion_poi_id": 513,
-    "companion_poi_name": "Marty's General Store",
-    "companion_poi_cate": "Shopping",
-    "cooccur_n": 4.0,
-    "avg_journey_sentiment": 0.9177
-  },
-  {
-    "poi_id": 296,
-    "companion_poi_id": 526,
-    "companion_poi_name": "Midtown Delights",
-    "companion_poi_cate": "Dining",
-    "cooccur_n": 8.0,
-    "avg_journey_sentiment": 0.9169
-  },
-  {
-    "poi_id": 526,
-    "companion_poi_id": 296,
-    "companion_poi_name": "Hong Kong Disneyland",
-    "companion_poi_cate": "Entertainment",
-    "cooccur_n": 8.0,
-    "avg_journey_sentiment": 0.9169
-  },
-  {
-    "poi_id": 501,
-    "companion_poi_id": 1003,
-    "companion_poi_name": "World of Frozen",
-    "companion_poi_cate": "Entertainment",
-    "cooccur_n": 4.0,
-    "avg_journey_sentiment": 0.916
-  },
-  {
-    "poi_id": 1003,
-    "companion_poi_id": 501,
-    "companion_poi_name": "Main Street USA",
-    "companion_poi_cate": "Entertainment",
-    "cooccur_n": 4.0,
-    "avg_journey_sentiment": 0.916
-  },
-  {
     "poi_id": 203,
     "companion_poi_id": 296,
     "companion_poi_name": "Hong Kong Disneyland",
     "companion_poi_cate": "Entertainment",
-    "cooccur_n": 10.0,
-    "avg_journey_sentiment": 0.9148
+    "cooccur_n": 17.0,
+    "avg_journey_sentiment": 0.9186
   },
   {
     "poi_id": 296,
     "companion_poi_id": 203,
     "companion_poi_name": "Enchanted Garden Restaurant",
     "companion_poi_cate": "Dining",
-    "cooccur_n": 10.0,
-    "avg_journey_sentiment": 0.9148
+    "cooccur_n": 17.0,
+    "avg_journey_sentiment": 0.9186
+  },
+  {
+    "poi_id": 655,
+    "companion_poi_id": 733,
+    "companion_poi_name": "Sky 100",
+    "companion_poi_cate": "Cityscape",
+    "cooccur_n": 3.0,
+    "avg_journey_sentiment": 0.9169
+  },
+  {
+    "poi_id": 655,
+    "companion_poi_id": 976,
+    "companion_poi_name": "West Kowloon Art Park",
+    "companion_poi_cate": "Cultural",
+    "cooccur_n": 3.0,
+    "avg_journey_sentiment": 0.9169
+  },
+  {
+    "poi_id": 733,
+    "companion_poi_id": 655,
+    "companion_poi_name": "Red Incense Burner Summit",
+    "companion_poi_cate": "Outdoor",
+    "cooccur_n": 3.0,
+    "avg_journey_sentiment": 0.9169
+  },
+  {
+    "poi_id": 733,
+    "companion_poi_id": 976,
+    "companion_poi_name": "West Kowloon Art Park",
+    "companion_poi_cate": "Cultural",
+    "cooccur_n": 3.0,
+    "avg_journey_sentiment": 0.9169
+  },
+  {
+    "poi_id": 976,
+    "companion_poi_id": 655,
+    "companion_poi_name": "Red Incense Burner Summit",
+    "companion_poi_cate": "Outdoor",
+    "cooccur_n": 3.0,
+    "avg_journey_sentiment": 0.9169
+  },
+  {
+    "poi_id": 976,
+    "companion_poi_id": 733,
+    "companion_poi_name": "Sky 100",
+    "companion_poi_cate": "Cityscape",
+    "cooccur_n": 3.0,
+    "avg_journey_sentiment": 0.9169
+  },
+  {
+    "poi_id": 180,
+    "companion_poi_id": 203,
+    "companion_poi_name": "Enchanted Garden Restaurant",
+    "companion_poi_cate": "Dining",
+    "cooccur_n": 12.0,
+    "avg_journey_sentiment": 0.9153
+  },
+  {
+    "poi_id": 203,
+    "companion_poi_id": 180,
+    "companion_poi_name": "Disney's Hollywood Hotel",
+    "companion_poi_cate": "Hotel",
+    "cooccur_n": 12.0,
+    "avg_journey_sentiment": 0.9153
+  },
+  {
+    "poi_id": 46,
+    "companion_poi_id": 426,
+    "companion_poi_name": "Kwun Tong",
+    "companion_poi_cate": "area",
+    "cooccur_n": 3.0,
+    "avg_journey_sentiment": 0.9147
+  },
+  {
+    "poi_id": 426,
+    "companion_poi_id": 46,
+    "companion_poi_name": "Bakehouse (Wan Chai)",
+    "companion_poi_cate": "Dining",
+    "cooccur_n": 3.0,
+    "avg_journey_sentiment": 0.9147
   },
   {
     "poi_id": 459,
@@ -352,20 +352,52 @@
     "avg_journey_sentiment": 0.9141
   },
   {
-    "poi_id": 228,
-    "companion_poi_id": 513,
-    "companion_poi_name": "Marty's General Store",
-    "companion_poi_cate": "Shopping",
+    "poi_id": 272,
+    "companion_poi_id": 296,
+    "companion_poi_name": "Hong Kong Disneyland",
+    "companion_poi_cate": "Entertainment",
     "cooccur_n": 3.0,
-    "avg_journey_sentiment": 0.9126
+    "avg_journey_sentiment": 0.9136
   },
   {
-    "poi_id": 513,
+    "poi_id": 296,
+    "companion_poi_id": 272,
+    "companion_poi_name": "Harbour Grand",
+    "companion_poi_cate": "Hotel",
+    "cooccur_n": 3.0,
+    "avg_journey_sentiment": 0.9136
+  },
+  {
+    "poi_id": 228,
+    "companion_poi_id": 897,
+    "companion_poi_name": "Tomorrowland",
+    "companion_poi_cate": "Entertainment",
+    "cooccur_n": 10.0,
+    "avg_journey_sentiment": 0.9109
+  },
+  {
+    "poi_id": 897,
     "companion_poi_id": 228,
     "companion_poi_name": "Frozen Ever After",
     "companion_poi_cate": "Entertainment",
-    "cooccur_n": 3.0,
-    "avg_journey_sentiment": 0.9126
+    "cooccur_n": 10.0,
+    "avg_journey_sentiment": 0.9109
+  },
+  {
+    "poi_id": 310,
+    "companion_poi_id": 877,
+    "companion_poi_name": "The Ritz-Carlton",
+    "companion_poi_cate": "Hotel",
+    "cooccur_n": 4.0,
+    "avg_journey_sentiment": 0.9098
+  },
+  {
+    "poi_id": 877,
+    "companion_poi_id": 310,
+    "companion_poi_name": "Hong Kong Park",
+    "companion_poi_cate": "Cityscape",
+    "cooccur_n": 4.0,
+    "avg_journey_sentiment": 0.9098
   },
   {
     "poi_id": 334,
@@ -384,36 +416,116 @@
     "avg_journey_sentiment": 0.9094
   },
   {
-    "poi_id": 310,
-    "companion_poi_id": 603,
-    "companion_poi_name": "Old Hong Kong",
-    "companion_poi_cate": "Cityscape",
+    "poi_id": 580,
+    "companion_poi_id": 599,
+    "companion_poi_name": "Ocean Park Station",
+    "companion_poi_cate": "Transit",
     "cooccur_n": 3.0,
-    "avg_journey_sentiment": 0.9055
+    "avg_journey_sentiment": 0.909
   },
   {
-    "poi_id": 603,
-    "companion_poi_id": 310,
-    "companion_poi_name": "Hong Kong Park",
-    "companion_poi_cate": "Cityscape",
+    "poi_id": 599,
+    "companion_poi_id": 580,
+    "companion_poi_name": "Ngong Ping 360",
+    "companion_poi_cate": "Entertainment",
     "cooccur_n": 3.0,
-    "avg_journey_sentiment": 0.9055
+    "avg_journey_sentiment": 0.909
+  },
+  {
+    "poi_id": 296,
+    "companion_poi_id": 526,
+    "companion_poi_name": "Midtown Delights",
+    "companion_poi_cate": "Dining",
+    "cooccur_n": 10.0,
+    "avg_journey_sentiment": 0.9085
+  },
+  {
+    "poi_id": 526,
+    "companion_poi_id": 296,
+    "companion_poi_name": "Hong Kong Disneyland",
+    "companion_poi_cate": "Entertainment",
+    "cooccur_n": 10.0,
+    "avg_journey_sentiment": 0.9085
+  },
+  {
+    "poi_id": 296,
+    "companion_poi_id": 837,
+    "companion_poi_name": "The Archive Shop",
+    "companion_poi_cate": "Shopping",
+    "cooccur_n": 3.0,
+    "avg_journey_sentiment": 0.9077
+  },
+  {
+    "poi_id": 837,
+    "companion_poi_id": 296,
+    "companion_poi_name": "Hong Kong Disneyland",
+    "companion_poi_cate": "Entertainment",
+    "cooccur_n": 3.0,
+    "avg_journey_sentiment": 0.9077
   },
   {
     "poi_id": 180,
-    "companion_poi_id": 203,
-    "companion_poi_name": "Enchanted Garden Restaurant",
-    "companion_poi_cate": "Dining",
-    "cooccur_n": 6.0,
-    "avg_journey_sentiment": 0.9049
+    "companion_poi_id": 733,
+    "companion_poi_name": "Sky 100",
+    "companion_poi_cate": "Cityscape",
+    "cooccur_n": 4.0,
+    "avg_journey_sentiment": 0.907
   },
   {
-    "poi_id": 203,
+    "poi_id": 733,
     "companion_poi_id": 180,
     "companion_poi_name": "Disney's Hollywood Hotel",
     "companion_poi_cate": "Hotel",
-    "cooccur_n": 6.0,
-    "avg_journey_sentiment": 0.9049
+    "cooccur_n": 4.0,
+    "avg_journey_sentiment": 0.907
+  },
+  {
+    "poi_id": 501,
+    "companion_poi_id": 897,
+    "companion_poi_name": "Tomorrowland",
+    "companion_poi_cate": "Entertainment",
+    "cooccur_n": 3.0,
+    "avg_journey_sentiment": 0.907
+  },
+  {
+    "poi_id": 897,
+    "companion_poi_id": 501,
+    "companion_poi_name": "Main Street USA",
+    "companion_poi_cate": "Entertainment",
+    "cooccur_n": 3.0,
+    "avg_journey_sentiment": 0.907
+  },
+  {
+    "poi_id": 17,
+    "companion_poi_id": 501,
+    "companion_poi_name": "Main Street USA",
+    "companion_poi_cate": "Entertainment",
+    "cooccur_n": 4.0,
+    "avg_journey_sentiment": 0.9059
+  },
+  {
+    "poi_id": 501,
+    "companion_poi_id": 17,
+    "companion_poi_name": "Adventureland",
+    "companion_poi_cate": "Entertainment",
+    "cooccur_n": 4.0,
+    "avg_journey_sentiment": 0.9059
+  },
+  {
+    "poi_id": 54,
+    "companion_poi_id": 211,
+    "companion_poi_name": "Fantasyland",
+    "companion_poi_cate": "Entertainment",
+    "cooccur_n": 3.0,
+    "avg_journey_sentiment": 0.9056
+  },
+  {
+    "poi_id": 211,
+    "companion_poi_id": 54,
+    "companion_poi_name": "Big Grizzly Mountain Runaway Mine Cars",
+    "companion_poi_cate": "Entertainment",
+    "cooccur_n": 3.0,
+    "avg_journey_sentiment": 0.9056
   },
   {
     "poi_id": 540,
@@ -432,6 +544,54 @@
     "avg_journey_sentiment": 0.9048
   },
   {
+    "poi_id": 296,
+    "companion_poi_id": 900,
+    "companion_poi_name": "Transformers The Ark",
+    "companion_poi_cate": "Dining",
+    "cooccur_n": 4.0,
+    "avg_journey_sentiment": 0.9047
+  },
+  {
+    "poi_id": 900,
+    "companion_poi_id": 296,
+    "companion_poi_name": "Hong Kong Disneyland",
+    "companion_poi_cate": "Entertainment",
+    "cooccur_n": 4.0,
+    "avg_journey_sentiment": 0.9047
+  },
+  {
+    "poi_id": 310,
+    "companion_poi_id": 590,
+    "companion_poi_name": "North Pole Encounter",
+    "companion_poi_cate": "Entertainment",
+    "cooccur_n": 3.0,
+    "avg_journey_sentiment": 0.9042
+  },
+  {
+    "poi_id": 590,
+    "companion_poi_id": 310,
+    "companion_poi_name": "Hong Kong Park",
+    "companion_poi_cate": "Cityscape",
+    "cooccur_n": 3.0,
+    "avg_journey_sentiment": 0.9042
+  },
+  {
+    "poi_id": 228,
+    "companion_poi_id": 245,
+    "companion_poi_name": "Golden Crocus Inn",
+    "companion_poi_cate": "Dining",
+    "cooccur_n": 15.0,
+    "avg_journey_sentiment": 0.9026
+  },
+  {
+    "poi_id": 245,
+    "companion_poi_id": 228,
+    "companion_poi_name": "Frozen Ever After",
+    "companion_poi_cate": "Entertainment",
+    "cooccur_n": 15.0,
+    "avg_journey_sentiment": 0.9026
+  },
+  {
     "poi_id": 245,
     "companion_poi_id": 626,
     "companion_poi_name": "Playhouse in the Woods",
@@ -446,6 +606,22 @@
     "companion_poi_cate": "Dining",
     "cooccur_n": 3.0,
     "avg_journey_sentiment": 0.9023
+  },
+  {
+    "poi_id": 501,
+    "companion_poi_id": 1003,
+    "companion_poi_name": "World of Frozen",
+    "companion_poi_cate": "Entertainment",
+    "cooccur_n": 6.0,
+    "avg_journey_sentiment": 0.9019
+  },
+  {
+    "poi_id": 1003,
+    "companion_poi_id": 501,
+    "companion_poi_name": "Main Street USA",
+    "companion_poi_cate": "Entertainment",
+    "cooccur_n": 6.0,
+    "avg_journey_sentiment": 0.9019
   },
   {
     "poi_id": 498,
@@ -480,20 +656,68 @@
     "avg_journey_sentiment": 0.9012
   },
   {
-    "poi_id": 228,
-    "companion_poi_id": 245,
-    "companion_poi_name": "Golden Crocus Inn",
-    "companion_poi_cate": "Dining",
-    "cooccur_n": 10.0,
-    "avg_journey_sentiment": 0.901
+    "poi_id": 54,
+    "companion_poi_id": 626,
+    "companion_poi_name": "Playhouse in the Woods",
+    "companion_poi_cate": "Entertainment",
+    "cooccur_n": 4.0,
+    "avg_journey_sentiment": 0.9007
   },
   {
-    "poi_id": 245,
-    "companion_poi_id": 228,
-    "companion_poi_name": "Frozen Ever After",
+    "poi_id": 626,
+    "companion_poi_id": 54,
+    "companion_poi_name": "Big Grizzly Mountain Runaway Mine Cars",
     "companion_poi_cate": "Entertainment",
-    "cooccur_n": 10.0,
-    "avg_journey_sentiment": 0.901
+    "cooccur_n": 4.0,
+    "avg_journey_sentiment": 0.9007
+  },
+  {
+    "poi_id": 180,
+    "companion_poi_id": 206,
+    "companion_poi_name": "Explorer's Club Restaurant",
+    "companion_poi_cate": "Dining",
+    "cooccur_n": 3.0,
+    "avg_journey_sentiment": 0.9007
+  },
+  {
+    "poi_id": 206,
+    "companion_poi_id": 180,
+    "companion_poi_name": "Disney's Hollywood Hotel",
+    "companion_poi_cate": "Hotel",
+    "cooccur_n": 3.0,
+    "avg_journey_sentiment": 0.9007
+  },
+  {
+    "poi_id": 513,
+    "companion_poi_id": 898,
+    "companion_poi_name": "Toy Story Land",
+    "companion_poi_cate": "Entertainment",
+    "cooccur_n": 6.0,
+    "avg_journey_sentiment": 0.9004
+  },
+  {
+    "poi_id": 898,
+    "companion_poi_id": 513,
+    "companion_poi_name": "Marty's General Store",
+    "companion_poi_cate": "Shopping",
+    "cooccur_n": 6.0,
+    "avg_journey_sentiment": 0.9004
+  },
+  {
+    "poi_id": 451,
+    "companion_poi_id": 897,
+    "companion_poi_name": "Tomorrowland",
+    "companion_poi_cate": "Entertainment",
+    "cooccur_n": 7.0,
+    "avg_journey_sentiment": 0.9002
+  },
+  {
+    "poi_id": 897,
+    "companion_poi_id": 451,
+    "companion_poi_name": "Lantau Island",
+    "companion_poi_cate": "Natural",
+    "cooccur_n": 7.0,
+    "avg_journey_sentiment": 0.9002
   },
   {
     "poi_id": 154,
@@ -512,84 +736,132 @@
     "avg_journey_sentiment": 0.9002
   },
   {
-    "poi_id": 54,
-    "companion_poi_id": 897,
-    "companion_poi_name": "Tomorrowland",
-    "companion_poi_cate": "Entertainment",
-    "cooccur_n": 8.0,
-    "avg_journey_sentiment": 0.8996
-  },
-  {
-    "poi_id": 897,
-    "companion_poi_id": 54,
-    "companion_poi_name": "Big Grizzly Mountain Runaway Mine Cars",
-    "companion_poi_cate": "Entertainment",
-    "cooccur_n": 8.0,
-    "avg_journey_sentiment": 0.8996
-  },
-  {
-    "poi_id": 296,
-    "companion_poi_id": 802,
-    "companion_poi_name": "Tai Long Wan",
-    "companion_poi_cate": "Natural",
-    "cooccur_n": 3.0,
-    "avg_journey_sentiment": 0.8983
-  },
-  {
-    "poi_id": 802,
-    "companion_poi_id": 296,
-    "companion_poi_name": "Hong Kong Disneyland",
-    "companion_poi_cate": "Entertainment",
-    "cooccur_n": 3.0,
-    "avg_journey_sentiment": 0.8983
-  },
-  {
-    "poi_id": 245,
-    "companion_poi_id": 1003,
-    "companion_poi_name": "World of Frozen",
-    "companion_poi_cate": "Entertainment",
-    "cooccur_n": 19.0,
-    "avg_journey_sentiment": 0.898
-  },
-  {
-    "poi_id": 1003,
-    "companion_poi_id": 245,
-    "companion_poi_name": "Golden Crocus Inn",
-    "companion_poi_cate": "Dining",
-    "cooccur_n": 19.0,
-    "avg_journey_sentiment": 0.898
-  },
-  {
-    "poi_id": 17,
-    "companion_poi_id": 1003,
-    "companion_poi_name": "World of Frozen",
-    "companion_poi_cate": "Entertainment",
-    "cooccur_n": 27.0,
-    "avg_journey_sentiment": 0.8976
-  },
-  {
-    "poi_id": 1003,
-    "companion_poi_id": 17,
-    "companion_poi_name": "Adventureland",
-    "companion_poi_cate": "Entertainment",
-    "cooccur_n": 27.0,
-    "avg_journey_sentiment": 0.8976
-  },
-  {
     "poi_id": 296,
     "companion_poi_id": 513,
     "companion_poi_name": "Marty's General Store",
     "companion_poi_cate": "Shopping",
-    "cooccur_n": 49.0,
-    "avg_journey_sentiment": 0.8973
+    "cooccur_n": 67.0,
+    "avg_journey_sentiment": 0.9
   },
   {
     "poi_id": 513,
     "companion_poi_id": 296,
     "companion_poi_name": "Hong Kong Disneyland",
     "companion_poi_cate": "Entertainment",
-    "cooccur_n": 49.0,
-    "avg_journey_sentiment": 0.8973
+    "cooccur_n": 67.0,
+    "avg_journey_sentiment": 0.9
+  },
+  {
+    "poi_id": 663,
+    "companion_poi_id": 817,
+    "companion_poi_name": "Tai Tam",
+    "companion_poi_cate": "area",
+    "cooccur_n": 3.0,
+    "avg_journey_sentiment": 0.8992
+  },
+  {
+    "poi_id": 817,
+    "companion_poi_id": 663,
+    "companion_poi_name": "Repulse Bay",
+    "companion_poi_cate": "Natural",
+    "cooccur_n": 3.0,
+    "avg_journey_sentiment": 0.8992
+  },
+  {
+    "poi_id": 451,
+    "companion_poi_id": 817,
+    "companion_poi_name": "Tai Tam",
+    "companion_poi_cate": "area",
+    "cooccur_n": 3.0,
+    "avg_journey_sentiment": 0.8988
+  },
+  {
+    "poi_id": 817,
+    "companion_poi_id": 451,
+    "companion_poi_name": "Lantau Island",
+    "companion_poi_cate": "Natural",
+    "cooccur_n": 3.0,
+    "avg_journey_sentiment": 0.8988
+  },
+  {
+    "poi_id": 253,
+    "companion_poi_id": 513,
+    "companion_poi_name": "Marty's General Store",
+    "companion_poi_cate": "Shopping",
+    "cooccur_n": 4.0,
+    "avg_journey_sentiment": 0.8984
+  },
+  {
+    "poi_id": 513,
+    "companion_poi_id": 253,
+    "companion_poi_name": "Grizzly Gulch",
+    "companion_poi_cate": "Entertainment",
+    "cooccur_n": 4.0,
+    "avg_journey_sentiment": 0.8984
+  },
+  {
+    "poi_id": 513,
+    "companion_poi_id": 1003,
+    "companion_poi_name": "World of Frozen",
+    "companion_poi_cate": "Entertainment",
+    "cooccur_n": 7.0,
+    "avg_journey_sentiment": 0.8972
+  },
+  {
+    "poi_id": 1003,
+    "companion_poi_id": 513,
+    "companion_poi_name": "Marty's General Store",
+    "companion_poi_cate": "Shopping",
+    "cooccur_n": 7.0,
+    "avg_journey_sentiment": 0.8972
+  },
+  {
+    "poi_id": 310,
+    "companion_poi_id": 849,
+    "companion_poi_name": "The Grand Aquarium",
+    "companion_poi_cate": "Entertainment",
+    "cooccur_n": 9.0,
+    "avg_journey_sentiment": 0.897
+  },
+  {
+    "poi_id": 849,
+    "companion_poi_id": 310,
+    "companion_poi_name": "Hong Kong Park",
+    "companion_poi_cate": "Cityscape",
+    "cooccur_n": 9.0,
+    "avg_journey_sentiment": 0.897
+  },
+  {
+    "poi_id": 296,
+    "companion_poi_id": 528,
+    "companion_poi_name": "Milk Café",
+    "companion_poi_cate": "Dining",
+    "cooccur_n": 3.0,
+    "avg_journey_sentiment": 0.8968
+  },
+  {
+    "poi_id": 528,
+    "companion_poi_id": 296,
+    "companion_poi_name": "Hong Kong Disneyland",
+    "companion_poi_cate": "Entertainment",
+    "cooccur_n": 3.0,
+    "avg_journey_sentiment": 0.8968
+  },
+  {
+    "poi_id": 580,
+    "companion_poi_id": 614,
+    "companion_poi_name": "Panda Hotel",
+    "companion_poi_cate": "Hotel",
+    "cooccur_n": 5.0,
+    "avg_journey_sentiment": 0.8967
+  },
+  {
+    "poi_id": 614,
+    "companion_poi_id": 580,
+    "companion_poi_name": "Ngong Ping 360",
+    "companion_poi_cate": "Entertainment",
+    "cooccur_n": 5.0,
+    "avg_journey_sentiment": 0.8967
   },
   {
     "poi_id": 598,
@@ -608,180 +880,308 @@
     "avg_journey_sentiment": 0.8966
   },
   {
-    "poi_id": 513,
-    "companion_poi_id": 1003,
-    "companion_poi_name": "World of Frozen",
-    "companion_poi_cate": "Entertainment",
-    "cooccur_n": 5.0,
-    "avg_journey_sentiment": 0.8944
-  },
-  {
-    "poi_id": 1003,
-    "companion_poi_id": 513,
-    "companion_poi_name": "Marty's General Store",
-    "companion_poi_cate": "Shopping",
-    "cooccur_n": 5.0,
-    "avg_journey_sentiment": 0.8944
-  },
-  {
-    "poi_id": 323,
-    "companion_poi_id": 580,
-    "companion_poi_name": "Ngong Ping 360",
-    "companion_poi_cate": "Entertainment",
-    "cooccur_n": 3.0,
-    "avg_journey_sentiment": 0.894
-  },
-  {
-    "poi_id": 580,
-    "companion_poi_id": 323,
-    "companion_poi_name": "Hong Kong Zoological and Botanical Gardens",
-    "companion_poi_cate": "Cityscape",
-    "cooccur_n": 3.0,
-    "avg_journey_sentiment": 0.894
-  },
-  {
-    "poi_id": 150,
-    "companion_poi_id": 180,
-    "companion_poi_name": "Disney's Hollywood Hotel",
-    "companion_poi_cate": "Hotel",
-    "cooccur_n": 3.0,
-    "avg_journey_sentiment": 0.8929
-  },
-  {
-    "poi_id": 180,
-    "companion_poi_id": 150,
-    "companion_poi_name": "Clock Tower",
-    "companion_poi_cate": "Cultural",
-    "cooccur_n": 3.0,
-    "avg_journey_sentiment": 0.8929
-  },
-  {
-    "poi_id": 451,
-    "companion_poi_id": 897,
-    "companion_poi_name": "Tomorrowland",
-    "companion_poi_cate": "Entertainment",
-    "cooccur_n": 6.0,
-    "avg_journey_sentiment": 0.8928
-  },
-  {
-    "poi_id": 897,
-    "companion_poi_id": 451,
-    "companion_poi_name": "Lantau Island",
-    "companion_poi_cate": "Natural",
-    "cooccur_n": 6.0,
-    "avg_journey_sentiment": 0.8928
-  },
-  {
-    "poi_id": 46,
-    "companion_poi_id": 731,
-    "companion_poi_name": "Sister Wah Beef Brisket",
+    "poi_id": 498,
+    "companion_poi_id": 765,
+    "companion_poi_name": "Starliner Diner",
     "companion_poi_cate": "Dining",
     "cooccur_n": 3.0,
-    "avg_journey_sentiment": 0.8925
+    "avg_journey_sentiment": 0.8965
   },
   {
-    "poi_id": 731,
-    "companion_poi_id": 46,
-    "companion_poi_name": "Bakehouse (Wan Chai)",
-    "companion_poi_cate": "Dining",
-    "cooccur_n": 3.0,
-    "avg_journey_sentiment": 0.8925
-  },
-  {
-    "poi_id": 296,
+    "poi_id": 765,
     "companion_poi_id": 498,
     "companion_poi_name": "Main Street Bakery",
     "companion_poi_cate": "Dining",
-    "cooccur_n": 24.0,
-    "avg_journey_sentiment": 0.8921
-  },
-  {
-    "poi_id": 498,
-    "companion_poi_id": 296,
-    "companion_poi_name": "Hong Kong Disneyland",
-    "companion_poi_cate": "Entertainment",
-    "cooccur_n": 24.0,
-    "avg_journey_sentiment": 0.8921
-  },
-  {
-    "poi_id": 180,
-    "companion_poi_id": 733,
-    "companion_poi_name": "Sky 100",
-    "companion_poi_cate": "Cityscape",
     "cooccur_n": 3.0,
-    "avg_journey_sentiment": 0.892
+    "avg_journey_sentiment": 0.8965
   },
   {
-    "poi_id": 733,
-    "companion_poi_id": 180,
-    "companion_poi_name": "Disney's Hollywood Hotel",
-    "companion_poi_cate": "Hotel",
+    "poi_id": 103,
+    "companion_poi_id": 485,
+    "companion_poi_name": "M+",
+    "companion_poi_cate": "Cultural",
     "cooccur_n": 3.0,
-    "avg_journey_sentiment": 0.892
+    "avg_journey_sentiment": 0.896
   },
   {
-    "poi_id": 180,
-    "companion_poi_id": 342,
-    "companion_poi_name": "Hyperspace Mountain",
+    "poi_id": 485,
+    "companion_poi_id": 103,
+    "companion_poi_name": "Central Ferry Pier",
+    "companion_poi_cate": "Transit",
+    "cooccur_n": 3.0,
+    "avg_journey_sentiment": 0.896
+  },
+  {
+    "poi_id": 54,
+    "companion_poi_id": 433,
+    "companion_poi_name": "LEGOLAND Discovery Centre",
     "companion_poi_cate": "Entertainment",
     "cooccur_n": 3.0,
-    "avg_journey_sentiment": 0.8909
+    "avg_journey_sentiment": 0.8958
   },
   {
-    "poi_id": 342,
-    "companion_poi_id": 180,
-    "companion_poi_name": "Disney's Hollywood Hotel",
-    "companion_poi_cate": "Hotel",
+    "poi_id": 433,
+    "companion_poi_id": 54,
+    "companion_poi_name": "Big Grizzly Mountain Runaway Mine Cars",
+    "companion_poi_cate": "Entertainment",
     "cooccur_n": 3.0,
-    "avg_journey_sentiment": 0.8909
-  },
-  {
-    "poi_id": 211,
-    "companion_poi_id": 1003,
-    "companion_poi_name": "World of Frozen",
-    "companion_poi_cate": "Entertainment",
-    "cooccur_n": 8.0,
-    "avg_journey_sentiment": 0.8906
-  },
-  {
-    "poi_id": 1003,
-    "companion_poi_id": 211,
-    "companion_poi_name": "Fantasyland",
-    "companion_poi_cate": "Entertainment",
-    "cooccur_n": 8.0,
-    "avg_journey_sentiment": 0.8906
-  },
-  {
-    "poi_id": 296,
-    "companion_poi_id": 1003,
-    "companion_poi_name": "World of Frozen",
-    "companion_poi_cate": "Entertainment",
-    "cooccur_n": 576.0,
-    "avg_journey_sentiment": 0.89
-  },
-  {
-    "poi_id": 1003,
-    "companion_poi_id": 296,
-    "companion_poi_name": "Hong Kong Disneyland",
-    "companion_poi_cate": "Entertainment",
-    "cooccur_n": 576.0,
-    "avg_journey_sentiment": 0.89
-  },
-  {
-    "poi_id": 17,
-    "companion_poi_id": 897,
-    "companion_poi_name": "Tomorrowland",
-    "companion_poi_cate": "Entertainment",
-    "cooccur_n": 19.0,
-    "avg_journey_sentiment": 0.8893
+    "avg_journey_sentiment": 0.8958
   },
   {
     "poi_id": 897,
+    "companion_poi_id": 946,
+    "companion_poi_name": "Victoria Peak",
+    "companion_poi_cate": "Cityscape",
+    "cooccur_n": 4.0,
+    "avg_journey_sentiment": 0.8955
+  },
+  {
+    "poi_id": 946,
+    "companion_poi_id": 897,
+    "companion_poi_name": "Tomorrowland",
+    "companion_poi_cate": "Entertainment",
+    "cooccur_n": 4.0,
+    "avg_journey_sentiment": 0.8955
+  },
+  {
+    "poi_id": 228,
+    "companion_poi_id": 513,
+    "companion_poi_name": "Marty's General Store",
+    "companion_poi_cate": "Shopping",
+    "cooccur_n": 6.0,
+    "avg_journey_sentiment": 0.8952
+  },
+  {
+    "poi_id": 513,
+    "companion_poi_id": 228,
+    "companion_poi_name": "Frozen Ever After",
+    "companion_poi_cate": "Entertainment",
+    "cooccur_n": 6.0,
+    "avg_journey_sentiment": 0.8952
+  },
+  {
+    "poi_id": 296,
+    "companion_poi_id": 538,
+    "companion_poi_name": "Mon Kee Café",
+    "companion_poi_cate": "Dining",
+    "cooccur_n": 3.0,
+    "avg_journey_sentiment": 0.8952
+  },
+  {
+    "poi_id": 538,
+    "companion_poi_id": 296,
+    "companion_poi_name": "Hong Kong Disneyland",
+    "companion_poi_cate": "Entertainment",
+    "cooccur_n": 3.0,
+    "avg_journey_sentiment": 0.8952
+  },
+  {
+    "poi_id": 513,
+    "companion_poi_id": 598,
+    "companion_poi_name": "Ocean Park",
+    "companion_poi_cate": "Entertainment",
+    "cooccur_n": 3.0,
+    "avg_journey_sentiment": 0.8946
+  },
+  {
+    "poi_id": 598,
+    "companion_poi_id": 513,
+    "companion_poi_name": "Marty's General Store",
+    "companion_poi_cate": "Shopping",
+    "cooccur_n": 3.0,
+    "avg_journey_sentiment": 0.8946
+  },
+  {
+    "poi_id": 494,
+    "companion_poi_id": 1003,
+    "companion_poi_name": "World of Frozen",
+    "companion_poi_cate": "Entertainment",
+    "cooccur_n": 6.0,
+    "avg_journey_sentiment": 0.8944
+  },
+  {
+    "poi_id": 1003,
+    "companion_poi_id": 494,
+    "companion_poi_name": "Madame Tussauds",
+    "companion_poi_cate": "Cultural",
+    "cooccur_n": 6.0,
+    "avg_journey_sentiment": 0.8944
+  },
+  {
+    "poi_id": 603,
+    "companion_poi_id": 849,
+    "companion_poi_name": "The Grand Aquarium",
+    "companion_poi_cate": "Entertainment",
+    "cooccur_n": 25.0,
+    "avg_journey_sentiment": 0.894
+  },
+  {
+    "poi_id": 849,
+    "companion_poi_id": 603,
+    "companion_poi_name": "Old Hong Kong",
+    "companion_poi_cate": "Cityscape",
+    "cooccur_n": 25.0,
+    "avg_journey_sentiment": 0.894
+  },
+  {
+    "poi_id": 310,
+    "companion_poi_id": 817,
+    "companion_poi_name": "Tai Tam",
+    "companion_poi_cate": "area",
+    "cooccur_n": 4.0,
+    "avg_journey_sentiment": 0.8939
+  },
+  {
+    "poi_id": 817,
+    "companion_poi_id": 310,
+    "companion_poi_name": "Hong Kong Park",
+    "companion_poi_cate": "Cityscape",
+    "cooccur_n": 4.0,
+    "avg_journey_sentiment": 0.8939
+  },
+  {
+    "poi_id": 944,
+    "companion_poi_id": 971,
+    "companion_poi_name": "Waso Café",
+    "companion_poi_cate": "Dining",
+    "cooccur_n": 3.0,
+    "avg_journey_sentiment": 0.8935
+  },
+  {
+    "poi_id": 971,
+    "companion_poi_id": 944,
+    "companion_poi_name": "Victoria Harbour",
+    "companion_poi_cate": "Cityscape",
+    "cooccur_n": 3.0,
+    "avg_journey_sentiment": 0.8935
+  },
+  {
+    "poi_id": 17,
+    "companion_poi_id": 513,
+    "companion_poi_name": "Marty's General Store",
+    "companion_poi_cate": "Shopping",
+    "cooccur_n": 4.0,
+    "avg_journey_sentiment": 0.8931
+  },
+  {
+    "poi_id": 513,
     "companion_poi_id": 17,
     "companion_poi_name": "Adventureland",
     "companion_poi_cate": "Entertainment",
-    "cooccur_n": 19.0,
-    "avg_journey_sentiment": 0.8893
+    "cooccur_n": 4.0,
+    "avg_journey_sentiment": 0.8931
+  },
+  {
+    "poi_id": 296,
+    "companion_poi_id": 617,
+    "companion_poi_name": "Peel St",
+    "companion_poi_cate": "Cityscape",
+    "cooccur_n": 3.0,
+    "avg_journey_sentiment": 0.8926
+  },
+  {
+    "poi_id": 617,
+    "companion_poi_id": 296,
+    "companion_poi_name": "Hong Kong Disneyland",
+    "companion_poi_cate": "Entertainment",
+    "cooccur_n": 3.0,
+    "avg_journey_sentiment": 0.8926
+  },
+  {
+    "poi_id": 324,
+    "companion_poi_id": 814,
+    "companion_poi_name": "Tai Ping Shan",
+    "companion_poi_cate": "Outdoor",
+    "cooccur_n": 3.0,
+    "avg_journey_sentiment": 0.8924
+  },
+  {
+    "poi_id": 814,
+    "companion_poi_id": 324,
+    "companion_poi_name": "Hong Kong-Zhuhai-Macao Bridge",
+    "companion_poi_cate": "Cityscape",
+    "cooccur_n": 3.0,
+    "avg_journey_sentiment": 0.8924
+  },
+  {
+    "poi_id": 180,
+    "companion_poi_id": 898,
+    "companion_poi_name": "Toy Story Land",
+    "companion_poi_cate": "Entertainment",
+    "cooccur_n": 15.0,
+    "avg_journey_sentiment": 0.892
+  },
+  {
+    "poi_id": 898,
+    "companion_poi_id": 180,
+    "companion_poi_name": "Disney's Hollywood Hotel",
+    "companion_poi_cate": "Hotel",
+    "cooccur_n": 15.0,
+    "avg_journey_sentiment": 0.892
+  },
+  {
+    "poi_id": 296,
+    "companion_poi_id": 898,
+    "companion_poi_name": "Toy Story Land",
+    "companion_poi_cate": "Entertainment",
+    "cooccur_n": 355.0,
+    "avg_journey_sentiment": 0.8909
+  },
+  {
+    "poi_id": 898,
+    "companion_poi_id": 296,
+    "companion_poi_name": "Hong Kong Disneyland",
+    "companion_poi_cate": "Entertainment",
+    "cooccur_n": 355.0,
+    "avg_journey_sentiment": 0.8909
+  },
+  {
+    "poi_id": 366,
+    "companion_poi_id": 418,
+    "companion_poi_name": "Kung Wo Beancurd Factory",
+    "companion_poi_cate": "Dining",
+    "cooccur_n": 3.0,
+    "avg_journey_sentiment": 0.8906
+  },
+  {
+    "poi_id": 418,
+    "companion_poi_id": 366,
+    "companion_poi_name": "Kai Kai Dessert",
+    "companion_poi_cate": "Dining",
+    "cooccur_n": 3.0,
+    "avg_journey_sentiment": 0.8906
+  },
+  {
+    "poi_id": 418,
+    "companion_poi_id": 1010,
+    "companion_poi_name": "Yat Lok Restaurant",
+    "companion_poi_cate": "Dining",
+    "cooccur_n": 3.0,
+    "avg_journey_sentiment": 0.8906
+  },
+  {
+    "poi_id": 1010,
+    "companion_poi_id": 418,
+    "companion_poi_name": "Kung Wo Beancurd Factory",
+    "companion_poi_cate": "Dining",
+    "cooccur_n": 3.0,
+    "avg_journey_sentiment": 0.8906
+  },
+  {
+    "poi_id": 307,
+    "companion_poi_id": 830,
+    "companion_poi_name": "Tamar Park",
+    "companion_poi_cate": "Cityscape",
+    "cooccur_n": 3.0,
+    "avg_journey_sentiment": 0.8899
+  },
+  {
+    "poi_id": 830,
+    "companion_poi_id": 307,
+    "companion_poi_name": "Hong Kong Observation Wheel",
+    "companion_poi_cate": "Entertainment",
+    "cooccur_n": 3.0,
+    "avg_journey_sentiment": 0.8899
   },
   {
     "poi_id": 817,
@@ -800,27 +1200,107 @@
     "avg_journey_sentiment": 0.8892
   },
   {
-    "poi_id": 296,
-    "companion_poi_id": 838,
-    "companion_poi_name": "The Archivist",
-    "companion_poi_cate": "Hotel",
-    "cooccur_n": 5.0,
-    "avg_journey_sentiment": 0.8883
+    "poi_id": 228,
+    "companion_poi_id": 307,
+    "companion_poi_name": "Hong Kong Observation Wheel",
+    "companion_poi_cate": "Entertainment",
+    "cooccur_n": 3.0,
+    "avg_journey_sentiment": 0.8891
   },
   {
-    "poi_id": 838,
+    "poi_id": 307,
+    "companion_poi_id": 228,
+    "companion_poi_name": "Frozen Ever After",
+    "companion_poi_cate": "Entertainment",
+    "cooccur_n": 3.0,
+    "avg_journey_sentiment": 0.8891
+  },
+  {
+    "poi_id": 296,
+    "companion_poi_id": 1003,
+    "companion_poi_name": "World of Frozen",
+    "companion_poi_cate": "Entertainment",
+    "cooccur_n": 872.0,
+    "avg_journey_sentiment": 0.8889
+  },
+  {
+    "poi_id": 1003,
     "companion_poi_id": 296,
     "companion_poi_name": "Hong Kong Disneyland",
     "companion_poi_cate": "Entertainment",
-    "cooccur_n": 5.0,
-    "avg_journey_sentiment": 0.8883
+    "cooccur_n": 872.0,
+    "avg_journey_sentiment": 0.8889
+  },
+  {
+    "poi_id": 245,
+    "companion_poi_id": 1003,
+    "companion_poi_name": "World of Frozen",
+    "companion_poi_cate": "Entertainment",
+    "cooccur_n": 28.0,
+    "avg_journey_sentiment": 0.8885
+  },
+  {
+    "poi_id": 1003,
+    "companion_poi_id": 245,
+    "companion_poi_name": "Golden Crocus Inn",
+    "companion_poi_cate": "Dining",
+    "cooccur_n": 28.0,
+    "avg_journey_sentiment": 0.8885
+  },
+  {
+    "poi_id": 626,
+    "companion_poi_id": 1003,
+    "companion_poi_name": "World of Frozen",
+    "companion_poi_cate": "Entertainment",
+    "cooccur_n": 23.0,
+    "avg_journey_sentiment": 0.8875
+  },
+  {
+    "poi_id": 1003,
+    "companion_poi_id": 626,
+    "companion_poi_name": "Playhouse in the Woods",
+    "companion_poi_cate": "Entertainment",
+    "cooccur_n": 23.0,
+    "avg_journey_sentiment": 0.8875
+  },
+  {
+    "poi_id": 94,
+    "companion_poi_id": 1003,
+    "companion_poi_name": "World of Frozen",
+    "companion_poi_cate": "Entertainment",
+    "cooccur_n": 7.0,
+    "avg_journey_sentiment": 0.8873
+  },
+  {
+    "poi_id": 1003,
+    "companion_poi_id": 94,
+    "companion_poi_name": "Castle of Magical Dreams",
+    "companion_poi_cate": "Entertainment",
+    "cooccur_n": 7.0,
+    "avg_journey_sentiment": 0.8873
+  },
+  {
+    "poi_id": 946,
+    "companion_poi_id": 962,
+    "companion_poi_name": "Walking With Buddha",
+    "companion_poi_cate": "Shopping",
+    "cooccur_n": 3.0,
+    "avg_journey_sentiment": 0.8873
+  },
+  {
+    "poi_id": 962,
+    "companion_poi_id": 946,
+    "companion_poi_name": "Victoria Peak",
+    "companion_poi_cate": "Cityscape",
+    "cooccur_n": 3.0,
+    "avg_journey_sentiment": 0.8873
   },
   {
     "poi_id": 54,
     "companion_poi_id": 513,
     "companion_poi_name": "Marty's General Store",
     "companion_poi_cate": "Shopping",
-    "cooccur_n": 4.0,
+    "cooccur_n": 5.0,
     "avg_journey_sentiment": 0.8872
   },
   {
@@ -828,111 +1308,167 @@
     "companion_poi_id": 54,
     "companion_poi_name": "Big Grizzly Mountain Runaway Mine Cars",
     "companion_poi_cate": "Entertainment",
-    "cooccur_n": 4.0,
+    "cooccur_n": 5.0,
     "avg_journey_sentiment": 0.8872
   },
   {
-    "poi_id": 580,
-    "companion_poi_id": 1003,
-    "companion_poi_name": "World of Frozen",
-    "companion_poi_cate": "Entertainment",
-    "cooccur_n": 4.0,
-    "avg_journey_sentiment": 0.8869
-  },
-  {
-    "poi_id": 1003,
-    "companion_poi_id": 580,
-    "companion_poi_name": "Ngong Ping 360",
-    "companion_poi_cate": "Entertainment",
-    "cooccur_n": 4.0,
-    "avg_journey_sentiment": 0.8869
-  },
-  {
-    "poi_id": 296,
-    "companion_poi_id": 897,
-    "companion_poi_name": "Tomorrowland",
-    "companion_poi_cate": "Entertainment",
-    "cooccur_n": 128.0,
-    "avg_journey_sentiment": 0.8867
-  },
-  {
-    "poi_id": 897,
-    "companion_poi_id": 296,
-    "companion_poi_name": "Hong Kong Disneyland",
-    "companion_poi_cate": "Entertainment",
-    "cooccur_n": 128.0,
-    "avg_journey_sentiment": 0.8867
-  },
-  {
-    "poi_id": 603,
-    "companion_poi_id": 849,
-    "companion_poi_name": "The Grand Aquarium",
-    "companion_poi_cate": "Entertainment",
-    "cooccur_n": 14.0,
-    "avg_journey_sentiment": 0.8865
-  },
-  {
-    "poi_id": 849,
-    "companion_poi_id": 603,
-    "companion_poi_name": "Old Hong Kong",
-    "companion_poi_cate": "Cityscape",
-    "cooccur_n": 14.0,
-    "avg_journey_sentiment": 0.8865
-  },
-  {
-    "poi_id": 228,
-    "companion_poi_id": 1003,
-    "companion_poi_name": "World of Frozen",
-    "companion_poi_cate": "Entertainment",
-    "cooccur_n": 74.0,
-    "avg_journey_sentiment": 0.8862
-  },
-  {
-    "poi_id": 1003,
-    "companion_poi_id": 228,
-    "companion_poi_name": "Frozen Ever After",
-    "companion_poi_cate": "Entertainment",
-    "cooccur_n": 74.0,
-    "avg_journey_sentiment": 0.8862
-  },
-  {
-    "poi_id": 626,
-    "companion_poi_id": 1003,
-    "companion_poi_name": "World of Frozen",
-    "companion_poi_cate": "Entertainment",
-    "cooccur_n": 16.0,
-    "avg_journey_sentiment": 0.8861
-  },
-  {
-    "poi_id": 1003,
-    "companion_poi_id": 626,
-    "companion_poi_name": "Playhouse in the Woods",
-    "companion_poi_cate": "Entertainment",
-    "cooccur_n": 16.0,
-    "avg_journey_sentiment": 0.8861
-  },
-  {
-    "poi_id": 296,
+    "poi_id": 433,
     "companion_poi_id": 898,
     "companion_poi_name": "Toy Story Land",
     "companion_poi_cate": "Entertainment",
-    "cooccur_n": 227.0,
-    "avg_journey_sentiment": 0.8853
+    "cooccur_n": 3.0,
+    "avg_journey_sentiment": 0.8871
   },
   {
     "poi_id": 898,
+    "companion_poi_id": 433,
+    "companion_poi_name": "LEGOLAND Discovery Centre",
+    "companion_poi_cate": "Entertainment",
+    "cooccur_n": 3.0,
+    "avg_journey_sentiment": 0.8871
+  },
+  {
+    "poi_id": 513,
+    "companion_poi_id": 897,
+    "companion_poi_name": "Tomorrowland",
+    "companion_poi_cate": "Entertainment",
+    "cooccur_n": 4.0,
+    "avg_journey_sentiment": 0.887
+  },
+  {
+    "poi_id": 897,
+    "companion_poi_id": 513,
+    "companion_poi_name": "Marty's General Store",
+    "companion_poi_cate": "Shopping",
+    "cooccur_n": 4.0,
+    "avg_journey_sentiment": 0.887
+  },
+  {
+    "poi_id": 150,
+    "companion_poi_id": 180,
+    "companion_poi_name": "Disney's Hollywood Hotel",
+    "companion_poi_cate": "Hotel",
+    "cooccur_n": 4.0,
+    "avg_journey_sentiment": 0.8865
+  },
+  {
+    "poi_id": 180,
+    "companion_poi_id": 150,
+    "companion_poi_name": "Clock Tower",
+    "companion_poi_cate": "Cultural",
+    "cooccur_n": 4.0,
+    "avg_journey_sentiment": 0.8865
+  },
+  {
+    "poi_id": 296,
+    "companion_poi_id": 765,
+    "companion_poi_name": "Starliner Diner",
+    "companion_poi_cate": "Dining",
+    "cooccur_n": 12.0,
+    "avg_journey_sentiment": 0.8862
+  },
+  {
+    "poi_id": 765,
     "companion_poi_id": 296,
     "companion_poi_name": "Hong Kong Disneyland",
     "companion_poi_cate": "Entertainment",
-    "cooccur_n": 227.0,
-    "avg_journey_sentiment": 0.8853
+    "cooccur_n": 12.0,
+    "avg_journey_sentiment": 0.8862
   },
   {
-    "poi_id": 404,
-    "companion_poi_id": 885,
-    "companion_poi_name": "Tian Tan Buddha",
-    "companion_poi_cate": "Religious",
+    "poi_id": 159,
+    "companion_poi_id": 180,
+    "companion_poi_name": "Disney's Hollywood Hotel",
+    "companion_poi_cate": "Hotel",
+    "cooccur_n": 11.0,
+    "avg_journey_sentiment": 0.8862
+  },
+  {
+    "poi_id": 180,
+    "companion_poi_id": 159,
+    "companion_poi_name": "Crystal Lotus",
+    "companion_poi_cate": "Dining",
+    "cooccur_n": 11.0,
+    "avg_journey_sentiment": 0.8862
+  },
+  {
+    "poi_id": 802,
+    "companion_poi_id": 817,
+    "companion_poi_name": "Tai Tam",
+    "companion_poi_cate": "area",
+    "cooccur_n": 7.0,
+    "avg_journey_sentiment": 0.8859
+  },
+  {
+    "poi_id": 817,
+    "companion_poi_id": 802,
+    "companion_poi_name": "Tai Long Wan",
+    "companion_poi_cate": "Natural",
+    "cooccur_n": 7.0,
+    "avg_journey_sentiment": 0.8859
+  },
+  {
+    "poi_id": 296,
+    "companion_poi_id": 802,
+    "companion_poi_name": "Tai Long Wan",
+    "companion_poi_cate": "Natural",
+    "cooccur_n": 6.0,
+    "avg_journey_sentiment": 0.8856
+  },
+  {
+    "poi_id": 802,
+    "companion_poi_id": 296,
+    "companion_poi_name": "Hong Kong Disneyland",
+    "companion_poi_cate": "Entertainment",
+    "cooccur_n": 6.0,
+    "avg_journey_sentiment": 0.8856
+  },
+  {
+    "poi_id": 598,
+    "companion_poi_id": 991,
+    "companion_poi_name": "Wong Chuk Hang",
+    "companion_poi_cate": "area",
     "cooccur_n": 3.0,
+    "avg_journey_sentiment": 0.8854
+  },
+  {
+    "poi_id": 991,
+    "companion_poi_id": 598,
+    "companion_poi_name": "Ocean Park",
+    "companion_poi_cate": "Entertainment",
+    "cooccur_n": 3.0,
+    "avg_journey_sentiment": 0.8854
+  },
+  {
+    "poi_id": 898,
+    "companion_poi_id": 944,
+    "companion_poi_name": "Victoria Harbour",
+    "companion_poi_cate": "Cityscape",
+    "cooccur_n": 15.0,
+    "avg_journey_sentiment": 0.8852
+  },
+  {
+    "poi_id": 944,
+    "companion_poi_id": 898,
+    "companion_poi_name": "Toy Story Land",
+    "companion_poi_cate": "Entertainment",
+    "cooccur_n": 15.0,
+    "avg_journey_sentiment": 0.8852
+  },
+  {
+    "poi_id": 897,
+    "companion_poi_id": 944,
+    "companion_poi_name": "Victoria Harbour",
+    "companion_poi_cate": "Cityscape",
+    "cooccur_n": 7.0,
+    "avg_journey_sentiment": 0.8852
+  },
+  {
+    "poi_id": 944,
+    "companion_poi_id": 897,
+    "companion_poi_name": "Tomorrowland",
+    "companion_poi_cate": "Entertainment",
+    "cooccur_n": 7.0,
     "avg_journey_sentiment": 0.8852
   },
   {
@@ -944,20 +1480,28 @@
     "avg_journey_sentiment": 0.8852
   },
   {
-    "poi_id": 885,
-    "companion_poi_id": 404,
-    "companion_poi_name": "Kowloon",
-    "companion_poi_cate": "area",
-    "cooccur_n": 3.0,
-    "avg_journey_sentiment": 0.8852
-  },
-  {
     "poi_id": 886,
     "companion_poi_id": 436,
     "companion_poi_name": "Ladies' Market",
     "companion_poi_cate": "Shopping",
     "cooccur_n": 3.0,
     "avg_journey_sentiment": 0.8852
+  },
+  {
+    "poi_id": 228,
+    "companion_poi_id": 1003,
+    "companion_poi_name": "World of Frozen",
+    "companion_poi_cate": "Entertainment",
+    "cooccur_n": 112.0,
+    "avg_journey_sentiment": 0.885
+  },
+  {
+    "poi_id": 1003,
+    "companion_poi_id": 228,
+    "companion_poi_name": "Frozen Ever After",
+    "companion_poi_cate": "Entertainment",
+    "cooccur_n": 112.0,
+    "avg_journey_sentiment": 0.885
   },
   {
     "poi_id": 8,
@@ -976,627 +1520,83 @@
     "avg_journey_sentiment": 0.8847
   },
   {
-    "poi_id": 296,
-    "companion_poi_id": 1031,
-    "companion_poi_name": "Yuen Ching Kok (Wong Tai Sin)",
-    "companion_poi_cate": "Religious",
-    "cooccur_n": 3.0,
-    "avg_journey_sentiment": 0.8842
-  },
-  {
-    "poi_id": 1031,
-    "companion_poi_id": 296,
-    "companion_poi_name": "Hong Kong Disneyland",
-    "companion_poi_cate": "Entertainment",
-    "cooccur_n": 3.0,
-    "avg_journey_sentiment": 0.8842
-  },
-  {
-    "poi_id": 494,
-    "companion_poi_id": 1003,
-    "companion_poi_name": "World of Frozen",
-    "companion_poi_cate": "Entertainment",
-    "cooccur_n": 5.0,
-    "avg_journey_sentiment": 0.8841
-  },
-  {
-    "poi_id": 1003,
-    "companion_poi_id": 494,
-    "companion_poi_name": "Madame Tussauds",
-    "companion_poi_cate": "Cultural",
-    "cooccur_n": 5.0,
-    "avg_journey_sentiment": 0.8841
-  },
-  {
-    "poi_id": 451,
-    "companion_poi_id": 1031,
-    "companion_poi_name": "Yuen Ching Kok (Wong Tai Sin)",
-    "companion_poi_cate": "Religious",
-    "cooccur_n": 3.0,
-    "avg_journey_sentiment": 0.8837
-  },
-  {
-    "poi_id": 1031,
-    "companion_poi_id": 451,
-    "companion_poi_name": "Lantau Island",
-    "companion_poi_cate": "Natural",
-    "cooccur_n": 3.0,
-    "avg_journey_sentiment": 0.8837
-  },
-  {
-    "poi_id": 94,
-    "companion_poi_id": 1003,
-    "companion_poi_name": "World of Frozen",
-    "companion_poi_cate": "Entertainment",
-    "cooccur_n": 4.0,
-    "avg_journey_sentiment": 0.8834
-  },
-  {
-    "poi_id": 1003,
-    "companion_poi_id": 94,
-    "companion_poi_name": "Castle of Magical Dreams",
-    "companion_poi_cate": "Entertainment",
-    "cooccur_n": 4.0,
-    "avg_journey_sentiment": 0.8834
-  },
-  {
-    "poi_id": 211,
-    "companion_poi_id": 897,
-    "companion_poi_name": "Tomorrowland",
-    "companion_poi_cate": "Entertainment",
-    "cooccur_n": 10.0,
-    "avg_journey_sentiment": 0.883
-  },
-  {
-    "poi_id": 897,
-    "companion_poi_id": 211,
-    "companion_poi_name": "Fantasyland",
-    "companion_poi_cate": "Entertainment",
-    "cooccur_n": 10.0,
-    "avg_journey_sentiment": 0.883
-  },
-  {
-    "poi_id": 180,
-    "companion_poi_id": 838,
-    "companion_poi_name": "The Archivist",
-    "companion_poi_cate": "Hotel",
-    "cooccur_n": 4.0,
-    "avg_journey_sentiment": 0.8828
-  },
-  {
-    "poi_id": 838,
-    "companion_poi_id": 180,
-    "companion_poi_name": "Disney's Hollywood Hotel",
-    "companion_poi_cate": "Hotel",
-    "cooccur_n": 4.0,
-    "avg_journey_sentiment": 0.8828
-  },
-  {
-    "poi_id": 3,
-    "companion_poi_id": 296,
-    "companion_poi_name": "Hong Kong Disneyland",
-    "companion_poi_cate": "Entertainment",
-    "cooccur_n": 31.0,
-    "avg_journey_sentiment": 0.8821
-  },
-  {
-    "poi_id": 296,
-    "companion_poi_id": 3,
-    "companion_poi_name": "1881 Heritage",
-    "companion_poi_cate": "Shopping",
-    "cooccur_n": 31.0,
-    "avg_journey_sentiment": 0.8821
-  },
-  {
-    "poi_id": 206,
-    "companion_poi_id": 296,
-    "companion_poi_name": "Hong Kong Disneyland",
-    "companion_poi_cate": "Entertainment",
-    "cooccur_n": 13.0,
-    "avg_journey_sentiment": 0.8821
-  },
-  {
-    "poi_id": 296,
-    "companion_poi_id": 206,
-    "companion_poi_name": "Explorer's Club Restaurant",
-    "companion_poi_cate": "Dining",
-    "cooccur_n": 13.0,
-    "avg_journey_sentiment": 0.8821
-  },
-  {
-    "poi_id": 211,
-    "companion_poi_id": 898,
-    "companion_poi_name": "Toy Story Land",
-    "companion_poi_cate": "Entertainment",
-    "cooccur_n": 7.0,
-    "avg_journey_sentiment": 0.882
-  },
-  {
-    "poi_id": 898,
-    "companion_poi_id": 211,
-    "companion_poi_name": "Fantasyland",
-    "companion_poi_cate": "Entertainment",
-    "cooccur_n": 7.0,
-    "avg_journey_sentiment": 0.882
-  },
-  {
-    "poi_id": 434,
-    "companion_poi_id": 598,
-    "companion_poi_name": "Ocean Park",
-    "companion_poi_cate": "Entertainment",
-    "cooccur_n": 3.0,
-    "avg_journey_sentiment": 0.882
-  },
-  {
-    "poi_id": 598,
-    "companion_poi_id": 434,
-    "companion_poi_name": "LOUIS VUITTON",
-    "companion_poi_cate": "Shopping",
-    "cooccur_n": 3.0,
-    "avg_journey_sentiment": 0.882
-  },
-  {
-    "poi_id": 897,
-    "companion_poi_id": 898,
-    "companion_poi_name": "Toy Story Land",
-    "companion_poi_cate": "Entertainment",
-    "cooccur_n": 26.0,
-    "avg_journey_sentiment": 0.8818
-  },
-  {
-    "poi_id": 898,
-    "companion_poi_id": 897,
-    "companion_poi_name": "Tomorrowland",
-    "companion_poi_cate": "Entertainment",
-    "cooccur_n": 26.0,
-    "avg_journey_sentiment": 0.8818
-  },
-  {
-    "poi_id": 364,
-    "companion_poi_id": 612,
-    "companion_poi_name": "Pacific Place",
-    "companion_poi_cate": "Shopping",
-    "cooccur_n": 4.0,
-    "avg_journey_sentiment": 0.8815
-  },
-  {
-    "poi_id": 612,
-    "companion_poi_id": 364,
-    "companion_poi_name": "K11 MUSEA",
-    "companion_poi_cate": "Shopping",
-    "cooccur_n": 4.0,
-    "avg_journey_sentiment": 0.8815
-  },
-  {
-    "poi_id": 323,
-    "companion_poi_id": 1003,
-    "companion_poi_name": "World of Frozen",
-    "companion_poi_cate": "Entertainment",
-    "cooccur_n": 5.0,
-    "avg_journey_sentiment": 0.8814
-  },
-  {
-    "poi_id": 1003,
-    "companion_poi_id": 323,
-    "companion_poi_name": "Hong Kong Zoological and Botanical Gardens",
-    "companion_poi_cate": "Cityscape",
-    "cooccur_n": 5.0,
-    "avg_journey_sentiment": 0.8814
-  },
-  {
-    "poi_id": 180,
-    "companion_poi_id": 498,
-    "companion_poi_name": "Main Street Bakery",
-    "companion_poi_cate": "Dining",
-    "cooccur_n": 4.0,
-    "avg_journey_sentiment": 0.8809
-  },
-  {
-    "poi_id": 498,
-    "companion_poi_id": 180,
-    "companion_poi_name": "Disney's Hollywood Hotel",
-    "companion_poi_cate": "Hotel",
-    "cooccur_n": 4.0,
-    "avg_journey_sentiment": 0.8809
-  },
-  {
-    "poi_id": 101,
-    "companion_poi_id": 897,
-    "companion_poi_name": "Tomorrowland",
-    "companion_poi_cate": "Entertainment",
-    "cooccur_n": 3.0,
-    "avg_journey_sentiment": 0.8801
-  },
-  {
-    "poi_id": 897,
-    "companion_poi_id": 101,
-    "companion_poi_name": "Central",
-    "companion_poi_cate": "area",
-    "cooccur_n": 3.0,
-    "avg_journey_sentiment": 0.8801
-  },
-  {
-    "poi_id": 802,
-    "companion_poi_id": 946,
-    "companion_poi_name": "Victoria Peak",
-    "companion_poi_cate": "Cityscape",
-    "cooccur_n": 3.0,
-    "avg_journey_sentiment": 0.88
-  },
-  {
-    "poi_id": 946,
-    "companion_poi_id": 802,
-    "companion_poi_name": "Tai Long Wan",
-    "companion_poi_cate": "Natural",
-    "cooccur_n": 3.0,
-    "avg_journey_sentiment": 0.88
-  },
-  {
-    "poi_id": 296,
-    "companion_poi_id": 947,
-    "companion_poi_name": "Victoria Peak Garden",
-    "companion_poi_cate": "Cityscape",
-    "cooccur_n": 3.0,
-    "avg_journey_sentiment": 0.8799
-  },
-  {
-    "poi_id": 947,
-    "companion_poi_id": 296,
-    "companion_poi_name": "Hong Kong Disneyland",
-    "companion_poi_cate": "Entertainment",
-    "cooccur_n": 3.0,
-    "avg_journey_sentiment": 0.8799
-  },
-  {
     "poi_id": 54,
-    "companion_poi_id": 312,
-    "companion_poi_name": "Hong Kong Science Museum",
-    "companion_poi_cate": "Cultural",
-    "cooccur_n": 4.0,
-    "avg_journey_sentiment": 0.8794
+    "companion_poi_id": 362,
+    "companion_poi_name": "Jungle River Cruise",
+    "companion_poi_cate": "Entertainment",
+    "cooccur_n": 3.0,
+    "avg_journey_sentiment": 0.8847
   },
   {
-    "poi_id": 312,
+    "poi_id": 103,
+    "companion_poi_id": 538,
+    "companion_poi_name": "Mon Kee Café",
+    "companion_poi_cate": "Dining",
+    "cooccur_n": 3.0,
+    "avg_journey_sentiment": 0.8847
+  },
+  {
+    "poi_id": 362,
     "companion_poi_id": 54,
     "companion_poi_name": "Big Grizzly Mountain Runaway Mine Cars",
     "companion_poi_cate": "Entertainment",
-    "cooccur_n": 4.0,
-    "avg_journey_sentiment": 0.8794
-  },
-  {
-    "poi_id": 364,
-    "companion_poi_id": 459,
-    "companion_poi_name": "Lee Tung Avenue",
-    "companion_poi_cate": "Shopping",
-    "cooccur_n": 9.0,
-    "avg_journey_sentiment": 0.8793
-  },
-  {
-    "poi_id": 459,
-    "companion_poi_id": 364,
-    "companion_poi_name": "K11 MUSEA",
-    "companion_poi_cate": "Shopping",
-    "cooccur_n": 9.0,
-    "avg_journey_sentiment": 0.8793
-  },
-  {
-    "poi_id": 296,
-    "companion_poi_id": 465,
-    "companion_poi_name": "Lion Rock",
-    "companion_poi_cate": "Outdoor",
-    "cooccur_n": 4.0,
-    "avg_journey_sentiment": 0.8793
-  },
-  {
-    "poi_id": 465,
-    "companion_poi_id": 296,
-    "companion_poi_name": "Hong Kong Disneyland",
-    "companion_poi_cate": "Entertainment",
-    "cooccur_n": 4.0,
-    "avg_journey_sentiment": 0.8793
-  },
-  {
-    "poi_id": 598,
-    "companion_poi_id": 753,
-    "companion_poi_name": "Stanley",
-    "companion_poi_cate": "area",
     "cooccur_n": 3.0,
-    "avg_journey_sentiment": 0.8793
+    "avg_journey_sentiment": 0.8847
   },
   {
-    "poi_id": 753,
-    "companion_poi_id": 598,
-    "companion_poi_name": "Ocean Park",
-    "companion_poi_cate": "Entertainment",
+    "poi_id": 538,
+    "companion_poi_id": 103,
+    "companion_poi_name": "Central Ferry Pier",
+    "companion_poi_cate": "Transit",
     "cooccur_n": 3.0,
-    "avg_journey_sentiment": 0.8793
+    "avg_journey_sentiment": 0.8847
   },
   {
-    "poi_id": 897,
-    "companion_poi_id": 946,
-    "companion_poi_name": "Victoria Peak",
+    "poi_id": 834,
+    "companion_poi_id": 910,
+    "companion_poi_name": "Tsim Sha Tsui Promenade",
     "companion_poi_cate": "Cityscape",
     "cooccur_n": 3.0,
-    "avg_journey_sentiment": 0.8793
+    "avg_journey_sentiment": 0.8846
   },
   {
-    "poi_id": 946,
-    "companion_poi_id": 897,
-    "companion_poi_name": "Tomorrowland",
-    "companion_poi_cate": "Entertainment",
-    "cooccur_n": 3.0,
-    "avg_journey_sentiment": 0.8793
-  },
-  {
-    "poi_id": 310,
-    "companion_poi_id": 817,
-    "companion_poi_name": "Tai Tam",
-    "companion_poi_cate": "area",
-    "cooccur_n": 3.0,
-    "avg_journey_sentiment": 0.879
-  },
-  {
-    "poi_id": 817,
-    "companion_poi_id": 310,
-    "companion_poi_name": "Hong Kong Park",
-    "companion_poi_cate": "Cityscape",
-    "cooccur_n": 3.0,
-    "avg_journey_sentiment": 0.879
-  },
-  {
-    "poi_id": 342,
-    "companion_poi_id": 897,
-    "companion_poi_name": "Tomorrowland",
-    "companion_poi_cate": "Entertainment",
-    "cooccur_n": 5.0,
-    "avg_journey_sentiment": 0.8778
-  },
-  {
-    "poi_id": 897,
-    "companion_poi_id": 342,
-    "companion_poi_name": "Hyperspace Mountain",
-    "companion_poi_cate": "Entertainment",
-    "cooccur_n": 5.0,
-    "avg_journey_sentiment": 0.8778
-  },
-  {
-    "poi_id": 296,
-    "companion_poi_id": 536,
-    "companion_poi_name": "Mobile Softee",
-    "companion_poi_cate": "Dining",
-    "cooccur_n": 4.0,
-    "avg_journey_sentiment": 0.8775
-  },
-  {
-    "poi_id": 536,
-    "companion_poi_id": 296,
-    "companion_poi_name": "Hong Kong Disneyland",
-    "companion_poi_cate": "Entertainment",
-    "cooccur_n": 4.0,
-    "avg_journey_sentiment": 0.8775
-  },
-  {
-    "poi_id": 119,
-    "companion_poi_id": 946,
-    "companion_poi_name": "Victoria Peak",
-    "companion_poi_cate": "Cityscape",
-    "cooccur_n": 4.0,
-    "avg_journey_sentiment": 0.8774
-  },
-  {
-    "poi_id": 946,
-    "companion_poi_id": 119,
-    "companion_poi_name": "Cheung Chau",
-    "companion_poi_cate": "Natural",
-    "cooccur_n": 4.0,
-    "avg_journey_sentiment": 0.8774
-  },
-  {
-    "poi_id": 180,
-    "companion_poi_id": 307,
-    "companion_poi_name": "Hong Kong Observation Wheel",
-    "companion_poi_cate": "Entertainment",
-    "cooccur_n": 6.0,
-    "avg_journey_sentiment": 0.8772
-  },
-  {
-    "poi_id": 307,
-    "companion_poi_id": 180,
-    "companion_poi_name": "Disney's Hollywood Hotel",
-    "companion_poi_cate": "Hotel",
-    "cooccur_n": 6.0,
-    "avg_journey_sentiment": 0.8772
-  },
-  {
-    "poi_id": 296,
-    "companion_poi_id": 347,
-    "companion_poi_name": "Ink & Plate",
-    "companion_poi_cate": "Dining",
-    "cooccur_n": 14.0,
-    "avg_journey_sentiment": 0.877
-  },
-  {
-    "poi_id": 347,
-    "companion_poi_id": 296,
-    "companion_poi_name": "Hong Kong Disneyland",
-    "companion_poi_cate": "Entertainment",
-    "cooccur_n": 14.0,
-    "avg_journey_sentiment": 0.877
-  },
-  {
-    "poi_id": 296,
-    "companion_poi_id": 765,
-    "companion_poi_name": "Starliner Diner",
-    "companion_poi_cate": "Dining",
-    "cooccur_n": 8.0,
-    "avg_journey_sentiment": 0.8764
-  },
-  {
-    "poi_id": 765,
-    "companion_poi_id": 296,
-    "companion_poi_name": "Hong Kong Disneyland",
-    "companion_poi_cate": "Entertainment",
-    "cooccur_n": 8.0,
-    "avg_journey_sentiment": 0.8764
-  },
-  {
-    "poi_id": 342,
-    "companion_poi_id": 1003,
-    "companion_poi_name": "World of Frozen",
-    "companion_poi_cate": "Entertainment",
-    "cooccur_n": 11.0,
-    "avg_journey_sentiment": 0.8763
-  },
-  {
-    "poi_id": 1003,
-    "companion_poi_id": 342,
-    "companion_poi_name": "Hyperspace Mountain",
-    "companion_poi_cate": "Entertainment",
-    "cooccur_n": 11.0,
-    "avg_journey_sentiment": 0.8763
-  },
-  {
-    "poi_id": 832,
-    "companion_poi_id": 953,
-    "companion_poi_name": "Vission Bakery",
-    "companion_poi_cate": "Dining",
-    "cooccur_n": 3.0,
-    "avg_journey_sentiment": 0.876
-  },
-  {
-    "poi_id": 953,
-    "companion_poi_id": 832,
-    "companion_poi_name": "Tei Mou Koon Dessert",
-    "companion_poi_cate": "Dining",
-    "cooccur_n": 3.0,
-    "avg_journey_sentiment": 0.876
-  },
-  {
-    "poi_id": 211,
-    "companion_poi_id": 296,
-    "companion_poi_name": "Hong Kong Disneyland",
-    "companion_poi_cate": "Entertainment",
-    "cooccur_n": 31.0,
-    "avg_journey_sentiment": 0.8759
-  },
-  {
-    "poi_id": 296,
-    "companion_poi_id": 211,
-    "companion_poi_name": "Fantasyland",
-    "companion_poi_cate": "Entertainment",
-    "cooccur_n": 31.0,
-    "avg_journey_sentiment": 0.8759
-  },
-  {
-    "poi_id": 451,
-    "companion_poi_id": 1003,
-    "companion_poi_name": "World of Frozen",
-    "companion_poi_cate": "Entertainment",
-    "cooccur_n": 11.0,
-    "avg_journey_sentiment": 0.8758
-  },
-  {
-    "poi_id": 1003,
-    "companion_poi_id": 451,
-    "companion_poi_name": "Lantau Island",
-    "companion_poi_cate": "Natural",
-    "cooccur_n": 11.0,
-    "avg_journey_sentiment": 0.8758
-  },
-  {
-    "poi_id": 364,
-    "companion_poi_id": 977,
-    "companion_poi_name": "West Kowloon Cultural District",
-    "companion_poi_cate": "Cultural",
-    "cooccur_n": 10.0,
-    "avg_journey_sentiment": 0.8756
-  },
-  {
-    "poi_id": 977,
-    "companion_poi_id": 364,
-    "companion_poi_name": "K11 MUSEA",
+    "poi_id": 910,
+    "companion_poi_id": 834,
+    "companion_poi_name": "Temple Street Night Market",
     "companion_poi_cate": "Shopping",
-    "cooccur_n": 10.0,
-    "avg_journey_sentiment": 0.8756
+    "cooccur_n": 3.0,
+    "avg_journey_sentiment": 0.8846
   },
   {
-    "poi_id": 802,
-    "companion_poi_id": 817,
-    "companion_poi_name": "Tai Tam",
-    "companion_poi_cate": "area",
+    "poi_id": 590,
+    "companion_poi_id": 849,
+    "companion_poi_name": "The Grand Aquarium",
+    "companion_poi_cate": "Entertainment",
     "cooccur_n": 6.0,
-    "avg_journey_sentiment": 0.8751
+    "avg_journey_sentiment": 0.8843
   },
   {
-    "poi_id": 817,
-    "companion_poi_id": 802,
-    "companion_poi_name": "Tai Long Wan",
-    "companion_poi_cate": "Natural",
+    "poi_id": 849,
+    "companion_poi_id": 590,
+    "companion_poi_name": "North Pole Encounter",
+    "companion_poi_cate": "Entertainment",
     "cooccur_n": 6.0,
-    "avg_journey_sentiment": 0.8751
+    "avg_journey_sentiment": 0.8843
   },
   {
-    "poi_id": 897,
-    "companion_poi_id": 1003,
-    "companion_poi_name": "World of Frozen",
+    "poi_id": 296,
+    "companion_poi_id": 1031,
+    "companion_poi_name": "Yuen Ching Kok (Wong Tai Sin)",
+    "companion_poi_cate": "Religious",
+    "cooccur_n": 3.0,
+    "avg_journey_sentiment": 0.8842
+  },
+  {
+    "poi_id": 1031,
+    "companion_poi_id": 296,
+    "companion_poi_name": "Hong Kong Disneyland",
     "companion_poi_cate": "Entertainment",
-    "cooccur_n": 31.0,
-    "avg_journey_sentiment": 0.875
-  },
-  {
-    "poi_id": 1003,
-    "companion_poi_id": 897,
-    "companion_poi_name": "Tomorrowland",
-    "companion_poi_cate": "Entertainment",
-    "cooccur_n": 31.0,
-    "avg_journey_sentiment": 0.875
-  },
-  {
-    "poi_id": 37,
-    "companion_poi_id": 886,
-    "companion_poi_name": "Times Square",
-    "companion_poi_cate": "Shopping",
-    "cooccur_n": 7.0,
-    "avg_journey_sentiment": 0.875
-  },
-  {
-    "poi_id": 886,
-    "companion_poi_id": 37,
-    "companion_poi_name": "Avenue Of Stars",
-    "companion_poi_cate": "Cityscape",
-    "cooccur_n": 7.0,
-    "avg_journey_sentiment": 0.875
-  },
-  {
-    "poi_id": 180,
-    "companion_poi_id": 898,
-    "companion_poi_name": "Toy Story Land",
-    "companion_poi_cate": "Entertainment",
-    "cooccur_n": 10.0,
-    "avg_journey_sentiment": 0.8748
-  },
-  {
-    "poi_id": 898,
-    "companion_poi_id": 180,
-    "companion_poi_name": "Disney's Hollywood Hotel",
-    "companion_poi_cate": "Hotel",
-    "cooccur_n": 10.0,
-    "avg_journey_sentiment": 0.8748
-  },
-  {
-    "poi_id": 180,
-    "companion_poi_id": 897,
-    "companion_poi_name": "Tomorrowland",
-    "companion_poi_cate": "Entertainment",
-    "cooccur_n": 7.0,
-    "avg_journey_sentiment": 0.8747
-  },
-  {
-    "poi_id": 897,
-    "companion_poi_id": 180,
-    "companion_poi_name": "Disney's Hollywood Hotel",
-    "companion_poi_cate": "Hotel",
-    "cooccur_n": 7.0,
-    "avg_journey_sentiment": 0.8747
+    "cooccur_n": 3.0,
+    "avg_journey_sentiment": 0.8842
   }
 ]
