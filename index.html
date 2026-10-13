@@ -127,13 +127,18 @@
 
   <button id="assistant-fab" class="chatbot-fab chatbot-fab-lg" aria-label="Open assistant">💬</button>
   <div id="chatbot-modal" class="chatbot-modal hidden" aria-hidden="true">
-    <div class="chatbot-modal-panel home-chat-popover">
-      <button class="chatbot-modal-close" type="button" data-close-chatbot aria-label="Close">×</button>
-      <gradio-app src="https://yingwendy-wang-mmm-chatbot-01.hf.space"></gradio-app>
-    </div>
+      <div class="chatbot-modal-panel home-chat-popover">
+          <button class="chatbot-modal-close" type="button" data-close-chatbot aria-label="Close">×</button>
+          <iframe
+              src="https://yingwendy-wang-mmm-chatbot-01.hf.space"
+              title="MaaX Chatbot"
+              width="100%"
+              height="100%"
+              style="border: none;">
+          </iframe>
+      </div>
   </div>
 
-  <script type="module" src="https://gradio.s3-us-west-2.amazonaws.com/5.42.0/gradio.js"></script>
   <script src="./assets/config.js"></script>
   <script src="./assets/core.js"></script>
   <script src="./assets/home.js"></script>
